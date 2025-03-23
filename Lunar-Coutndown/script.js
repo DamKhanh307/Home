@@ -5,7 +5,7 @@ const minutesSpan = document.querySelector('#minutes')
 const secondsSpan = document.querySelector('#seconds')
 const newYear = document.querySelector('#new-year')
 
-const countToDate = new Date('Jan 29,2025').getTime();
+const countToDate = new Date('Feb 27 2026').getTime();
 
 const countdown = () => {
   const now = new Date().getTime()

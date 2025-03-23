@@ -16,7 +16,6 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             height: 100vh;
-            overflow: hidden;
         }
 
         .app {
@@ -60,7 +59,7 @@
 
         .wife {
             position: absolute;
-            bottom: 22px;
+            bottom: 0;
             left: 50%;
             transform: translateX(-50%);
             z-index: 1;
@@ -153,6 +152,10 @@
             document.querySelector('.l_curtain').style.width = '0';
             document.querySelector('.r_curtain').style.width = '0';
         }, 5555);
+
+        wifeImage.addEventListener('click', () => {
+    location.reload();
+});
     </script>
 </body>
 
