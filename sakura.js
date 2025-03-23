@@ -64,7 +64,7 @@ function stopp() {
     } else startSakura()
 }
 
-sakura = "//damkhanh307.github.io/Home/404-not-found/snow.png", leaf = "//damkhanh307.github.io/Home/404-not-found/snow.png", maple = "//damkhanh307.github.io/Home/404-not-found/snow.png", user = "", img.src = maple;
+sakura = "//i.ibb.co/WWt9hK6K/rain.png", leaf = "//i.ibb.co/WWt9hK6K/rain.png", maple = "//i.ibb.co/WWt9hK6K/rain.png", user = "", img.src = maple;
 
 Sakura.prototype.draw = function(t) {
     t.save(), this.s, t.translate(this.x, this.y), t.rotate(this.r), t.drawImage(img, 0, 0, 30 * this.s, 30 * this.s), t.restore()
