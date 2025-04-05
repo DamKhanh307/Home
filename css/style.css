@@ -189,6 +189,7 @@
     height: 300px;
     animation: sway 4s ease-in-out infinite;
     transform-origin: bottom;
+    pointer-events: none;
   }
   
   .palm-img {
@@ -214,6 +215,7 @@
     pointer-events: none;
     box-shadow: 0 -5px 30px rgba(0, 180, 216, 0.2);
     mask-image: linear-gradient(to top, transparent 10%, black 90%);
+      pointer-events: none;
   }
   
   @keyframes water-rise {
