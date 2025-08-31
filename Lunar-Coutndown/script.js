@@ -37,7 +37,4 @@ const fireworks = new Fireworks(fireworkContainer, {
   friction: 1,
   gravity: 4,
   particles: 400,
-  explosion: 10
-})
-
-fireworks.start()
+  explo
