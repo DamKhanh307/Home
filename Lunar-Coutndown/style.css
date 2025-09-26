@@ -1,9 +1,3 @@
-:root {
-  --txt-color: #fff;
-  --timer-box-bg: #9900ff;
-  --timer-box-txt-bg: #9d7ea5;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -36,7 +30,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url("./bg_mobile.jpg");
+    background: url("./bg_p.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -79,9 +73,14 @@ body {
   margin-left: 4rem;
 }
 
+
 .timer-box {
-  background-color: var(--timer-box-bg);
+  filter: url(#liquid-glass);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.4);
+  margin-top: -5rem;
 }
 
 .timer-box__count {
@@ -90,6 +89,8 @@ body {
   height: var(--size);
   display: grid;
   place-items: center;
+  font-weight: 700;
+  color:rgba(255, 38, 0,.8);
 }
 
 .timer-box__count>span {
@@ -100,12 +101,14 @@ body {
 .timer-box__text {
   display: grid;
   place-items: center;
-  background-color: var(--timer-box-txt-bg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1rem 0;
   font-size: 1.5rem;
   font-weight: 500;
   border-radius: 0 0 8px 8px;
+  color: #ff2600;
 }
+
 
 @media only screen and (max-width: 1200px) {
   html {
