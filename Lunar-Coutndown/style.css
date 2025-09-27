@@ -9,7 +9,13 @@ body {
   color: var(--txt-color);
   font-family: 'Poppins', sans-serif;
 }
+canvas {
+	display: block;
+}
 
+.block-audio {
+	display: none;
+}
 @media(max-width: 990px) {
   .fireworks-container {
     position: fixed;
@@ -20,6 +26,9 @@ body {
     background: url("./bg_pc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .timer-box{
+    margin-top: 5rem;
   }
 }
 
@@ -33,6 +42,9 @@ body {
     background: url("./bg_p.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .timer-box{
+      margin-top: -5rem;
   }
 }
 
@@ -80,7 +92,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   text-shadow: 0 0 10px rgba(0,0,0,0.4);
-  margin-top: -5rem;
 }
 
 .timer-box__count {
@@ -91,6 +102,10 @@ body {
   place-items: center;
   font-weight: 700;
   color:rgba(255, 38, 0,.8);
+}
+
+audio{
+  display: none;
 }
 
 .timer-box__count>span {
