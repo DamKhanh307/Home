@@ -3,12 +3,29 @@ document.addEventListener('DOMContentLoaded', function () {
     var click_count = 0;
     var list_bg_desktop = ["./IMG/bg1.jpg", "./IMG/bg2.jpg", "./IMG/bg3.jpg", "./IMG/bg4.jpg", "./IMG/bg5.jpeg", "./IMG/bg6.jpg"];
     var devices = window.screen;
-    
+
     function getRandomImage() {
         const randomIndex = Math.floor(Math.random() * list_bg_desktop.length);
         return list_bg_desktop[randomIndex];
     }
+
+
     document.body.style.backgroundImage = `url(${getRandomImage()})`;
+    function setMidAutumnBg() {
+        const today = new Date();
+        const d = today.getDate();
+        const m = today.getMonth() + 1; // getMonth() trả về 0-11
+
+        // Kiểm tra nằm trong khoảng 30/9 -> 6/10
+        if ((m === 9 && d >= 30) || (m === 10 && d <= 6)) {
+            document.body.style.backgroundImage = "url('./IMG/bg_midautumn.jpg')";
+        } else {
+            document.body.style.backgroundImage = "url('./IMG/bg6.jpg')";
+        }
+    }
+
+    setMidAutumnBg();
+
 
     place_click.addEventListener('click', function OpenImg() {
         click_count++;
