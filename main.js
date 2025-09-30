@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function setMidAutumnBg() {
         const today = new Date();
         const d = today.getDate();
-        const m = today.getMonth() + 1; // getMonth() trả về 0-11
-
+        const m = today.getMonth() + 1;
         // Kiểm tra nằm trong khoảng 30/9 -> 6/10
         if ((m === 9 && d >= 30) || (m === 10 && d <= 6)) {
             document.body.style.backgroundImage = "url('./IMG/bg_midautumn.jpg')";
