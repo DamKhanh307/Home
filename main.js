@@ -18,7 +18,19 @@ document.addEventListener('DOMContentLoaded', function () {
         // Kiểm tra nằm trong khoảng 30/9 -> 6/10
         if ((m === 9 && d >= 30) || (m === 10 && d <= 6)) {
             document.body.style.backgroundImage = "url('./IMG/bg_midautumn.jpg')";
-        } else {
+        }
+
+        if ((m === 10 && d >= 10) || (m === 11 && d <= 1)) {
+            document.body.style.backgroundImage = "url('./IMG/bg_halloween.png')";
+            const font = new FontFace('HalloweenFont', 'url(./halloween.ttf)');
+            font.load().then(function (loadedFont) {
+                document.fonts.add(loadedFont);
+                document.body.style.fontFamily = 'HalloweenFont, sans-serif';
+            });
+
+        }
+
+        else {
             document.body.style.backgroundImage = "url('./IMG/bg6.jpg')";
         }
     }

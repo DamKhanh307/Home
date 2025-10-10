@@ -64,7 +64,7 @@ function stopp() {
     } else startSakura()
 }
 
-sakura = "//i.ibb.co/8sdy2gK/sakura.png", leaf = "//i.ibb.co/8sdy2gK/sakura.png", maple = "//i.ibb.co/8sdy2gK/sakura.png", user = "", img.src = maple;
+sakura = "//i.ibb.co/RGGLGDjf/Gemini-Generated-Image-6rrmiv6rrmiv6rrm-removebg-preview.png", leaf = "//i.ibb.co/RGGLGDjf/Gemini-Generated-Image-6rrmiv6rrmiv6rrm-removebg-preview.png", maple = "//i.ibb.co/RGGLGDjf/Gemini-Generated-Image-6rrmiv6rrmiv6rrm-removebg-preview.png", user = "", img.src = maple;
 
 Sakura.prototype.draw = function(t) {
     t.save(), this.s, t.translate(this.x, this.y), t.rotate(this.r), t.drawImage(img, 0, 0, 30 * this.s, 30 * this.s), t.restore()

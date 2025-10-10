@@ -2,301 +2,380 @@
 <html lang="vi">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Đàm Khánh - Profile Home</title>
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
- <style>
-  /* --- General Styles --- */
-  * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-  }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đàm Khánh - Profile Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  body {
-   font-family: 'Roboto', sans-serif;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-   /* Thay thế bằng ảnh nền Trung Thu của bạn */
-   background-image: url('./IMG/bg6.jpg'); /* Hoặc ảnh tương tự ảnh mẫu */
-   background-size: cover;
-   background-position: center;
-   padding: 20px;
-   overflow: hidden; /* Để tránh thanh cuộn nếu các yếu tố trang trí tràn ra ngoài */
-   position: relative; /* Cho phép định vị tuyệt đối các yếu tố con */
-  }
+    body {
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url('./IMG/bg6.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      overflow: hidden;
+      position: relative;
+    }
 
-    /* Hiệu ứng lấp lánh cho body */
     body::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
-        animation: sparkle-bg 15s infinite alternate;
-        pointer-events: none;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+      animation: sparkle-bg 15s infinite alternate;
+      pointer-events: none;
     }
 
     @keyframes sparkle-bg {
-        0% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.1); opacity: 0.8; }
-        100% { transform: scale(1); opacity: 1; }
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
     }
 
 
-  .card {
-   width: 100%;
-   max-width: 680px;
-   padding: 30px;
-   /* Nền hơi trong suốt */
-   background: rgba(0, 0, 0, 0.25);
-   backdrop-filter: blur(15px);
-   -webkit-backdrop-filter: blur(15px);
-   border-radius: 20px;
-   /* Viền vàng lấp lánh */
-   border: 2px solid rgba(255, 215, 0, 0.6); /* Vàng gold */
-   box-shadow: 0 0 30px rgba(255, 215, 0, 0.4), inset 0 0 15px rgba(255, 215, 0, 0.2);
-   text-align: center;
-   position: relative; /* Quan trọng để định vị các yếu tố trang trí bên trong */
-   z-index: 10;
-   overflow: hidden; /* Để đèn lồng và thỏ không tràn ra ngoài card */
-  }
+    .card {
+      width: 100%;
+      max-width: 680px;
+      padding: 30px;
 
-  .card:hover {
-   box-shadow: 0 0 45px rgba(255, 215, 0, 0.6), inset 0 0 20px rgba(255, 215, 0, 0.3);
-   transform: scale(1.01); /* Giảm hiệu ứng scale để trông mượt hơn */
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+      background: rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 20px;
+      border: 2px solid rgba(194, 249, 250, 0.6);
+      box-shadow: 0 0 30px rgba(194, 249, 250, 0.4), inset 0 0 15px rgba(194, 249, 250, 0.2);
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      overflow: hidden;
+    }
 
-  .profile {
-   margin-bottom: 30px;
-   position: relative;
-   z-index: 1; /* Đảm bảo avatar và tên ở phía trên các hiệu ứng khác */
-  }
+    .card:hover {
+      box-shadow: 0 0 45px rgba(194, 249, 250, 0.6), inset 0 0 20px rgba(194, 249, 250, 0.3);
+      transform: scale(1.01);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-  .avatar {
-   width: 100px;
-   height: 100px;
-   border-radius: 50%;
-   border: 3px solid #FFD700; /* Vàng gold đậm hơn */
-   margin-bottom: 15px;
-   object-fit: cover;
-   box-shadow: 0 0 15px rgba(255, 215, 0, 0.7); /* Bóng vàng cho avatar */
-  }
+    .profile {
+      position: relative;
+      
+      margin-bottom: 30px;
+      z-index: 1;
+    }
 
-  .profile h1 {
-   color: #FFD700; /* Vàng gold */
-   font-weight: 500;
-   font-size: 1.8rem;
-   text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.5); /* Bóng phát sáng */
-  }
+    .witch-hat {
+      position: absolute;
+      top: -64px;
+      left: 55%;
+      transform: translateX(-50%) rotate(12deg);
+      width: 128px;
+      
+      height: auto;
+      z-index: 10;
+      
+      filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.5));
+      
+    }
 
-  .links-grid {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 15px;
-   margin-bottom: 15px;
-   position: relative;
-   z-index: 1;
-  }
+    
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #FFD700;
+      margin-bottom: 15px;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(194, 249, 250, 0.7);
+      position: relative;
+      
+      z-index: 5;
+    }
 
-  .social-links {
-   display: grid;
-   gap: 15px;
-   position: relative;
-   z-index: 1;
-  }
+    .profile h1 {
+      color: #FFD700;
+      font-weight: 500;
+      font-size: 1.8rem;
+      text-shadow: 0 0 10px rgba(194, 249, 250, 0.8), 0 0 20px rgba(194, 249, 250, 0.5);
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-bottom: 15px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .social-links {
+      display: grid;
+      gap: 15px;
+      position: relative;
+      z-index: 1;
+    }
 
 
-  @keyframes float2 {
-  0%   { transform: scaleX(-1) translateY(0px) rotate(0deg); }
-  50%  { transform: scaleX(-1) translateY(-15px) rotate(5deg); }
-  100% { transform: scaleX(-1) translateY(0px) rotate(0deg); }
-}
+    @keyframes float2 {
+      0% {
+        transform: scaleX(-1) translateY(0px) rotate(0deg);
+      }
 
-  .btn {
-   display: flex; /* Dùng flexbox để căn giữa nội dung */
-   justify-content: center;
-   align-items: center;
-   padding: 15px;
-   color: #fff;
-   text-decoration: none;
-   background: rgba(255, 255, 255, 0.08); /* Nền hơi trong suốt */
-   border: 1px solid rgba(255, 215, 0, 0.4); /* Viền vàng */
-   border-radius: 30px;
-   font-size: 1rem;
-   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-   position: relative;
-   overflow: hidden;
-  }
+      50% {
+        transform: scaleX(-1) translateY(-15px) rotate(5deg);
+      }
 
-  .btn:hover {
-   background: rgba(255, 255, 255, 0.15);
-   transform: translateY(-3px); /* Hiệu ứng nhấc nhẹ lên */
-   box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4); /* Bóng vàng khi hover */
-  }
+      100% {
+        transform: scaleX(-1) translateY(0px) rotate(0deg);
+      }
+    }
 
-    /* THÊM: Các yếu tố trang trí Trung Thu */
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(194, 249, 250, 0.4);
+      border-radius: 30px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      text-shadow: 0 0 5px rgba(194, 249, 250, 0.7);
+    }
+
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(194, 249, 250, 0.4);
+    }
+
+
     .decoration {
-        position: absolute;
-        pointer-events: none; /* Không chặn click */
-        user-select: none; /* Không cho chọn */
-        z-index: 5; /* Đặt giữa background và card */
+      position: absolute;
+      pointer-events: none;
+      user-select: none;
+      z-index: 5;
     }
 
     .bunny {
-        width: 140px;
-        height: 100px;
-        background-image: url('./IMG/bunny.png'); /* Thay thế bằng đường dẫn ảnh thỏ của bạn */
-        background-size: contain;
-        background-repeat: no-repeat;
-        opacity: 0.8;
-        animation: float 8s infinite ease-in-out;
+      width: 140px;
+      height: 100px;
+      background-image: url('./IMG/bunny.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.8;
+      animation: float 8s infinite ease-in-out;
     }
 
     .lantern {
-        width: 150px;
-        height: 150px;
-        background-image: url('./IMG/lantern.png'); /* Thay thế bằng đường dẫn ảnh đèn lồng của bạn */
-        background-size: contain;
-        background-repeat: no-repeat;
-        opacity: 0.9;
-        animation: sway 10s infinite alternate ease-in-out;
+      width: 150px;
+      height: 150px;
+      background-image: url('./IMG/ghost.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+      animation: sway 10s infinite alternate ease-in-out;
     }
 
-    .mooncake {
-        width: 40px;
-        height: 40px;
-        background-image: url('./IMG/mooncake.png'); /* Thay thế bằng đường dẫn ảnh bánh trung thu của bạn */
-        background-size: contain;
-        background-repeat: no-repeat;
-        opacity: 0.9;
+    .btnsymbol {
+      width: 40px;
+      height: 40px;
+      background-image: url('./IMG/pumpkin.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.9;
     }
 
-    /* Vị trí cụ thể cho các decoration (cần điều chỉnh lại nếu ảnh nền khác) */
-    /* /* .bunny-1 { top: 15%; left: 10%; animation-delay: 0s; } */
-  .bunny-2 {
-  transform: scaleX(-1);
-  animation: float2 8s infinite ease-in-out;
-}
+    .bunny-2 {
+      transform: scaleX(-1);
+      animation: float2 8s infinite ease-in-out;
+    }
 
-    .bunny-3 { bottom: -2%; left: 8%; animation-delay: 4s; }
+    .bunny-3 {
+      bottom: -2%;
+      left: 8%;
+      animation-delay: 4s;
+    }
 
-    .lantern-1 { top: 5%; right: 15%; animation-delay: 1s; }
-    .lantern-2 { top: 25%; left: 5%; animation-delay: 3s; }
-    .lantern-3 { bottom: 10%; right: 10%; animation-delay: 5s; }
+    .lantern-1 {
+      top: 5%;
+      right: 15%;
+      animation-delay: 1s;
+    }
 
-    .mooncake-1 { bottom: 5%; left: 45%; }
-    .mooncake-2 { bottom: 5%; right: 45%; }
+    .lantern-2 {
+      top: 25%;
+      left: 5%;
+      animation-delay: 3s;
+    }
+
+    .lantern-3 {
+      bottom: 10%;
+      right: 10%;
+      animation-delay: 5s;
+    }
+
+    .mooncake-1 {
+      bottom: 5%;
+      left: 45%;
+    }
+
+    .mooncake-2 {
+      bottom: 5%;
+      right: 45%;
+    }
 
 
-    /* Animation */
+    
     @keyframes float {
-        0% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-15px) rotate(5deg); }
-        100% { transform: translateY(0px) rotate(0deg); }
+      0% {
+        transform: translateY(0px) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-15px) rotate(5deg);
+      }
+
+      100% {
+        transform: translateY(0px) rotate(0deg);
+      }
     }
 
     @keyframes sway {
-        0% { transform: translateX(0px) rotate(0deg); }
-        50% { transform: translateX(10px) rotate(3deg); }
-        100% { transform: translateX(0px) rotate(0deg); }
+      0% {
+        transform: translateX(0px) rotate(0deg);
+      }
+
+      50% {
+        transform: translateX(10px) rotate(3deg);
+      }
+
+      100% {
+        transform: translateX(0px) rotate(0deg);
+      }
     }
 
 
-  @media (max-width: 600px) {
-   .card {
-    padding: 20px;
-   }
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
 
-   .links-grid {
-    grid-template-columns: 1fr;
-   }
+      .links-grid {
+        grid-template-columns: 1fr;
+      }
 
-   .profile h1 {
-    font-size: 1.5rem;
-   }
+      .profile h1 {
+        font-size: 1.5rem;
+      }
 
-   .btn {
-    padding: 12px;
-    font-size: 0.9rem;
-   }
-      .decoration { display: none; } /* Ẩn các trang trí trên di động để đỡ rối */
-  }
+      .btn {
+        padding: 12px;
+        font-size: 0.9rem;
+      }
 
-  canvas{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 8;
-  }
- </style>
+      .decoration {
+        display: none;
+      }
+    }
+
+    canvas {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 8;
+    }
+  </style>
 </head>
 
 <body>
+  <!-- "Mid-autumn Festival Theme" -->
+  <!-- Start -->
+  <!-- <div class="decoration bunny bunny-2" style="bottom: 2%; right: 5%;"></div>
+    <div class="decoration bunny bunny-3" style="bottom: 2%; left: 8%;"></div> -->
 
-    <!-- <div class="decoration bunny bunny-1" style="top: 15%; left: 10%;"></div> -->
-    <div class="decoration bunny bunny-2" style="bottom: 2%; right: 5%;"></div>
-    <div class="decoration bunny bunny-3" style="bottom: 2%; left: 8%;"></div>
-
-    <div class="decoration lantern lantern-1" style="top: 5%; right: 15%;"></div>
-    <div class="decoration lantern lantern-2" style="top: 25%; left: 5%;"></div>
-    <div class="decoration lantern lantern-3" style="bottom: 10%; right: 10%;"></div>
+  <div class="decoration lantern lantern-1" style="top: 5%; right: 15%;"></div>
+  <div class="decoration lantern lantern-2" style="top: 25%; left: 5%;"></div>
+  <div class="decoration lantern lantern-3" style="bottom: 10%; right: 10%;"></div>
 
 
- <main class="card">
-    <div class="decoration bunny" style="top: 20px; right: 20px; animation-delay: 1s;"></div>
+  <main class="card">
+    <!-- <div class="decoration bunny" style="top: 20px; right: 20px; animation-delay: 1s;"></div> -->
     <div class="decoration lantern" style="top: 10px; left: 15%; animation-delay: 2s;"></div>
     <div class="decoration lantern" style="top: 10px; right: 25%; animation-delay: 4s;"></div>
-    <div class="decoration bunny" style="bottom: 20px; left: 30px; animation-delay: 3s;"></div>
+    <!-- <div class="decoration bunny" style="bottom: 20px; left: 30px; animation-delay: 3s;"></div> -->
 
+    <!-- End -->
+    <header class="profile">
+      <img src="./Elaina.full.3462091.jpg" alt="Avatar" class="avatar" onclick="OpenImg()">
+      <img src="./IMG/witch_hat.png" alt="Witch Hat" class="witch-hat">
+      <h1 style="color:rgb(194, 249, 250)">Đàm Khánh</h1>
+    </header>
+    <section class="links-grid">
+      <a href="https://github.com/DamKhanh307" class="btn" target="_blank">
+        <p>Github</p>
+      </a>
+      <a href="https://damkhanh307.github.io/Home/AOV-Guide/direct" class="btn" target="_blank">
+        <p>AOV GUIDE</p>
+      </a>
+      <a href="https://drive.google.com/drive/u/0/folders/1DQVXxpy9PMnnkzi2hieyDBPWzWxogs4a" class="btn"
+        target="_blank">
+        <p>Pydroid 3</p>
+      </a>
+      <a href="https://damkhanh307.github.io/Home/Lunar-Coutndown" class="btn" target="_blank">
+        <p>Lunar Countdown</p>
+      </a>
+      <a href="https://damkhanh307.github.io/Home/music-player" class="btn" target="_blank">
+        <p>Music Player</p>
+      </a>
+      <a href="https://Vande541.github.io/resource" class="btn" target="_blank">
+        <p>Study</p>
+      </a>
+    </section>
 
-  <header class="profile">
-   <img src="./Elaina.full.3462091.jpg" alt="Avatar" class="avatar" onclick="OpenImg()">
-   <h1 style="color:#fff">Đàm Khánh</h1>
-  </header>
-  <section class="links-grid">
-   <a href="https://github.com/DamKhanh307" class="btn" target="_blank">
-    <p>Github</p>
-   </a>
-   <a href="https://damkhanh307.github.io/Home/AOV-Guide/direct" class="btn" target="_blank">
-    <p>AOV GUIDE</p>
-   </a>
-   <a href="https://drive.google.com/drive/u/0/folders/1DQVXxpy9PMnnkzi2hieyDBPWzWxogs4a" class="btn" target="_blank">
-    <p>Pydroid 3</p>
-   </a>
-   <a href="https://damkhanh307.github.io/Home/Lunar-Coutndown" class="btn" target="_blank">
-    <p>Lunar Countdown</p>
-   </a>
-   <a href="https://damkhanh307.github.io/Home/music-player" class="btn" target="_blank">
-    <p>Music Player</p>
-   </a>
-   <a href="https://Vande541.github.io/resource" class="btn" target="_blank">
-    <p>Study</p>
-   </a>
-  </section>
+    <section class="social-links">
+      <a href="https://facebook.com/dam.khanh.307" class="btn">
+        <span class="btnsymbol" style="position: absolute; left: 15px;"></span> Facebook
+      </a>
+      <a href="https://youtube.com/@DK_307" class="btn">
+        Youtube
+        <span class="btnsymbol" style="position: absolute; right: 15px;"></span> </a>
+    </section>
 
-  <section class="social-links">
-   <a href="#" class="btn">
-            <span class="mooncake" style="position: absolute; left: 15px;"></span> Facebook
-        </a>
-   <a href="#" class="btn">
-            Youtube
-            <span class="mooncake" style="position: absolute; right: 15px;"></span> </a>
-  </section>
-
-  <script src="./main.js"></script>
-  <script src="./sakura.js"></script>
- </main>
+    <script src="./main.js"></script>
+    <script src="./sakura.js"></script>
+  </main>
 
 </body>
 
