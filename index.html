@@ -59,6 +59,22 @@
       }
     }
 
+    .btn span.ripple-effect {
+  position: absolute;
+  transform: scale(0);
+  border-radius: 50%;
+  animation: ripple-animation .6s linear;
+  background: rgba(255,255,255,0.3);
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+
 
     .card {
       width: 100%;
@@ -296,7 +312,7 @@
       }
 
       .profile h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
       }
 
       .btn {
@@ -340,7 +356,7 @@
     <header class="profile">
       <img src="./Elaina.full.3462091.jpg" alt="Avatar" class="avatar" onclick="OpenImg()">
       <img src="./IMG/noel_hat.png" alt="Witch Hat" class="witch-hat">
-      <h1 style="color:rgb(194, 249, 250)">Đàm Khánh</h1>
+      <h1 id="typing" style="color:#C2F9FA; font-size: 2.1rem; margin-top:10px;"></h1>
     </header>
     <section class="links-grid">
       <a href="https://github.com/DamKhanh307" class="btn" target="_blank">

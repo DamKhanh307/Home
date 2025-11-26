@@ -37,6 +37,67 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setMidAutumnBg();
 
+    const card = document.querySelector(".card");
+
+    document.addEventListener("mousemove", (e) => {
+        const x = (window.innerWidth / 2 - e.clientX) / 40;
+        const y = (window.innerHeight / 2 - e.clientY) / 40;
+        card.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+    });
+
+    document.addEventListener("mouseleave", () => {
+        card.style.transform = "rotateY(0deg) rotateX(0deg)";
+    });
+
+
+    document.querySelectorAll(".btn").forEach(btn => {
+        btn.addEventListener("click", function (e) {
+            let circle = document.createElement("span");
+            let d = Math.max(this.clientWidth, this.clientHeight);
+
+            circle.style.width = circle.style.height = `${d}px`;
+            circle.style.left = e.clientX - this.offsetLeft - d / 2 + "px";
+            circle.style.top = e.clientY - this.offsetTop - d / 2 + "px";
+
+            circle.classList.add("ripple-effect");
+            this.appendChild(circle);
+
+            setTimeout(() => circle.remove(), 600);
+        });
+    });
+
+
+    const el = document.getElementById("typing");
+    const text = "Đàm Khánh";
+
+    let idx = 0;
+    let deleting = false;
+
+    function loop() {
+        let speed = deleting ? 70 : 120;
+
+        if (!deleting) {
+            el.textContent = text.slice(0, idx + 1);
+            idx++;
+
+            if (idx === text.length) {
+                setTimeout(() => deleting = true, 1000);
+            }
+        } else {
+            el.textContent = text.slice(0, idx - 1);
+            idx--;
+
+            if (idx === 0) {
+                deleting = false;
+            }
+        }
+
+        setTimeout(loop, speed);
+    }
+
+    loop();
+
+
 
     place_click.addEventListener('click', function OpenImg() {
         click_count++;
