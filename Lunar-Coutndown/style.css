@@ -17,7 +17,7 @@ canvas {
 	display: none;
 }
 @media(max-width: 990px) {
-  .fireworks-container {
+  .content-wrapper {
     position: fixed;
     left: 0;
     top: 0;
@@ -33,7 +33,7 @@ canvas {
 }
 
 @media(min-width: 991px) {
-  .fireworks-container {
+  .content-wrapper{
     position: fixed;
     left: 0;
     top: 0;
@@ -87,21 +87,61 @@ canvas {
 
 
 .timer-box {
-  filter: url(#liquid-glass);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  text-shadow: 0 0 10px rgba(0,0,0,0.4);
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+  background: linear-gradient(
+    135deg, 
+    rgba(255, 255, 255, 0.4) 0%, 
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  
+  
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  
+  border-radius: 20px; 
+  border-top: 1px solid rgba(255, 255, 255, 0.8); 
+  border-left: 1px solid rgba(255, 255, 255, 0.8); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+  border-right: 1px solid rgba(255, 255, 255, 0.2); 
+  
+  
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  
+  
+  animation: float 6s ease-in-out infinite;
 }
 
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+
 .timer-box__count {
-  --size: 10rem;
-  width: var(--size);
-  height: var(--size);
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  color:rgba(255, 38, 0,.8);
+  width: auto; 
+  height: auto;
+  padding: 3rem;
+  color: #d63031; 
+  text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.timer-box__text {
+  border-top: 1px solid rgba(255, 255, 255, 0.3); 
+  width: 80%; 
+  color: #d63031;
+  font-weight: 600;
+  padding: 0.5rem 0 1rem 0;
 }
 
 audio{
