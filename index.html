@@ -5,400 +5,123 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Đàm Khánh - Profile Home</title>
+  <meta name="description" content="Đàm Khánh's personal profile and link hub - Projects, Social Media, and more.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Roboto', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-image: url('./IMG/bg_winter.png');
-      background-size: cover;
-      background-position: center;
-      padding: 20px;
-      overflow: hidden;
-      position: relative;
-    }
-
-    body::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
-      animation: sparkle-bg 15s infinite alternate;
-      pointer-events: none;
-    }
-
-    @keyframes sparkle-bg {
-      0% {
-        transform: scale(1);
-        opacity: 1;
-      }
-
-      50% {
-        transform: scale(1.1);
-        opacity: 0.8;
-      }
-
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
-    .btn span.ripple-effect {
-  position: absolute;
-  transform: scale(0);
-  border-radius: 50%;
-  animation: ripple-animation .6s linear;
-  background: rgba(255,255,255,0.3);
-}
-
-@keyframes ripple-animation {
-  to {
-    transform: scale(4);
-    opacity: 0;
-  }
-}
-
-
-
-    .card {
-      width: 100%;
-      max-width: 680px;
-      padding: 30px;
-
-      background: rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(15px);
-      -webkit-backdrop-filter: blur(15px);
-      border-radius: 20px;
-      border: 2px solid rgba(194, 249, 250, 0.6);
-      box-shadow: 0 0 30px rgba(194, 249, 250, 0.4), inset 0 0 15px rgba(194, 249, 250, 0.2);
-      text-align: center;
-      position: relative;
-      z-index: 10;
-      overflow: hidden;
-    }
-
-    .card:hover {
-      box-shadow: 0 0 45px rgba(194, 249, 250, 0.6), inset 0 0 20px rgba(194, 249, 250, 0.3);
-      transform: scale(1.01);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .profile {
-      position: relative;
-      
-      margin-bottom: 30px;
-      z-index: 1;
-    }
-
-    .witch-hat {
-      position: absolute;
-      top: -54px;
-      left: 53%;
-      transform: translateX(-50%) rotate(12deg);
-      width: 128px;
-      
-      height: auto;
-      z-index: 10;
-      
-      filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.5));
-      
-    }
-
-    
-    .avatar {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      border: 3px solid #FFD700;
-      margin-bottom: 15px;
-      object-fit: cover;
-      box-shadow: 0 0 15px rgba(194, 249, 250, 0.7);
-      position: relative;
-      
-      z-index: 5;
-    }
-
-    .profile h1 {
-      color: #FFD700;
-      font-weight: 500;
-      font-size: 1.8rem;
-      text-shadow: 0 0 10px rgba(194, 249, 250, 0.8), 0 0 20px rgba(194, 249, 250, 0.5);
-    }
-
-    .links-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 15px;
-      margin-bottom: 15px;
-      position: relative;
-      z-index: 1;
-    }
-
-    .social-links {
-      display: grid;
-      gap: 15px;
-      position: relative;
-      z-index: 1;
-    }
-
-
-    @keyframes float2 {
-      0% {
-        transform: scaleX(-1) translateY(0px) rotate(0deg);
-      }
-
-      50% {
-        transform: scaleX(-1) translateY(-15px) rotate(5deg);
-      }
-
-      100% {
-        transform: scaleX(-1) translateY(0px) rotate(0deg);
-      }
-    }
-
-    .btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 15px;
-      color: #fff;
-      text-decoration: none;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(194, 249, 250, 0.4);
-      border-radius: 30px;
-      font-size: 1rem;
-      transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-      position: relative;
-      overflow: hidden;
-      text-shadow: 0 0 5px rgba(194, 249, 250, 0.7);
-    }
-
-    .btn:hover {
-      background: rgba(255, 255, 255, 0.15);
-      transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(194, 249, 250, 0.4);
-    }
-
-
-    .decoration {
-      position: absolute;
-      pointer-events: none;
-      user-select: none;
-      z-index: 5;
-    }
-
-    .bunny {
-      width: 140px;
-      height: 100px;
-      background-image: url('./IMG/bunny.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      opacity: 0.8;
-      animation: float 8s infinite ease-in-out;
-    }
-
-    .lantern {
-      width: 150px;
-      height: 150px;
-      background-image: url('./IMG/ghost_[loai_bo].png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      opacity: 0.9;
-      animation: sway 10s infinite alternate ease-in-out;
-    }
-
-    .btnsymbol {
-      width: 80px;
-      height: 80px;
-      background-image: url('./IMG/snowman.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      opacity: 0.9;
-    }
-
-    .bunny-2 {
-      transform: scaleX(-1);
-      animation: float2 8s infinite ease-in-out;
-    }
-
-    .bunny-3 {
-      bottom: -2%;
-      left: 8%;
-      animation-delay: 4s;
-    }
-
-    .lantern-1 {
-      top: 5%;
-      right: 15%;
-      animation-delay: 1s;
-    }
-
-    .lantern-2 {
-      top: 25%;
-      left: 5%;
-      animation-delay: 3s;
-    }
-
-    .lantern-3 {
-      bottom: 10%;
-      right: 10%;
-      animation-delay: 5s;
-    }
-
-    .mooncake-1 {
-      bottom: 5%;
-      left: 45%;
-    }
-
-    .mooncake-2 {
-      bottom: 5%;
-      right: 45%;
-    }
-
-
-    
-    @keyframes float {
-      0% {
-        transform: translateY(0px) rotate(0deg);
-      }
-
-      50% {
-        transform: translateY(-15px) rotate(5deg);
-      }
-
-      100% {
-        transform: translateY(0px) rotate(0deg);
-      }
-    }
-
-    @keyframes sway {
-      0% {
-        transform: translateX(0px) rotate(0deg);
-      }
-
-      50% {
-        transform: translateX(10px) rotate(3deg);
-      }
-
-      100% {
-        transform: translateX(0px) rotate(0deg);
-      }
-    }
-
-
-    @media (max-width: 600px) {
-      .card {
-        padding: 20px;
-      }
-
-      .links-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .profile h1 {
-        font-size: 2.5rem;
-      }
-
-      .btn {
-        padding: 12px;
-        font-size: 0.9rem;
-      }
-
-      .decoration {
-        display: none;
-      }
-    }
-
-    canvas {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: 8;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <!-- "Mid-autumn Festival Theme" -->
-  <!-- Start -->
-  <!-- <div class="decoration bunny bunny-2" style="bottom: 2%; right: 5%;"></div>
-    <div class="decoration bunny bunny-3" style="bottom: 2%; left: 8%;"></div> -->
+  <!-- Animated background orbs -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+    <div class="orb orb-5"></div>
+  </div>
 
-  <div class="decoration lantern lantern-1" style="top: 5%; right: 15%;"></div>
-  <div class="decoration lantern lantern-2" style="top: 25%; left: 5%;"></div>
-  <div class="decoration lantern lantern-3" style="bottom: 10%; right: 10%;"></div>
+  <!-- Floating particles canvas -->
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
 
+  <main class="container" id="main-container">
+    <!-- Profile Card - Liquid Glass -->
+    <div class="glass-card profile-card" id="profile-card">
+      <div class="glass-shine"></div>
+      <header class="profile" id="profile-header">
+        <div class="avatar-wrapper" id="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <img src="./Elaina.full.3462091.jpg" alt="Đàm Khánh Avatar" class="avatar" id="avatar-img">
+          <div class="avatar-glow"></div>
+        </div>
+        <h1 id="typing" class="profile-name"></h1>
+        <p class="profile-tagline">Developer · Creator · Explorer</p>
+        <div class="status-badge" id="status-badge">
+          <span class="status-dot"></span>
+          <span>Available</span>
+        </div>
+      </header>
+    </div>
 
-  <main class="card">
-    <!-- <div class="decoration bunny" style="top: 20px; right: 20px; animation-delay: 1s;"></div> -->
-    <div class="decoration lantern" style="top: 10px; left: 15%; animation-delay: 2s;"></div>
-    <div class="decoration lantern" style="top: 10px; right: 25%; animation-delay: 4s;"></div>
-    <!-- <div class="decoration bunny" style="bottom: 20px; left: 30px; animation-delay: 3s;"></div> -->
+    <!-- Links Grid - Liquid Glass -->
+    <div class="glass-card links-card" id="links-card">
+      <div class="glass-shine"></div>
+      <h2 class="section-title">
+        <i class="fas fa-cube"></i>
+        <span>Projects</span>
+      </h2>
+      <section class="links-grid" id="links-grid">
+        <a href="https://github.com/DamKhanh307" class="link-btn" target="_blank" id="link-github">
+          <div class="link-icon"><i class="fab fa-github"></i></div>
+          <span>Github</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://damkhanh307.github.io/Home/AOV-Guide/direct" class="link-btn" target="_blank" id="link-aov">
+          <div class="link-icon"><i class="fas fa-gamepad"></i></div>
+          <span>AOV Guide</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://drive.google.com/drive/u/0/folders/1DQVXxpy9PMnnkzi2hieyDBPWzWxogs4a" class="link-btn" target="_blank" id="link-pydroid">
+          <div class="link-icon"><i class="fab fa-python"></i></div>
+          <span>Pydroid 3</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://damkhanh307.github.io/Home/Lunar-Coutndown" class="link-btn" target="_blank" id="link-lunar">
+          <div class="link-icon"><i class="fas fa-moon"></i></div>
+          <span>Lunar Countdown</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://damkhanh307.github.io/Home/music-player" class="link-btn" target="_blank" id="link-music">
+          <div class="link-icon"><i class="fas fa-music"></i></div>
+          <span>Music Player</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://Vande541.github.io/resource" class="link-btn" target="_blank" id="link-study">
+          <div class="link-icon"><i class="fas fa-book"></i></div>
+          <span>Study</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://damkhanh307.github.io/Home/AI" class="link-btn" target="_blank" id="link-ai">
+          <div class="link-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+          <span>AI Generate Image</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://damkhanh307.github.io/Yugioh" class="link-btn" target="_blank" id="link-yugioh">
+          <div class="link-icon"><i class="fas fa-dragon"></i></div>
+          <span>Yugioh Game</span>
+          <div class="link-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+      </section>
+    </div>
 
-    <!-- End -->
-    <header class="profile">
-      <img src="./Elaina.full.3462091.jpg" alt="Avatar" class="avatar" onclick="OpenImg()">
-      <img src="./IMG/noel_hat.png" alt="Witch Hat" class="witch-hat">
-      <h1 id="typing" style="color:#C2F9FA; font-size: 2.1rem; margin-top:10px;"></h1>
-    </header>
-    <section class="links-grid">
-      <a href="https://github.com/DamKhanh307" class="btn" target="_blank">
-        <p>Github</p>
-      </a>
-      <a href="https://damkhanh307.github.io/Home/AOV-Guide/direct" class="btn" target="_blank">
-        <p>AOV GUIDE</p>
-      </a>
-      <a href="https://drive.google.com/drive/u/0/folders/1DQVXxpy9PMnnkzi2hieyDBPWzWxogs4a" class="btn"
-        target="_blank">
-        <p>Pydroid 3</p>
-      </a>
-      <a href="https://damkhanh307.github.io/Home/Lunar-Coutndown" class="btn" target="_blank">
-        <p>Lunar Countdown</p>
-      </a>
-      <a href="https://damkhanh307.github.io/Home/music-player" class="btn" target="_blank">
-        <p>Music Player</p>
-      </a>
-      <a href="https://Vande541.github.io/resource" class="btn" target="_blank">
-        <p>Study</p>
-      </a>
-      <a href="https://damkhanh307.github.io/Home/AI" class="btn" target="_blank">
-        <p>AI Generate Image</p>
-      </a>
-      <a href="https://damkhanh307.github.io/Yugioh" class="btn" target="_blank">
-        <p>Yugioh Simple Game</p>
-      </a>
-    </section>
+    <!-- Social Links - Liquid Glass -->
+    <div class="glass-card social-card" id="social-card">
+      <div class="glass-shine"></div>
+      <h2 class="section-title">
+        <i class="fas fa-share-nodes"></i>
+        <span>Connect</span>
+      </h2>
+      <section class="social-links" id="social-links">
+        <a href="https://facebook.com/dam.khanh.307" class="social-btn facebook" target="_blank" id="social-facebook">
+          <i class="fab fa-facebook-f"></i>
+          <span>Facebook</span>
+        </a>
+        <a href="https://youtube.com/@DK_307" class="social-btn youtube" target="_blank" id="social-youtube">
+          <i class="fab fa-youtube"></i>
+          <span>Youtube</span>
+        </a>
+      </section>
+    </div>
 
-    <section class="social-links">
-      <a href="https://facebook.com/dam.khanh.307" class="btn">
-        <span class="btnsymbol" style="position: absolute; left: 15px;"></span> Facebook
-      </a>
-      <a href="https://youtube.com/@DK_307" class="btn">
-        Youtube
-        <span class="btnsymbol" style="position: absolute; right: 15px;"></span> </a>
-    </section>
-
-    <script src="./main.js"></script>
-    <script src="./sakura.js"></script>
+    <!-- Footer -->
+    <footer class="footer glass-subtle" id="footer">
+      <p>© 2025 Đàm Khánh · Built with <i class="fas fa-heart"></i></p>
+    </footer>
   </main>
 
+  <script src="./main.js"></script>
 </body>
 
 </html>

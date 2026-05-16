@@ -1,121 +1,201 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var place_click = document.querySelector('.avatar');
-    var click_count = 0;
-    var list_bg_desktop = ["./IMG/bg1.jpg", "./IMG/bg2.jpg", "./IMG/bg3.jpg", "./IMG/bg4.jpg", "./IMG/bg5.jpeg", "./IMG/bg6.jpg"];
-    var devices = window.screen;
+  // ============================================
+  // TYPING EFFECT
+  // ============================================
+  const el = document.getElementById("typing");
+  const text = "Đàm Khánh";
+  let idx = 0;
+  let deleting = false;
 
-    function getRandomImage() {
-        const randomIndex = Math.floor(Math.random() * list_bg_desktop.length);
-        return list_bg_desktop[randomIndex];
+  function typeLoop() {
+    const speed = deleting ? 60 : 100;
+
+    if (!deleting) {
+      el.textContent = text.slice(0, idx + 1);
+      idx++;
+      if (idx === text.length) {
+        setTimeout(() => { deleting = true; }, 2000);
+      }
+    } else {
+      el.textContent = text.slice(0, idx - 1);
+      idx--;
+      if (idx === 0) {
+        deleting = false;
+      }
     }
+    setTimeout(typeLoop, speed);
+  }
+  typeLoop();
 
+  // ============================================
+  // AVATAR EASTER EGG (preserved)
+  // ============================================
+  const avatarImg = document.getElementById('avatar-img');
+  let clickCount = 0;
+  const devices = window.screen;
 
-    document.body.style.backgroundImage = `url(${getRandomImage()})`;
-    function setMidAutumnBg() {
-        const today = new Date();
-        const d = today.getDate();
-        const m = today.getMonth() + 1;
-        // Kiểm tra nằm trong khoảng 30/9 -> 6/10
-        if ((m === 9 && d >= 30) || (m === 10 && d <= 6)) {
-            document.body.style.backgroundImage = "url('./IMG/bg_midautumn.jpg')";
-        }
-
-        if ((m === 10 && d >= 10) || (m === 11 && d <= 1)) {
-            document.body.style.backgroundImage = "url('./IMG/bg_halloween.png')";
-            const font = new FontFace('HalloweenFont', 'url(./halloween.ttf)');
-            font.load().then(function (loadedFont) {
-                document.fonts.add(loadedFont);
-                document.body.style.fontFamily = 'HalloweenFont, sans-serif';
-            });
-
-        }
-
-        else {
-            document.body.style.backgroundImage = "url('./IMG/bg6.jpg')";
-        }
-    }
-
-    setMidAutumnBg();
-
-    const card = document.querySelector(".card");
-
-    document.addEventListener("mousemove", (e) => {
-        const x = (window.innerWidth / 2 - e.clientX) / 40;
-        const y = (window.innerHeight / 2 - e.clientY) / 40;
-        card.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
-    });
-
-    document.addEventListener("mouseleave", () => {
-        card.style.transform = "rotateY(0deg) rotateX(0deg)";
-    });
-
-
-    document.querySelectorAll(".btn").forEach(btn => {
-        btn.addEventListener("click", function (e) {
-            let circle = document.createElement("span");
-            let d = Math.max(this.clientWidth, this.clientHeight);
-
-            circle.style.width = circle.style.height = `${d}px`;
-            circle.style.left = e.clientX - this.offsetLeft - d / 2 + "px";
-            circle.style.top = e.clientY - this.offsetTop - d / 2 + "px";
-
-            circle.classList.add("ripple-effect");
-            this.appendChild(circle);
-
-            setTimeout(() => circle.remove(), 600);
-        });
-    });
-
-
-    const el = document.getElementById("typing");
-    const text = "Đàm Khánh";
-
-    let idx = 0;
-    let deleting = false;
-
-    function loop() {
-        let speed = deleting ? 70 : 120;
-
-        if (!deleting) {
-            el.textContent = text.slice(0, idx + 1);
-            idx++;
-
-            if (idx === text.length) {
-                setTimeout(() => deleting = true, 1000);
-            }
+  avatarImg.addEventListener('click', function () {
+    clickCount++;
+    if (clickCount === 3) {
+      const inputPass = prompt('Input Password To Continue:');
+      clickCount = 0;
+      if (inputPass != null) {
+        const userInput = inputPass.toLowerCase();
+        if (userInput === 'damkhanh') {
+          window.location.href = 'https://damkhanh307.github.io/Home/IMG/';
         } else {
-            el.textContent = text.slice(0, idx - 1);
-            idx--;
-
-            if (idx === 0) {
-                deleting = false;
-            }
+          if (devices.width >= 900) {
+            window.location.href = 'https://damkhanh307.github.io/Home/404-not-found/';
+          } else {
+            window.location.href = 'https://damkhanh307.github.io/Home/404';
+          }
         }
+      }
+    }
+  });
 
-        setTimeout(loop, speed);
+  // ============================================
+  // RIPPLE EFFECT ON BUTTONS
+  // ============================================
+  document.querySelectorAll(".link-btn, .social-btn").forEach(btn => {
+    btn.addEventListener("click", function (e) {
+      const circle = document.createElement("span");
+      const d = Math.max(this.clientWidth, this.clientHeight);
+      circle.style.width = circle.style.height = `${d}px`;
+
+      const rect = this.getBoundingClientRect();
+      circle.style.left = (e.clientX - rect.left - d / 2) + "px";
+      circle.style.top = (e.clientY - rect.top - d / 2) + "px";
+
+      circle.classList.add("ripple-effect");
+      this.appendChild(circle);
+      setTimeout(() => circle.remove(), 600);
+    });
+  });
+
+  // ============================================
+  // FLOATING PARTICLES (replacing sakura)
+  // ============================================
+  const canvas = document.getElementById('particles-canvas');
+  const ctx = canvas.getContext('2d');
+  let particles = [];
+  const PARTICLE_COUNT = 40;
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  class Particle {
+    constructor() {
+      this.reset();
     }
 
-    loop();
+    reset() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height;
+      this.size = Math.random() * 2 + 0.5;
+      this.speedX = (Math.random() - 0.5) * 0.3;
+      this.speedY = (Math.random() - 0.5) * 0.3;
+      this.opacity = Math.random() * 0.4 + 0.1;
+      this.fadeDir = Math.random() > 0.5 ? 1 : -1;
+    }
 
+    update() {
+      this.x += this.speedX;
+      this.y += this.speedY;
+      this.opacity += this.fadeDir * 0.002;
 
+      if (this.opacity <= 0.05 || this.opacity >= 0.5) {
+        this.fadeDir *= -1;
+      }
 
-    place_click.addEventListener('click', function OpenImg() {
-        click_count++;
-        if (click_count === 3) {
-            var input_pass = prompt('Input Password To Continue:');
-            click_count = 0;
-            if (input_pass != null) {
-                userInput = input_pass.toLowerCase();
-                if (userInput == 'damkhanh') {
-                    window.location.href = 'https://damkhanh307.github.io/Home/IMG/';
-                } else {
-                    if (devices.width >= 900) {
-                        window.location.href = 'https://damkhanh307.github.io/Home/404-not-found/';
-                    } else {
-                        window.location.href = 'https://damkhanh307.github.io/Home/404';
-                    }
-                }
-            }
+      if (this.x < 0 || this.x > canvas.width ||
+        this.y < 0 || this.y > canvas.height) {
+        this.reset();
+      }
+    }
+
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < PARTICLE_COUNT; i++) {
+    particles.push(new Particle());
+  }
+
+  function animateParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw connections
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 120) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(255, 255, 255, ${0.03 * (1 - dist / 120)})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
         }
+      }
+    }
+
+    particles.forEach(p => {
+      p.update();
+      p.draw();
     });
+
+    requestAnimationFrame(animateParticles);
+  }
+  animateParticles();
+
+  // ============================================
+  // SUBTLE CARD TILT ON MOUSE (desktop only)
+  // ============================================
+  if (window.innerWidth > 768) {
+    const cards = document.querySelectorAll('.glass-card');
+    cards.forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width - 0.5) * 6;
+        const y = ((e.clientY - rect.top) / rect.height - 0.5) * -6;
+        card.style.transform = `translateY(-2px) perspective(800px) rotateY(${x}deg) rotateX(${y}deg)`;
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'translateY(0) perspective(800px) rotateY(0deg) rotateX(0deg)';
+        card.style.transition = 'transform 0.5s ease';
+        setTimeout(() => { card.style.transition = ''; }, 500);
+      });
+    });
+  }
+
+  // ============================================
+  // INTERSECTION OBSERVER FOR SCROLL ANIMATIONS
+  // ============================================
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.link-btn').forEach((btn, i) => {
+    btn.style.opacity = '0';
+    btn.style.transform = 'translateY(15px)';
+    btn.style.transition = `opacity 0.5s ease ${i * 0.05}s, transform 0.5s ease ${i * 0.05}s`;
+    observer.observe(btn);
+  });
 });
