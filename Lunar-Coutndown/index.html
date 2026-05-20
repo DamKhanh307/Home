@@ -1,64 +1,1073 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Year Countdown</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <link rel='icon' href='./icon.jpg'>
+  <title>Đếm Ngược Tết Nguyên Đán</title>
+  <meta name="description" content="Đếm ngược ngày Tết Nguyên Đán - Năm mới âm lịch Việt Nam">
+  <link rel="icon" href="./icon.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --red-primary: #d4382c;
+      --red-deep: #a01010;
+      --red-bright: #ff4136;
+      --gold-primary: #f5c842;
+      --gold-light: #ffe066;
+      --gold-dark: #c89b20;
+      --bg-dark: #1a0505;
+      --bg-mid: #2d0a0a;
+      --pink-blossom: #ffb8c6;
+      --yellow-apricot: #ffe14d;
+      --text-light: #fff5e6;
+      --text-dim: rgba(255, 245, 230, 0.6);
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    audio { display: none; }
+
+    /* ===== BACKGROUND LAYERS ===== */
+    .bg-layer {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .bg-gradient {
+      background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(212, 56, 44, 0.2) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 60% at 15% 85%, rgba(245, 200, 66, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse 60% 60% at 85% 85%, rgba(212, 56, 44, 0.08) 0%, transparent 50%),
+        linear-gradient(180deg, var(--bg-dark) 0%, #280808 50%, var(--bg-dark) 100%);
+    }
+
+    /* Traditional pattern overlay */
+    .bg-pattern {
+      opacity: 0.03;
+      background-image: 
+        repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(245, 200, 66, 0.5) 20px, rgba(245, 200, 66, 0.5) 21px),
+        repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(245, 200, 66, 0.5) 20px, rgba(245, 200, 66, 0.5) 21px);
+    }
+
+    /* ===== LANTERNS (Đèn lồng) ===== */
+    .lanterns {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .lantern {
+      position: absolute;
+      top: -10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: swingLantern 4s ease-in-out infinite;
+      transform-origin: top center;
+    }
+
+    .lantern-string {
+      width: 2px;
+      height: 30px;
+      background: linear-gradient(to bottom, rgba(245, 200, 66, 0.6), rgba(245, 200, 66, 0.3));
+    }
+
+    .lantern-body {
+      width: 40px;
+      height: 55px;
+      background: radial-gradient(ellipse at 40% 30%, #ff4a3a, #cc1100 60%, #8b0000);
+      border-radius: 50% 50% 45% 45%;
+      position: relative;
+      box-shadow: 0 0 20px rgba(255, 60, 40, 0.4), 0 0 60px rgba(255, 60, 40, 0.15), inset 0 -5px 15px rgba(0,0,0,0.3);
+    }
+
+    .lantern-body::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 8px;
+      background: linear-gradient(to bottom, var(--gold-primary), var(--gold-dark));
+      border-radius: 3px 3px 0 0;
+    }
+
+    .lantern-body::after {
+      content: '福';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Noto Serif SC', serif;
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--gold-primary);
+      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .lantern-tassel {
+      width: 2px;
+      height: 18px;
+      background: var(--gold-dark);
+      position: relative;
+    }
+
+    .lantern-tassel::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 8px;
+      height: 12px;
+      background: var(--gold-primary);
+      border-radius: 0 0 50% 50%;
+      opacity: 0.8;
+    }
+
+    @keyframes swingLantern {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(3deg); }
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .content-wrapper {
+      position: relative;
+      z-index: 10;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      gap: 1.5rem;
+    }
+
+    /* ===== ZODIAC & YEAR SECTION ===== */
+    .zodiac-section {
+      text-align: center;
+      animation: fadeDown 1s ease-out;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .zodiac-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.5rem 1.5rem;
+      border-radius: 100px;
+      background: rgba(245, 200, 66, 0.08);
+      border: 1px solid rgba(245, 200, 66, 0.2);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--gold-primary);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .zodiac-emoji {
+      font-size: 1.4rem;
+    }
+
+    .header-text {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+      font-weight: 400;
+      color: var(--text-dim);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .year-display {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(5rem, 14vw, 11rem);
+      font-weight: 900;
+      line-height: 1.1;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-primary) 30%, var(--red-bright) 70%, var(--gold-primary) 100%);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmerYear 5s ease-in-out infinite;
+      filter: drop-shadow(0 4px 20px rgba(245, 200, 66, 0.3));
+    }
+
+    @keyframes shimmerYear {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .zodiac-name {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      color: var(--gold-primary);
+      letter-spacing: 5px;
+      font-weight: 600;
+      text-shadow: 0 2px 10px rgba(245, 200, 66, 0.3);
+    }
+
+    /* ===== COUNTDOWN TIMER ===== */
+    .timer-section {
+      animation: fadeUp 1s ease-out 0.3s forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(0.75rem, 3vw, 2rem);
+      flex-wrap: wrap;
+    }
+
+    .timer-box {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: clamp(80px, 15vw, 130px);
+      border-radius: 16px;
+      overflow: hidden;
+      background: rgba(40, 8, 8, 0.6);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border: 1px solid rgba(245, 200, 66, 0.12);
+      box-shadow:
+        0 8px 40px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(245, 200, 66, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: floatBox 6s ease-in-out infinite;
+    }
+
+    .timer-box:nth-child(2) { animation-delay: -1.5s; }
+    .timer-box:nth-child(3) { animation-delay: -3s; }
+    .timer-box:nth-child(4) { animation-delay: -4.5s; }
+
+    @keyframes floatBox {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .timer-box:hover {
+      transform: translateY(-8px) scale(1.05);
+      box-shadow:
+        0 16px 60px rgba(212, 56, 44, 0.2),
+        0 0 30px rgba(245, 200, 66, 0.1),
+        inset 0 1px 0 rgba(245, 200, 66, 0.15);
+      border-color: rgba(245, 200, 66, 0.25);
+    }
+
+    /* Corner decoration on cards */
+    .timer-box::before {
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 12px;
+      height: 12px;
+      border-top: 2px solid rgba(245, 200, 66, 0.3);
+      border-left: 2px solid rgba(245, 200, 66, 0.3);
+      pointer-events: none;
+    }
+
+    .timer-box::after {
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      width: 12px;
+      height: 12px;
+      border-bottom: 2px solid rgba(245, 200, 66, 0.3);
+      border-right: 2px solid rgba(245, 200, 66, 0.3);
+      pointer-events: none;
+    }
+
+    .timer-box__count {
+      padding: clamp(1rem, 3vw, 1.8rem) clamp(1rem, 3vw, 2rem);
+    }
+
+    .timer-box__count span {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 800;
+      background: linear-gradient(180deg, var(--gold-light) 0%, var(--gold-primary) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 2px 4px rgba(245, 200, 66, 0.3));
+    }
+
+    .timer-box__text {
+      width: 100%;
+      text-align: center;
+      padding: 0.6rem 0;
+      font-size: clamp(0.65rem, 1.5vw, 0.8rem);
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--red-bright);
+      background: rgba(212, 56, 44, 0.08);
+      border-top: 1px solid rgba(245, 200, 66, 0.08);
+    }
+
+    /* Separator */
+    .timer-sep {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: var(--gold-primary);
+      opacity: 0.4;
+      animation: blink 1s step-end infinite;
+      user-select: none;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.1; }
+    }
+
+    /* ===== GREETING ===== */
+    .greeting {
+      text-align: center;
+      animation: fadeUp 1s ease-out 0.6s forwards;
+      opacity: 0;
+      max-width: 600px;
+    }
+
+    .greeting-text {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.2rem, 3vw, 1.6rem);
+      color: var(--text-dim);
+      line-height: 1.8;
+      font-weight: 400;
+    }
+
+    .greeting-text em {
+      color: var(--gold-primary);
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    /* ===== ZODIAC MASCOT ===== */
+    .mascot-display {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      font-size: 4rem;
+      opacity: 0.15;
+      animation: floatMascot 8s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 1;
+      filter: drop-shadow(0 0 20px rgba(245, 200, 66, 0.3));
+    }
+
+    @keyframes floatMascot {
+      0%, 100% { transform: translateY(0) rotate(-5deg); }
+      50% { transform: translateY(-20px) rotate(5deg); }
+    }
+
+    /* ===== BLOSSOM CANVAS ===== */
+    #blossomCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    /* ===== FIREWORKS CANVAS ===== */
+    #fireworksCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 4;
+    }
+
+    /* ===== DECORATIVE BORDERS ===== */
+    .deco-border-top, .deco-border-bottom {
+      position: fixed;
+      left: 0;
+      right: 0;
+      height: 3px;
+      z-index: 20;
+      pointer-events: none;
+    }
+
+    .deco-border-top {
+      top: 0;
+      background: linear-gradient(90deg, transparent, var(--gold-primary), var(--red-primary), var(--gold-primary), transparent);
+    }
+
+    .deco-border-bottom {
+      bottom: 0;
+      background: linear-gradient(90deg, transparent, var(--red-primary), var(--gold-primary), var(--red-primary), transparent);
+    }
+
+    /* ===== MUSIC TOGGLE ===== */
+    .music-toggle {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      z-index: 50;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid rgba(245, 200, 66, 0.2);
+      background: rgba(40, 8, 8, 0.7);
+      backdrop-filter: blur(10px);
+      color: var(--gold-primary);
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .music-toggle:hover {
+      border-color: rgba(245, 200, 66, 0.4);
+      background: rgba(60, 12, 12, 0.8);
+      transform: scale(1.1);
+    }
+
+    .music-toggle.playing {
+      animation: pulse-music 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-music {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(245, 200, 66, 0.2); }
+      50% { box-shadow: 0 0 0 8px rgba(245, 200, 66, 0); }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .lantern-body { width: 30px; height: 42px; }
+      .lantern-body::after { font-size: 13px; }
+      .lantern-body::before { width: 16px; height: 6px; }
+      .lantern-tassel { height: 12px; }
+
+      .mascot-display {
+        font-size: 2.5rem;
+        bottom: 1rem;
+        right: 1rem;
+      }
+
+      .content-wrapper {
+        padding: 3rem 1rem 2rem;
+      }
+    }
+  </style>
 </head>
-
 <body>
-  <svg width="0" height="0" style="position:absolute;">
-    <filter id="liquid-glass">
-      <feTurbulence type="fractalNoise" baseFrequency="0.01 0.04" numOctaves="1" result="turbulence" />
-      <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G" />
-    </filter>
-  </svg>
+  <!-- Audio -->
+  <audio id="bgMusic" src="bg.mp3" loop preload="auto"></audio>
 
-  <audio src="bg.mp3" autoplay loop>
-    <embed src="bg.mp3" hidden="true" />
-  </audio>
+  <!-- Background layers -->
+  <div class="bg-layer bg-gradient"></div>
+  <div class="bg-layer bg-pattern"></div>
 
+  <!-- Decorative borders -->
+  <div class="deco-border-top"></div>
+  <div class="deco-border-bottom"></div>
+
+  <!-- Lanterns -->
+  <div class="lanterns" id="lanterns"></div>
+
+  <!-- Blossom Canvas -->
+  <canvas id="blossomCanvas"></canvas>
+
+  <!-- Fireworks Canvas -->
+  <canvas id="fireworksCanvas"></canvas>
+
+  <!-- Zodiac Mascot -->
+  <div class="mascot-display" id="mascot"></div>
+
+  <!-- Music Toggle -->
+  <button class="music-toggle" id="musicToggle" title="Bật/tắt nhạc">🔇</button>
+
+  <!-- Main Content -->
   <div class="content-wrapper">
-    <p class="header"></p>
-    <h1 class="year" id="new-year"></h1>
-    <div class="timer">
-      <div class="timer-box">
-        <div class="timer-box__count">
-          <span id="days">0</span>
-        </div>
-        <div class="timer-box__text">Days</div>
+    <section class="zodiac-section">
+      <div class="zodiac-badge">
+        <span class="zodiac-emoji" id="zodiacEmoji"></span>
+        <span id="zodiacLabel"></span>
       </div>
-      <div class="timer-box">
-        <div class="timer-box__count">
-          <span id="hours">0</span>
+      <p class="header-text" id="headerText">Đếm ngược Tết Nguyên Đán</p>
+      <h1 class="year-display" id="yearDisplay"></h1>
+      <p class="zodiac-name" id="zodiacNameDisplay"></p>
+    </section>
+
+    <section class="timer-section">
+      <div class="timer">
+        <div class="timer-box">
+          <div class="timer-box__count"><span id="days">00</span></div>
+          <div class="timer-box__text">Ngày</div>
         </div>
-        <div class="timer-box__text">Hours</div>
-      </div>
-      <div class="timer-box">
-        <div class="timer-box__count">
-          <span id="minutes">0</span>
+        <span class="timer-sep">:</span>
+        <div class="timer-box">
+          <div class="timer-box__count"><span id="hours">00</span></div>
+          <div class="timer-box__text">Giờ</div>
         </div>
-        <div class="timer-box__text">Minutes</div>
-      </div>
-      <div class="timer-box">
-        <div class="timer-box__count">
-          <span id="seconds">0</span>
+        <span class="timer-sep">:</span>
+        <div class="timer-box">
+          <div class="timer-box__count"><span id="minutes">00</span></div>
+          <div class="timer-box__text">Phút</div>
         </div>
-        <div class="timer-box__text">Seconds</div>
+        <span class="timer-sep">:</span>
+        <div class="timer-box">
+          <div class="timer-box__count"><span id="seconds">00</span></div>
+          <div class="timer-box__text">Giây</div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="greeting">
+      <p class="greeting-text" id="greetingText"></p>
+    </section>
   </div>
-  <script src="./script.js"></script>
-  <script src="./sakura.js"></script>
 
+  <script>
+    // =============================================
+    // ZODIAC DATA
+    // =============================================
+    const zodiacCycle = [
+      { name: 'Tý', animal: 'Chuột', emoji: '🐀', mascot: '🐀' },
+      { name: 'Sửu', animal: 'Trâu', emoji: '🐃', mascot: '🐃' },
+      { name: 'Dần', animal: 'Hổ', emoji: '🐅', mascot: '🐅' },
+      { name: 'Mão', animal: 'Mèo', emoji: '🐈', mascot: '🐈' },
+      { name: 'Thìn', animal: 'Rồng', emoji: '🐉', mascot: '🐉' },
+      { name: 'Tỵ', animal: 'Rắn', emoji: '🐍', mascot: '🐍' },
+      { name: 'Ngọ', animal: 'Ngựa', emoji: '🐎', mascot: '🐎' },
+      { name: 'Mùi', animal: 'Dê', emoji: '🐐', mascot: '🐐' },
+      { name: 'Thân', animal: 'Khỉ', emoji: '🐒', mascot: '🐒' },
+      { name: 'Dậu', animal: 'Gà', emoji: '🐓', mascot: '🐓' },
+      { name: 'Tuất', animal: 'Chó', emoji: '🐕', mascot: '🐕' },
+      { name: 'Hợi', animal: 'Lợn', emoji: '🐖', mascot: '🐖' },
+    ];
+
+    const tetDates = {
+      2025: '2025-01-29',
+      2026: '2026-02-17',
+      2027: '2027-02-07',
+      2028: '2028-01-26',
+      2029: '2029-02-13',
+      2030: '2030-02-03',
+      2031: '2031-01-23',
+      2032: '2032-02-11',
+      2033: '2033-01-31',
+      2034: '2034-02-19',
+      2035: '2035-02-08',
+    };
+
+    function getZodiac(lunarYear) {
+      // The zodiac cycle: 2024 is Thìn (Dragon, index 4)
+      const idx = ((lunarYear - 2024) % 12 + 12 + 4) % 12;
+      return zodiacCycle[idx];
+    }
+
+    // Determine the next Tet
+    const now = new Date();
+    let targetYear = now.getFullYear();
+    let tetDate = new Date(tetDates[targetYear]);
+    if (!tetDate || now >= tetDate) {
+      targetYear++;
+      tetDate = new Date(tetDates[targetYear]);
+    }
+
+    const zodiac = getZodiac(targetYear);
+    const countToDate = tetDate.getTime();
+
+    // Populate UI
+    document.getElementById('yearDisplay').textContent = targetYear;
+    document.getElementById('zodiacEmoji').textContent = zodiac.emoji;
+    document.getElementById('zodiacLabel').textContent = `Năm ${zodiac.name}`;
+    document.getElementById('zodiacNameDisplay').textContent = `Năm ${zodiac.name} — ${zodiac.animal}`;
+    document.getElementById('mascot').textContent = zodiac.mascot;
+    document.getElementById('greetingText').innerHTML =
+      `Chúc Mừng Năm Mới <em>${targetYear}</em>!<br>An Khang Thịnh Vượng — Vạn Sự Như Ý`;
+
+    // =============================================
+    // COUNTDOWN
+    // =============================================
+    const daysEl = document.getElementById('days');
+    const hoursEl = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    function updateCountdown() {
+      const now = Date.now();
+      const dist = countToDate - now;
+
+      if (dist <= 0) {
+        daysEl.textContent = '00';
+        hoursEl.textContent = '00';
+        minutesEl.textContent = '00';
+        secondsEl.textContent = '00';
+        document.getElementById('headerText').textContent = '🎆 CHÚC MỪNG NĂM MỚI! 🎆';
+        return;
+      }
+
+      const d = Math.floor(dist / (1000 * 60 * 60 * 24));
+      const h = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const m = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((dist % (1000 * 60)) / 1000);
+
+      daysEl.textContent = pad(d);
+      hoursEl.textContent = pad(h);
+      minutesEl.textContent = pad(m);
+      secondsEl.textContent = pad(s);
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // =============================================
+    // LANTERNS
+    // =============================================
+    const lanternsContainer = document.getElementById('lanterns');
+    const lanternChars = ['福', '禄', '寿', '喜', '春', '發'];
+    const lanternCount = window.innerWidth < 600 ? 4 : 7;
+
+    for (let i = 0; i < lanternCount; i++) {
+      const lantern = document.createElement('div');
+      lantern.className = 'lantern';
+      const leftPos = (i + 0.5) * (100 / lanternCount);
+      lantern.style.left = leftPos + '%';
+      lantern.style.animationDelay = (i * 0.6) + 's';
+      lantern.style.animationDuration = (3.5 + Math.random() * 2) + 's';
+
+      const charIdx = i % lanternChars.length;
+      lantern.innerHTML = `
+        <div class="lantern-string" style="height:${20 + Math.random() * 30}px"></div>
+        <div class="lantern-body" style="width:${35 + Math.random() * 15}px;height:${48 + Math.random() * 18}px">
+        </div>
+        <div class="lantern-tassel"></div>
+      `;
+
+      // Override the character
+      const body = lantern.querySelector('.lantern-body');
+      body.style.setProperty('--char', `"${lanternChars[charIdx]}"`);
+
+      lanternsContainer.appendChild(lantern);
+    }
+
+    // =============================================
+    // BLOSSOM / PETAL FALLING EFFECT (Đào + Mai)
+    // =============================================
+    const blossomCanvas = document.getElementById('blossomCanvas');
+    const bCtx = blossomCanvas.getContext('2d');
+
+    function resizeBlossomCanvas() {
+      blossomCanvas.width = window.innerWidth;
+      blossomCanvas.height = window.innerHeight;
+    }
+    resizeBlossomCanvas();
+    window.addEventListener('resize', resizeBlossomCanvas);
+
+    class Petal {
+      constructor() { this.reset(true); }
+
+      reset(initial = false) {
+        this.x = Math.random() * blossomCanvas.width;
+        this.y = initial ? Math.random() * blossomCanvas.height : -20;
+        this.size = 6 + Math.random() * 10;
+        this.speedY = 0.5 + Math.random() * 1.2;
+        this.speedX = -0.3 + Math.random() * 0.6;
+        this.rotation = Math.random() * Math.PI * 2;
+        this.rotSpeed = (Math.random() - 0.5) * 0.03;
+        this.wobble = Math.random() * Math.PI * 2;
+        this.wobbleSpeed = 0.01 + Math.random() * 0.02;
+        this.opacity = 0.4 + Math.random() * 0.5;
+
+        // Mix of peach (đào) pink and apricot (mai) yellow
+        const isPeach = Math.random() > 0.4;
+        if (isPeach) {
+          const r = 240 + Math.random() * 15;
+          const g = 150 + Math.random() * 60;
+          const b = 170 + Math.random() * 50;
+          this.color = `rgba(${r},${g},${b},${this.opacity})`;
+        } else {
+          const r = 250 + Math.random() * 5;
+          const g = 210 + Math.random() * 30;
+          const b = 50 + Math.random() * 40;
+          this.color = `rgba(${r},${g},${b},${this.opacity})`;
+        }
+      }
+
+      update() {
+        this.wobble += this.wobbleSpeed;
+        this.x += this.speedX + Math.sin(this.wobble) * 0.5;
+        this.y += this.speedY;
+        this.rotation += this.rotSpeed;
+
+        if (this.y > blossomCanvas.height + 20 || this.x < -30 || this.x > blossomCanvas.width + 30) {
+          this.reset();
+        }
+      }
+
+      draw(ctx) {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.rotation);
+        ctx.fillStyle = this.color;
+
+        // Draw petal shape
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.bezierCurveTo(
+          this.size * 0.3, -this.size * 0.4,
+          this.size * 0.8, -this.size * 0.3,
+          this.size, 0
+        );
+        ctx.bezierCurveTo(
+          this.size * 0.8, this.size * 0.3,
+          this.size * 0.3, this.size * 0.4,
+          0, 0
+        );
+        ctx.fill();
+        ctx.restore();
+      }
+    }
+
+    const petalCount = window.innerWidth < 600 ? 20 : 40;
+    const petals = Array.from({ length: petalCount }, () => new Petal());
+
+    function animateBlossoms() {
+      bCtx.clearRect(0, 0, blossomCanvas.width, blossomCanvas.height);
+      petals.forEach(p => {
+        p.update();
+        p.draw(bCtx);
+      });
+      requestAnimationFrame(animateBlossoms);
+    }
+    animateBlossoms();
+
+    // =============================================
+    // FIREWORKS — Balanced visual + performance
+    // =============================================
+    const fwCanvas = document.getElementById('fireworksCanvas');
+    const fCtx = fwCanvas.getContext('2d');
+
+    function resizeFwCanvas() {
+      fwCanvas.width = window.innerWidth;
+      fwCanvas.height = window.innerHeight;
+    }
+    resizeFwCanvas();
+    window.addEventListener('resize', resizeFwCanvas);
+
+    const fwPalettes = [
+      ['#ff4136', '#ff6b6b', '#ff8a80'],
+      ['#f5c842', '#ffe066', '#fff9c4'],
+      ['#ff8c00', '#ffab40', '#ffd180'],
+      ['#ff2d75', '#ff6b9d', '#ffc1d6'],
+      ['#f5c842', '#ff4136', '#ffe066'],
+      ['#ffffff', '#fff9c4', '#ffe066'],
+    ];
+
+    // Simple spark — no trail array, no shadow
+    class Spark {
+      constructor(x, y, vx, vy, color, size, life) {
+        this.x = x;  this.y = y;
+        this.vx = vx; this.vy = vy;
+        this.color = color;
+        this.size = size;
+        this.life = life;
+        this.maxLife = life;
+      }
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vx *= 0.985;
+        this.vy *= 0.985;
+        this.vy += 0.035;
+        this.life--;
+      }
+      get alpha() { return Math.max(this.life / this.maxLife, 0); }
+      get dead() { return this.life <= 0; }
+    }
+
+    class Rocket {
+      constructor() {
+        const w = fwCanvas.width, h = fwCanvas.height;
+        this.x = w * 0.12 + Math.random() * w * 0.76;
+        this.y = h;
+        this.targetY = h * 0.08 + Math.random() * h * 0.32;
+        this.vy = -(7 + Math.random() * 4);
+        this.vx = (Math.random() - 0.5) * 1.5;
+        this.exploded = false;
+        this.flash = 0; // explosion flash timer
+        this.sparks = [];
+        this.palette = fwPalettes[Math.floor(Math.random() * fwPalettes.length)];
+        this.burstType = Math.floor(Math.random() * 4);
+        this.explodeX = 0;
+        this.explodeY = 0;
+      }
+
+      update() {
+        if (!this.exploded) {
+          this.x += this.vx;
+          this.y += this.vy;
+          this.vy *= 0.987;
+
+          // Ascending trail sparks (few and light)
+          if (Math.random() > 0.4) {
+            this.sparks.push(new Spark(
+              this.x + (Math.random() - 0.5) * 3, this.y,
+              (Math.random() - 0.5) * 0.4,
+              0.8 + Math.random() * 0.6,
+              this.palette[0], 1.5, 18
+            ));
+          }
+
+          if (this.y <= this.targetY) this.explode();
+        } else if (this.flash > 0) {
+          this.flash--;
+        }
+
+        for (let i = this.sparks.length - 1; i >= 0; i--) {
+          this.sparks[i].update();
+          if (this.sparks[i].dead) this.sparks.splice(i, 1);
+        }
+      }
+
+      explode() {
+        this.exploded = true;
+        this.explodeX = this.x;
+        this.explodeY = this.y;
+        this.flash = 8;
+        const pal = this.palette;
+
+        switch (this.burstType) {
+          case 0: // Circle
+            this._circle(65, 2, 5.5, pal);
+            break;
+          case 1: // Ring + inner
+            this._ring(50, 4, 5, pal);
+            this._circle(15, 1, 2.5, pal);
+            break;
+          case 2: // Double burst
+            this._circle(40, 3, 5.5, pal);
+            this._circle(30, 1.5, 3, [pal[1], pal[2]]);
+            break;
+          case 3: // Star
+            this._star(5, 12, pal);
+            this._circle(15, 1, 2, pal);
+            break;
+        }
+      }
+
+      _circle(n, minS, maxS, pal) {
+        for (let i = 0; i < n; i++) {
+          const a = (Math.PI * 2 / n) * i + (Math.random() - 0.5) * 0.25;
+          const s = minS + Math.random() * (maxS - minS);
+          const c = pal[Math.floor(Math.random() * pal.length)];
+          this.sparks.push(new Spark(
+            this.x, this.y, Math.cos(a) * s, Math.sin(a) * s,
+            c, 2 + Math.random() * 1.5, 55 + Math.floor(Math.random() * 35)
+          ));
+        }
+      }
+
+      _ring(n, minS, maxS, pal) {
+        const rs = minS + (maxS - minS) * 0.75;
+        for (let i = 0; i < n; i++) {
+          const a = (Math.PI * 2 / n) * i;
+          const c = pal[Math.floor(Math.random() * pal.length)];
+          this.sparks.push(new Spark(
+            this.x, this.y, Math.cos(a) * rs, Math.sin(a) * rs,
+            c, 2 + Math.random(), 50 + Math.floor(Math.random() * 25)
+          ));
+        }
+      }
+
+      _star(pts, per, pal) {
+        for (let p = 0; p < pts; p++) {
+          const base = (Math.PI * 2 / pts) * p;
+          for (let i = 0; i < per; i++) {
+            const a = base + (Math.random() - 0.5) * 0.25;
+            const s = 2 + Math.random() * 4.5;
+            const c = pal[Math.floor(Math.random() * pal.length)];
+            this.sparks.push(new Spark(
+              this.x, this.y, Math.cos(a) * s, Math.sin(a) * s,
+              c, 1.8 + Math.random() * 1.5, 50 + Math.floor(Math.random() * 30)
+            ));
+          }
+        }
+      }
+
+      draw(ctx) {
+        // Rocket ascending head
+        if (!this.exploded) {
+          // Bright core
+          ctx.globalAlpha = 1;
+          ctx.fillStyle = '#fff';
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, 2.5, 0, Math.PI * 2);
+          ctx.fill();
+          // Halo
+          ctx.globalAlpha = 0.3;
+          ctx.fillStyle = this.palette[0];
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, 8, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        // Explosion flash — one big bright circle that fades fast
+        if (this.flash > 0) {
+          const fa = this.flash / 8;
+          ctx.globalAlpha = fa * 0.4;
+          ctx.fillStyle = '#fff';
+          ctx.beginPath();
+          ctx.arc(this.explodeX, this.explodeY, 30 + (1 - fa) * 40, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.globalAlpha = fa * 0.2;
+          ctx.fillStyle = this.palette[0];
+          ctx.beginPath();
+          ctx.arc(this.explodeX, this.explodeY, 60 + (1 - fa) * 50, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        // Draw sparks — batch by color
+        const groups = {};
+        for (const s of this.sparks) {
+          if (s.alpha <= 0.01) continue;
+          (groups[s.color] || (groups[s.color] = [])).push(s);
+        }
+
+        for (const color in groups) {
+          const list = groups[color];
+          // Outer glow layer (bigger, faint)
+          ctx.fillStyle = color;
+          for (const s of list) {
+            const a = s.alpha;
+            if (a < 0.15) continue;
+            ctx.globalAlpha = a * 0.25;
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, s.size * 3, 0, Math.PI * 2);
+            ctx.fill();
+          }
+          // Core layer (bright, small)
+          for (const s of list) {
+            ctx.globalAlpha = s.alpha;
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
+            ctx.fill();
+          }
+        }
+        ctx.globalAlpha = 1;
+      }
+
+      get dead() { return this.exploded && this.flash <= 0 && this.sparks.length === 0; }
+    }
+
+    let fireworks = [];
+    let fwFrame = 0;
+
+    function animateFireworks() {
+      // Fade previous frame — creates natural motion trail
+      fCtx.save();
+      fCtx.globalCompositeOperation = 'destination-out';
+      fCtx.fillStyle = 'rgba(0,0,0,0.18)';
+      fCtx.fillRect(0, 0, fwCanvas.width, fwCanvas.height);
+      fCtx.restore();
+
+      // Additive blending — bright overlapping sparks
+      fCtx.save();
+      fCtx.globalCompositeOperation = 'lighter';
+
+      fwFrame++;
+      // Launch every ~1.5s, cap 5 simultaneous
+      if (fwFrame % 85 === 0 && fireworks.length < 5) {
+        fireworks.push(new Rocket());
+        if (Math.random() > 0.55 && fireworks.length < 5) {
+          fireworks.push(new Rocket());
+        }
+      }
+
+      for (let i = fireworks.length - 1; i >= 0; i--) {
+        fireworks[i].update();
+        fireworks[i].draw(fCtx);
+        if (fireworks[i].dead) fireworks.splice(i, 1);
+      }
+
+      fCtx.restore();
+      requestAnimationFrame(animateFireworks);
+    }
+    animateFireworks();
+
+    // =============================================
+    // MUSIC TOGGLE
+    // =============================================
+    const bgMusic = document.getElementById('bgMusic');
+    const musicToggle = document.getElementById('musicToggle');
+    let isPlaying = false;
+
+    musicToggle.addEventListener('click', () => {
+      if (isPlaying) {
+        bgMusic.pause();
+        musicToggle.textContent = '🔇';
+        musicToggle.classList.remove('playing');
+      } else {
+        bgMusic.play().catch(() => {});
+        musicToggle.textContent = '🔊';
+        musicToggle.classList.add('playing');
+      }
+      isPlaying = !isPlaying;
+    });
+
+    // Try autoplay
+    document.addEventListener('click', () => {
+      if (!isPlaying) {
+        bgMusic.play().then(() => {
+          isPlaying = true;
+          musicToggle.textContent = '🔊';
+          musicToggle.classList.add('playing');
+        }).catch(() => {});
+      }
+    }, { once: true });
+
+    // =============================================
+    // WINDOW RESIZE HANDLER
+    // =============================================
+    window.addEventListener('resize', () => {
+      resizeBlossomCanvas();
+      resizeFwCanvas();
+    });
+  </script>
 </body>
-
 </html>
