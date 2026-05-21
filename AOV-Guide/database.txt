@@ -5,12 +5,24 @@ Decimal_ID: 10503, Hex_ID: 0729, Skin_Name: Thần thoại Hy Lạp
 Decimal_ID: 10504, Hex_ID: 0829, Skin_Name: Ngưu hải vương
 Decimal_ID: 10505, Hex_ID: 0929, Skin_Name: Bạch mao ngưu
 Decimal_ID: 10506, Hex_ID: 0a29, Skin_Name: Tử Lôi Thần Ngưu
-Decimal_ID: 10508, Hex_ID: 0c29, Skin_Name: [ex]
+Decimal_ID: 10507, Hex_ID: 0b29, Skin_Name: Hiểm họa hỗn mang
+Decimal_ID: 10508, Hex_ID: 0c29, Skin_Name: Trâu siêu tốc
 Decimal_ID: 10509, Hex_ID: 0d29, Skin_Name: [ex]
 Decimal_ID: 10510, Hex_ID: 0e29, Skin_Name: [ex]
 Decimal_ID: 10511, Hex_ID: 0f29, Skin_Name: [ex]
 Decimal_ID: 10512, Hex_ID: 1029, Skin_Name: [ex]
 Decimal_ID: 10513, Hex_ID: 1129, Skin_Name: [ex]
+Decimal_ID: 10514, Hex_ID: 1229, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10515, Hex_ID: 1329, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10516, Hex_ID: 1429, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10517, Hex_ID: 1529, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10518, Hex_ID: 1629, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10519, Hex_ID: 1729, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10520, Hex_ID: 1829, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10521, Hex_ID: 1929, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10522, Hex_ID: 1a29, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10523, Hex_ID: 1b29, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10524, Hex_ID: 1c29, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 10600, Hex_ID: 6829, Skin_Name: Mặc định
 Decimal_ID: 10601, Hex_ID: 6929, Skin_Name: Công chúa bướm
 Decimal_ID: 10602, Hex_ID: 6a29, Skin_Name: Xứ sở thần tiên
@@ -21,7 +33,7 @@ Decimal_ID: 10606, Hex_ID: 6e29, Skin_Name: Tiểu yêu nữ
 Decimal_ID: 10607, Hex_ID: 6f29, Skin_Name: Hồ thiên nga
 Decimal_ID: 10608, Hex_ID: 7029, Skin_Name: Thần thoại Hy Lạp
 Decimal_ID: 10609, Hex_ID: 7129, Skin_Name: Thủy thủ
-Decimal_ID: 10610, Hex_ID: 7229, Skin_Name: [ex][DNT]
+Decimal_ID: 10610, Hex_ID: 7229, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 10611, Hex_ID: 7329, Skin_Name: Lốc xoáy kinh hoàng Tatsumaki
 Decimal_ID: 10612, Hex_ID: 7429, Skin_Name: [ex][DNT]
 Decimal_ID: 10613, Hex_ID: 7529, Skin_Name: Nàng tiên nổi loạn
@@ -29,12 +41,13 @@ Decimal_ID: 10614, Hex_ID: 7629, Skin_Name: [ex][DNT]
 Decimal_ID: 10615, Hex_ID: 7729, Skin_Name: Tiểu hồng mai
 Decimal_ID: 10616, Hex_ID: 7829, Skin_Name: [ex][DNT]
 Decimal_ID: 10617, Hex_ID: 7929, Skin_Name: Quán quân
-Decimal_ID: 10618, Hex_ID: 7a29, Skin_Name: [ex][DNT]
+Decimal_ID: 10618, Hex_ID: 7a29, Skin_Name: Kimono
 Decimal_ID: 10619, Hex_ID: 7b29, Skin_Name: [ex][DNT]
 Decimal_ID: 10620, Hex_ID: 7c29, Skin_Name: Phù thủy thời không
 Decimal_ID: 10621, Hex_ID: 7d29, Skin_Name: Uyên Ương mộng điệp
 Decimal_ID: 10622, Hex_ID: 7e29, Skin_Name: [ex]
 Decimal_ID: 10623, Hex_ID: 7f29, Skin_Name: [ex]
+Decimal_ID: 10624, Hex_ID: 8029, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 10700, Hex_ID: cc29, Skin_Name: Mặc định
 Decimal_ID: 10701, Hex_ID: cd29, Skin_Name: Oán linh
 Decimal_ID: 10702, Hex_ID: ce29, Skin_Name: [ex][DNT]
@@ -48,13 +61,18 @@ Decimal_ID: 10709, Hex_ID: d529, Skin_Name: Inosuke Hashibira
 Decimal_ID: 10710, Hex_ID: d629, Skin_Name: [ex]
 Decimal_ID: 10711, Hex_ID: d729, Skin_Name: Đầu bếp Sashimi
 Decimal_ID: 10712, Hex_ID: d829, Skin_Name: Nghệ nhân đồ chơi
-Decimal_ID: 10713, Hex_ID: d929, Skin_Name: [ex]
-Decimal_ID: 10714, Hex_ID: da29, Skin_Name: [ex]
-Decimal_ID: 10715, Hex_ID: db29, Skin_Name: [ex]
+Decimal_ID: 10713, Hex_ID: d929, Skin_Name: 10713
+Decimal_ID: 10714, Hex_ID: da29, Skin_Name: Kỷ Nguyên Hổ Phách
+Decimal_ID: 10715, Hex_ID: db29, Skin_Name: Chị đại Gangster
 Decimal_ID: 10716, Hex_ID: dc29, Skin_Name: [ex]
 Decimal_ID: 10717, Hex_ID: dd29, Skin_Name: [ex]
 Decimal_ID: 10718, Hex_ID: de29, Skin_Name: [ex]
 Decimal_ID: 10719, Hex_ID: df29, Skin_Name: [ex]
+Decimal_ID: 10720, Hex_ID: e029, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10721, Hex_ID: e129, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10722, Hex_ID: e229, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10723, Hex_ID: e329, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10724, Hex_ID: e429, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 10800, Hex_ID: 302a, Skin_Name: Mặc định
 Decimal_ID: 10801, Hex_ID: 312a, Skin_Name: Tiệc bãi biển
 Decimal_ID: 10802, Hex_ID: 322a, Skin_Name: Phượt thủ
@@ -66,13 +84,20 @@ Decimal_ID: 10807, Hex_ID: 372a, Skin_Name: Phù thủy Ba Tư
 Decimal_ID: 10808, Hex_ID: 382a, Skin_Name: [ex][DNT]
 Decimal_ID: 10809, Hex_ID: 392a, Skin_Name: Xích Long
 Decimal_ID: 10810, Hex_ID: 3a2a, Skin_Name: [ex]
-Decimal_ID: 10811, Hex_ID: 3b2a, Skin_Name: [ex]
+Decimal_ID: 10811, Hex_ID: 3b2a, Skin_Name: PASULOL
 Decimal_ID: 10812, Hex_ID: 3c2a, Skin_Name: [ex]
 Decimal_ID: 10813, Hex_ID: 3d2a, Skin_Name: [ex]
 Decimal_ID: 10814, Hex_ID: 3e2a, Skin_Name: [ex]
 Decimal_ID: 10815, Hex_ID: 3f2a, Skin_Name: [ex]
 Decimal_ID: 10816, Hex_ID: 402a, Skin_Name: [ex]
 Decimal_ID: 10817, Hex_ID: 412a, Skin_Name: [ex]
+Decimal_ID: 10818, Hex_ID: 422a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10819, Hex_ID: 432a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10820, Hex_ID: 442a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10821, Hex_ID: 452a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10822, Hex_ID: 462a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10823, Hex_ID: 472a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10824, Hex_ID: 482a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 10900, Hex_ID: 942a, Skin_Name: Mặc định
 Decimal_ID: 10901, Hex_ID: 952a, Skin_Name: Cô giáo hắc ám
 Decimal_ID: 10902, Hex_ID: 962a, Skin_Name: Góa phụ giả kim
@@ -89,12 +114,15 @@ Decimal_ID: 10912, Hex_ID: a02a, Skin_Name: A.I love you
 Decimal_ID: 10913, Hex_ID: a12a, Skin_Name: Bách hoa tiên nữ
 Decimal_ID: 10914, Hex_ID: a22a, Skin_Name: Phù thủy Hội họa
 Decimal_ID: 10915, Hex_ID: a32a, Skin_Name: Thất Sát - Thượng Sinh
-Decimal_ID: 10916, Hex_ID: a42a, Skin_Name: [ex]
+Decimal_ID: 10916, Hex_ID: a42a, Skin_Name: My Melody‘s Love
 Decimal_ID: 10917, Hex_ID: a52a, Skin_Name: [ex]
 Decimal_ID: 10918, Hex_ID: a62a, Skin_Name: [ex]
 Decimal_ID: 10919, Hex_ID: a72a, Skin_Name: [ex]
 Decimal_ID: 10920, Hex_ID: a82a, Skin_Name: [ex]
 Decimal_ID: 10921, Hex_ID: a92a, Skin_Name: [ex]
+Decimal_ID: 10922, Hex_ID: aa2a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10923, Hex_ID: ab2a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 10924, Hex_ID: ac2a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11000, Hex_ID: f82a, Skin_Name: Mặc định
 Decimal_ID: 11001, Hex_ID: f92a, Skin_Name: Cô dâu hắc ám
 Decimal_ID: 11002, Hex_ID: fa2a, Skin_Name: [ex][DNT]
@@ -112,6 +140,14 @@ Decimal_ID: 11013, Hex_ID: 052b, Skin_Name: [ex]
 Decimal_ID: 11014, Hex_ID: 062b, Skin_Name: [ex]
 Decimal_ID: 11015, Hex_ID: 072b, Skin_Name: [ex]
 Decimal_ID: 11016, Hex_ID: 082b, Skin_Name: [ex]
+Decimal_ID: 11017, Hex_ID: 092b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11018, Hex_ID: 0a2b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11019, Hex_ID: 0b2b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11020, Hex_ID: 0c2b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11021, Hex_ID: 0d2b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11022, Hex_ID: 0e2b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11023, Hex_ID: 0f2b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11024, Hex_ID: 102b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11100, Hex_ID: 5c2b, Skin_Name: Mặc định
 Decimal_ID: 11101, Hex_ID: 5d2b, Skin_Name: Nữ hoàng pháo hoa
 Decimal_ID: 11102, Hex_ID: 5e2b, Skin_Name: Nữ đặc cảnh
@@ -129,10 +165,14 @@ Decimal_ID: 11113, Hex_ID: 692b, Skin_Name: Huyết ma thần
 Decimal_ID: 11114, Hex_ID: 6a2b, Skin_Name: Lam tước
 Decimal_ID: 11115, Hex_ID: 6b2b, Skin_Name: Thần Long tỷ tỷ
 Decimal_ID: 11116, Hex_ID: 6c2b, Skin_Name: DJ Câu hồn
-Decimal_ID: 11117, Hex_ID: 6d2b, Skin_Name: Bách hoa tiên nữ
+Decimal_ID: 11117, Hex_ID: 6d2b, Skin_Name: Hoa thủy tiên
+Decimal_ID: 11118, Hex_ID: 6e2b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11119, Hex_ID: 6f2b, Skin_Name: Vọng nguyệt Long Cơ
 Decimal_ID: 11120, Hex_ID: 702b, Skin_Name: Nobara Kugisaki
 Decimal_ID: 11121, Hex_ID: 712b, Skin_Name: Nữ quản thú
+Decimal_ID: 11122, Hex_ID: 722b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11123, Hex_ID: 732b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11124, Hex_ID: 742b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11200, Hex_ID: c02b, Skin_Name: Mặc định
 Decimal_ID: 11201, Hex_ID: c12b, Skin_Name: Cung thủ bóng đêm
 Decimal_ID: 11202, Hex_ID: c22b, Skin_Name: Thế tử nguyệt tộc
@@ -148,42 +188,66 @@ Decimal_ID: 11211, Hex_ID: cb2b, Skin_Name: Soái ca bãi biển
 Decimal_ID: 11212, Hex_ID: cc2b, Skin_Name: Vệ Binh ngân hà
 Decimal_ID: 11213, Hex_ID: cd2b, Skin_Name: Giao long
 Decimal_ID: 11214, Hex_ID: ce2b, Skin_Name: Ký giả diệu kỳ
-Decimal_ID: 11215, Hex_ID: cf2b, Skin_Name: [ex]
-Decimal_ID: 11216, Hex_ID: d02b, Skin_Name: [ex]
+Decimal_ID: 11215, Hex_ID: cf2b, Skin_Name: Conan Edogawa
+Decimal_ID: 11216, Hex_ID: d02b, Skin_Name: Thương nhân sa mạc
 Decimal_ID: 11217, Hex_ID: d12b, Skin_Name: [ex]
 Decimal_ID: 11218, Hex_ID: d22b, Skin_Name: [ex]
 Decimal_ID: 11219, Hex_ID: d32b, Skin_Name: [ex]
 Decimal_ID: 11220, Hex_ID: d42b, Skin_Name: [ex]
 Decimal_ID: 11221, Hex_ID: d52b, Skin_Name: [ex]
 Decimal_ID: 11222, Hex_ID: d62b, Skin_Name: [ex]
+Decimal_ID: 11223, Hex_ID: d72b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11224, Hex_ID: d82b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11300, Hex_ID: 242c, Skin_Name: Mặc định
 Decimal_ID: 11301, Hex_ID: 252c, Skin_Name: Ác mộng sinh hóa
 Decimal_ID: 11302, Hex_ID: 262c, Skin_Name: Quang vinh
 Decimal_ID: 11303, Hex_ID: 272c, Skin_Name: Quang vinh
 Decimal_ID: 11304, Hex_ID: 282c, Skin_Name: Quân cảnh
 Decimal_ID: 11305, Hex_ID: 292c, Skin_Name: [ex][DNT]
-Decimal_ID: 11306, Hex_ID: 2a2c, Skin_Name: [ex][DNT]
-Decimal_ID: 11307, Hex_ID: 2b2c, Skin_Name: [ex][DNT]
+Decimal_ID: 11306, Hex_ID: 2a2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11307, Hex_ID: 2b2c, Skin_Name: Ác mộng Arcade
 Decimal_ID: 11308, Hex_ID: 2c2c, Skin_Name: [ex][DNT]
 Decimal_ID: 11309, Hex_ID: 2d2c, Skin_Name: [ex][DNT]
 Decimal_ID: 11310, Hex_ID: 2e2c, Skin_Name: [ex]
 Decimal_ID: 11311, Hex_ID: 2f2c, Skin_Name: [ex]
 Decimal_ID: 11312, Hex_ID: 302c, Skin_Name: [ex]
 Decimal_ID: 11313, Hex_ID: 312c, Skin_Name: [ex]
+Decimal_ID: 11314, Hex_ID: 322c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11315, Hex_ID: 332c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11316, Hex_ID: 342c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11317, Hex_ID: 352c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11318, Hex_ID: 362c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11319, Hex_ID: 372c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11320, Hex_ID: 382c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11321, Hex_ID: 392c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11322, Hex_ID: 3a2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11323, Hex_ID: 3b2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11324, Hex_ID: 3c2c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11400, Hex_ID: 882c, Skin_Name: Mặc định
 Decimal_ID: 11401, Hex_ID: 892c, Skin_Name: Hộ vệ ba bích
 Decimal_ID: 11402, Hex_ID: 8a2c, Skin_Name: Người máy xanh
 Decimal_ID: 11403, Hex_ID: 8b2c, Skin_Name: Cỗ máy siêu tốc
 Decimal_ID: 11404, Hex_ID: 8c2c, Skin_Name: Hộ vệ ba bích
 Decimal_ID: 11405, Hex_ID: 8d2c, Skin_Name: Hộ vệ Carano
-Decimal_ID: 11406, Hex_ID: 8e2c, Skin_Name: [ex][DNT]
-Decimal_ID: 11407, Hex_ID: 8f2c, Skin_Name: [ex][DNT]
+Decimal_ID: 11406, Hex_ID: 8e2c, Skin_Name: Sứ Thanh Hoa
+Decimal_ID: 11407, Hex_ID: 8f2c, Skin_Name: Samurai Cơ Hóa
 Decimal_ID: 11408, Hex_ID: 902c, Skin_Name: [ex][DNT]
 Decimal_ID: 11409, Hex_ID: 912c, Skin_Name: [ex][DNT]
 Decimal_ID: 11410, Hex_ID: 922c, Skin_Name: [ex]
 Decimal_ID: 11411, Hex_ID: 932c, Skin_Name: [ex]
 Decimal_ID: 11412, Hex_ID: 942c, Skin_Name: [ex]
 Decimal_ID: 11413, Hex_ID: 952c, Skin_Name: [ex]
+Decimal_ID: 11414, Hex_ID: 962c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11415, Hex_ID: 972c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11416, Hex_ID: 982c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11417, Hex_ID: 992c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11418, Hex_ID: 9a2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11419, Hex_ID: 9b2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11420, Hex_ID: 9c2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11421, Hex_ID: 9d2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11422, Hex_ID: 9e2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11423, Hex_ID: 9f2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11424, Hex_ID: a02c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11500, Hex_ID: ec2c, Skin_Name: Mặc định
 Decimal_ID: 11501, Hex_ID: ed2c, Skin_Name: Đại tư tế
 Decimal_ID: 11502, Hex_ID: ee2c, Skin_Name: Dạ xoa vương
@@ -192,22 +256,33 @@ Decimal_ID: 11504, Hex_ID: f02c, Skin_Name: Kim quang thánh đồ
 Decimal_ID: 11505, Hex_ID: f12c, Skin_Name: [ex][DNT]
 Decimal_ID: 11506, Hex_ID: f22c, Skin_Name: Kim giác
 Decimal_ID: 11507, Hex_ID: f32c, Skin_Name: Ma thuật sĩ
-Decimal_ID: 11508, Hex_ID: f42c, Skin_Name: [ex][DNT]
+Decimal_ID: 11508, Hex_ID: f42c, Skin_Name: Mafia
 Decimal_ID: 11509, Hex_ID: f52c, Skin_Name: [ex]
 Decimal_ID: 11510, Hex_ID: f62c, Skin_Name: [ex]
 Decimal_ID: 11511, Hex_ID: f72c, Skin_Name: [ex]
 Decimal_ID: 11512, Hex_ID: f82c, Skin_Name: [ex]
 Decimal_ID: 11513, Hex_ID: f92c, Skin_Name: [ex]
 Decimal_ID: 11514, Hex_ID: fa2c, Skin_Name: [ex]
+Decimal_ID: 11515, Hex_ID: fb2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11516, Hex_ID: fc2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11517, Hex_ID: fd2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11518, Hex_ID: fe2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11519, Hex_ID: ff2c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11520, Hex_ID: 002d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11521, Hex_ID: 012d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11522, Hex_ID: 022d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11523, Hex_ID: 032d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11524, Hex_ID: 042d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11600, Hex_ID: 502d, Skin_Name: Mặc định
-Decimal_ID: 11601, Hex_ID: 512d, Skin_Name: Xuân nữ ngổ ngáo
+Decimal_ID: 11601, Hex_ID: 512d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11602, Hex_ID: 522d, Skin_Name: Thủy thủ
 Decimal_ID: 11603, Hex_ID: 532d, Skin_Name: Teen nữ công nghệ
 Decimal_ID: 11604, Hex_ID: 542d, Skin_Name: Nữ quái nổi loạn
 Decimal_ID: 11605, Hex_ID: 552d, Skin_Name: Quận chúa đế chế
 Decimal_ID: 11606, Hex_ID: 562d, Skin_Name: Đông êm đềm
 Decimal_ID: 11607, Hex_ID: 572d, Skin_Name: Phượng cửu thiên
-Decimal_ID: 11608, Hex_ID: 582d, Skin_Name: Cẩm y vệDecimal_ID: 11609, Hex_ID: 592d, Skin_Name: [ex][DNT]
+Decimal_ID: 11608, Hex_ID: 582d, Skin_Name: Cẩm y vệ: Chu tước
+Decimal_ID: 11609, Hex_ID: 592d, Skin_Name: [ex][DNT]
 Decimal_ID: 11610, Hex_ID: 5a2d, Skin_Name: Asuna Tia Chớp
 Decimal_ID: 11611, Hex_ID: 5b2d, Skin_Name: Stacia
 Decimal_ID: 11612, Hex_ID: 5c2d, Skin_Name: [ex][DNT]
@@ -215,11 +290,11 @@ Decimal_ID: 11613, Hex_ID: 5d2d, Skin_Name: Gánh anh đến cùng
 Decimal_ID: 11614, Hex_ID: 5e2d, Skin_Name: Kim Ngư thần nữ
 Decimal_ID: 11615, Hex_ID: 5f2d, Skin_Name: [ex]未命名
 Decimal_ID: 11616, Hex_ID: 602d, Skin_Name: Nữ thần Khởi nguyên
-Decimal_ID: 11617, Hex_ID: 612d, Skin_Name: [ex]未命名
+Decimal_ID: 11617, Hex_ID: 612d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11618, Hex_ID: 622d, Skin_Name: Tình yêu nổi loạn
 Decimal_ID: 11619, Hex_ID: 632d, Skin_Name: Rockgirl Siêu Đẳng
-Decimal_ID: 11620, Hex_ID: 642d, Skin_Name: [ex]
-Decimal_ID: 11621, Hex_ID: 652d, Skin_Name: [ex]
+Decimal_ID: 11620, Hex_ID: 642d, Skin_Name: Bình Minh Tận Thế
+Decimal_ID: 11621, Hex_ID: 652d, Skin_Name: Ninh Tần
 Decimal_ID: 11622, Hex_ID: 662d, Skin_Name: [ex]
 Decimal_ID: 11623, Hex_ID: 672d, Skin_Name: [ex]
 Decimal_ID: 11624, Hex_ID: 682d, Skin_Name: [ex]
@@ -230,8 +305,8 @@ Decimal_ID: 11703, Hex_ID: b72d, Skin_Name: Thông thỏa thích
 Decimal_ID: 11704, Hex_ID: b82d, Skin_Name: Giáo viên thể hình
 Decimal_ID: 11705, Hex_ID: b92d, Skin_Name: Ông chủ KFC
 Decimal_ID: 11706, Hex_ID: ba2d, Skin_Name: CĐV Cuồng nhiệt
-Decimal_ID: 11707, Hex_ID: bb2d, Skin_Name: [ex][DNT]
-Decimal_ID: 11708, Hex_ID: bc2d, Skin_Name: [ex][DNT]
+Decimal_ID: 11707, Hex_ID: bb2d, Skin_Name: Quỷ vệ
+Decimal_ID: 11708, Hex_ID: bc2d, Skin_Name: Chuyện của nhà nông
 Decimal_ID: 11709, Hex_ID: bd2d, Skin_Name: [ex][DNT]
 Decimal_ID: 11710, Hex_ID: be2d, Skin_Name: [ex]
 Decimal_ID: 11711, Hex_ID: bf2d, Skin_Name: [ex]
@@ -239,6 +314,15 @@ Decimal_ID: 11712, Hex_ID: c02d, Skin_Name: [ex]
 Decimal_ID: 11713, Hex_ID: c12d, Skin_Name: [ex]
 Decimal_ID: 11714, Hex_ID: c22d, Skin_Name: [ex]
 Decimal_ID: 11715, Hex_ID: c32d, Skin_Name: [ex]
+Decimal_ID: 11716, Hex_ID: c42d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11717, Hex_ID: c52d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11718, Hex_ID: c62d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11719, Hex_ID: c72d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11720, Hex_ID: c82d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11721, Hex_ID: c92d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11722, Hex_ID: ca2d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11723, Hex_ID: cb2d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11724, Hex_ID: cc2d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11800, Hex_ID: 182e, Skin_Name: Mặc định
 Decimal_ID: 11801, Hex_ID: 192e, Skin_Name: Nhà chiêm tinh
 Decimal_ID: 11802, Hex_ID: 1a2e, Skin_Name: Phi hành gia
@@ -257,10 +341,13 @@ Decimal_ID: 11814, Hex_ID: 262e, Skin_Name: [ex]未命名
 Decimal_ID: 11815, Hex_ID: 272e, Skin_Name: [ex]
 Decimal_ID: 11816, Hex_ID: 282e, Skin_Name: Xứ sở diệu kỳ
 Decimal_ID: 11817, Hex_ID: 292e, Skin_Name: Ốc quế tinh nghịch
-Decimal_ID: 11818, Hex_ID: 2a2e, Skin_Name: [ex]
+Decimal_ID: 11818, Hex_ID: 2a2e, Skin_Name: Tiên Nữ Mộng Giới
 Decimal_ID: 11819, Hex_ID: 2b2e, Skin_Name: [ex]
 Decimal_ID: 11820, Hex_ID: 2c2e, Skin_Name: [ex]
 Decimal_ID: 11821, Hex_ID: 2d2e, Skin_Name: [ex]
+Decimal_ID: 11822, Hex_ID: 2e2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11823, Hex_ID: 2f2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11824, Hex_ID: 302e, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 11900, Hex_ID: 7c2e, Skin_Name: Mặc định
 Decimal_ID: 11901, Hex_ID: 7d2e, Skin_Name: Hề cung đình
 Decimal_ID: 11902, Hex_ID: 7e2e, Skin_Name: Tiệc bánh kẹo
@@ -269,13 +356,23 @@ Decimal_ID: 11904, Hex_ID: 802e, Skin_Name: Nhà hóa học
 Decimal_ID: 11905, Hex_ID: 812e, Skin_Name: Độc toàn thân
 Decimal_ID: 11906, Hex_ID: 822e, Skin_Name: Quái tặc không gian
 Decimal_ID: 11907, Hex_ID: 832e, Skin_Name: Đèn Thần Hậu Đậu
-Decimal_ID: 11908, Hex_ID: 842e, Skin_Name: [ex][DNT]
+Decimal_ID: 11908, Hex_ID: 842e, Skin_Name: Doombot Huỷ diệt
 Decimal_ID: 11909, Hex_ID: 852e, Skin_Name: [ex][DNT]
 Decimal_ID: 11910, Hex_ID: 862e, Skin_Name: [ex]
 Decimal_ID: 11911, Hex_ID: 872e, Skin_Name: [ex]
 Decimal_ID: 11912, Hex_ID: 882e, Skin_Name: [ex]
 Decimal_ID: 11913, Hex_ID: 892e, Skin_Name: [ex]
 Decimal_ID: 11914, Hex_ID: 8a2e, Skin_Name: [ex]
+Decimal_ID: 11915, Hex_ID: 8b2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11916, Hex_ID: 8c2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11917, Hex_ID: 8d2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11918, Hex_ID: 8e2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11919, Hex_ID: 8f2e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11920, Hex_ID: 902e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11921, Hex_ID: 912e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11922, Hex_ID: 922e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11923, Hex_ID: 932e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 11924, Hex_ID: 942e, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12000, Hex_ID: e02e, Skin_Name: Mặc định
 Decimal_ID: 12001, Hex_ID: e12e, Skin_Name: Tiểu thư đoạt hồn
 Decimal_ID: 12002, Hex_ID: e22e, Skin_Name: Chị đại lắm chiêu
@@ -288,21 +385,27 @@ Decimal_ID: 12008, Hex_ID: e82e, Skin_Name: Linh xà Yêu vũ
 Decimal_ID: 12009, Hex_ID: e92e, Skin_Name: [ex][DNT]
 Decimal_ID: 12010, Hex_ID: ea2e, Skin_Name: [ex]
 Decimal_ID: 12011, Hex_ID: eb2e, Skin_Name: Xích Huyết Diễm Quỷ
-Decimal_ID: 12012, Hex_ID: ec2e, Skin_Name: [ex]
-Decimal_ID: 12013, Hex_ID: ed2e, Skin_Name: [ex]
+Decimal_ID: 12012, Hex_ID: ec2e, Skin_Name: Cẩm y vệ - Kim Ô
+Decimal_ID: 12013, Hex_ID: ed2e, Skin_Name: Tiệc bãi biển
 Decimal_ID: 12014, Hex_ID: ee2e, Skin_Name: [ex]
 Decimal_ID: 12015, Hex_ID: ef2e, Skin_Name: [ex]
 Decimal_ID: 12016, Hex_ID: f02e, Skin_Name: [ex]
 Decimal_ID: 12017, Hex_ID: f12e, Skin_Name: [ex]
 Decimal_ID: 12018, Hex_ID: f22e, Skin_Name: [ex]
+Decimal_ID: 12019, Hex_ID: f32e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12020, Hex_ID: f42e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12021, Hex_ID: f52e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12022, Hex_ID: f62e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12023, Hex_ID: f72e, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12024, Hex_ID: f82e, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12100, Hex_ID: 442f, Skin_Name: Mặc định
 Decimal_ID: 12101, Hex_ID: 452f, Skin_Name: Lam Hải yêu hậu
 Decimal_ID: 12102, Hex_ID: 462f, Skin_Name: Linh xà tư tế
-Decimal_ID: 12103, Hex_ID: 472f, Skin_Name: Hỏa ngọc nữ vương
+Decimal_ID: 12103, Hex_ID: 472f, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12104, Hex_ID: 482f, Skin_Name: Yêu nữ săn mồi
 Decimal_ID: 12105, Hex_ID: 492f, Skin_Name: Chủ hôn
 Decimal_ID: 12106, Hex_ID: 4a2f, Skin_Name: Phù Quang Mạc Ảnh
-Decimal_ID: 12107, Hex_ID: 4b2f, Skin_Name: [ex][DNT]
+Decimal_ID: 12107, Hex_ID: 4b2f, Skin_Name: Hi Phi
 Decimal_ID: 12108, Hex_ID: 4c2f, Skin_Name: [ex][DNT]
 Decimal_ID: 12109, Hex_ID: 4d2f, Skin_Name: [ex][DNT]
 Decimal_ID: 12110, Hex_ID: 4e2f, Skin_Name: [ex]
@@ -310,6 +413,16 @@ Decimal_ID: 12111, Hex_ID: 4f2f, Skin_Name: [ex]
 Decimal_ID: 12112, Hex_ID: 502f, Skin_Name: [ex]
 Decimal_ID: 12113, Hex_ID: 512f, Skin_Name: [ex]
 Decimal_ID: 12114, Hex_ID: 522f, Skin_Name: [ex]
+Decimal_ID: 12115, Hex_ID: 532f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12116, Hex_ID: 542f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12117, Hex_ID: 552f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12118, Hex_ID: 562f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12119, Hex_ID: 572f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12120, Hex_ID: 582f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12121, Hex_ID: 592f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12122, Hex_ID: 5a2f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12123, Hex_ID: 5b2f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12124, Hex_ID: 5c2f, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12300, Hex_ID: 0c30, Skin_Name: Mặc định
 Decimal_ID: 12301, Hex_ID: 0d30, Skin_Name: Ác ma địa ngục
 Decimal_ID: 12302, Hex_ID: 0e30, Skin_Name: Tiệc hóa trang
@@ -321,21 +434,28 @@ Decimal_ID: 12307, Hex_ID: 1330, Skin_Name: Vũ hội bóng đêm
 Decimal_ID: 12308, Hex_ID: 1430, Skin_Name: Đại ca Mukbang
 Decimal_ID: 12309, Hex_ID: 1530, Skin_Name: Quỷ nhãn ma thể
 Decimal_ID: 12310, Hex_ID: 1630, Skin_Name: Đao phủ Dạ Ưng
-Decimal_ID: 12311, Hex_ID: 1730, Skin_Name: [ex]
+Decimal_ID: 12311, Hex_ID: 1730, Skin_Name: Đại Thiên Tu La
 Decimal_ID: 12312, Hex_ID: 1830, Skin_Name: [ex]
 Decimal_ID: 12313, Hex_ID: 1930, Skin_Name: [ex]
 Decimal_ID: 12314, Hex_ID: 1a30, Skin_Name: [ex]
 Decimal_ID: 12315, Hex_ID: 1b30, Skin_Name: [ex]
 Decimal_ID: 12316, Hex_ID: 1c30, Skin_Name: [ex]
 Decimal_ID: 12317, Hex_ID: 1d30, Skin_Name: [ex]
+Decimal_ID: 12318, Hex_ID: 1e30, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12319, Hex_ID: 1f30, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12320, Hex_ID: 2030, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12321, Hex_ID: 2130, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12322, Hex_ID: 2230, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12323, Hex_ID: 2330, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12324, Hex_ID: 2430, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12400, Hex_ID: 7030, Skin_Name: Mặc định
 Decimal_ID: 12401, Hex_ID: 7130, Skin_Name: Hỏa thuật sư
 Decimal_ID: 12402, Hex_ID: 7230, Skin_Name: Quang vinh
-Decimal_ID: 12403, Hex_ID: 7330, Skin_Name: Bắc băng vương
+Decimal_ID: 12403, Hex_ID: 7330, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12404, Hex_ID: 7430, Skin_Name: Thầy tế mặt trời
 Decimal_ID: 12405, Hex_ID: 7530, Skin_Name: Thần mặt trời
-Decimal_ID: 12406, Hex_ID: 7630, Skin_Name: Nguyệt lão
-Decimal_ID: 12407, Hex_ID: 7730, Skin_Name: [ex][DNT]
+Decimal_ID: 12406, Hex_ID: 7630, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12407, Hex_ID: 7730, Skin_Name: Vì sao con khóc
 Decimal_ID: 12408, Hex_ID: 7830, Skin_Name: [ex][DNT]
 Decimal_ID: 12409, Hex_ID: 7930, Skin_Name: [ex][DNT]
 Decimal_ID: 12410, Hex_ID: 7a30, Skin_Name: [ex]
@@ -344,38 +464,67 @@ Decimal_ID: 12412, Hex_ID: 7c30, Skin_Name: [ex]
 Decimal_ID: 12413, Hex_ID: 7d30, Skin_Name: [ex]
 Decimal_ID: 12414, Hex_ID: 7e30, Skin_Name: [ex]
 Decimal_ID: 12415, Hex_ID: 7f30, Skin_Name: [ex]
-Decimal_ID: 12600, Hex_ID: 3831, Skin_Name: Mặc định
-Decimal_ID: 12601, Hex_ID: 3931, Skin_Name: Cận vệ hoàng gia
+Decimal_ID: 12416, Hex_ID: 8030, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12417, Hex_ID: 8130, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12418, Hex_ID: 8230, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12419, Hex_ID: 8330, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12420, Hex_ID: 8430, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12421, Hex_ID: 8530, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12422, Hex_ID: 8630, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12423, Hex_ID: 8730, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12424, Hex_ID: 8830, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12600, Hex_ID: 3831, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12601, Hex_ID: 3931, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12602, Hex_ID: 3a31, Skin_Name: Quang vinh
 Decimal_ID: 12603, Hex_ID: 3b31, Skin_Name: Tà linh hiệp sỹ
 Decimal_ID: 12604, Hex_ID: 3c31, Skin_Name: Chiến binh cổ đại
-Decimal_ID: 12605, Hex_ID: 3d31, Skin_Name: Đường vào tim em
+Decimal_ID: 12605, Hex_ID: 3d31, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12606, Hex_ID: 3e31, Skin_Name: Bạch vệ chiến giáp
 Decimal_ID: 12607, Hex_ID: 3f31, Skin_Name: Organ cổ quái
 Decimal_ID: 12608, Hex_ID: 4031, Skin_Name: Ngạo Hổ Hàn Đao
-Decimal_ID: 12609, Hex_ID: 4131, Skin_Name: [ex][DNT]
-Decimal_ID: 12610, Hex_ID: 4231, Skin_Name: [ex]
-Decimal_ID: 12611, Hex_ID: 4331, Skin_Name: [ex]
-Decimal_ID: 12612, Hex_ID: 4431, Skin_Name: [ex]
-Decimal_ID: 12613, Hex_ID: 4531, Skin_Name: [ex]
-Decimal_ID: 12614, Hex_ID: 4631, Skin_Name: [ex]
+Decimal_ID: 12609, Hex_ID: 4131, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12610, Hex_ID: 4231, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12611, Hex_ID: 4331, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12612, Hex_ID: 4431, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12613, Hex_ID: 4531, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12614, Hex_ID: 4631, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12615, Hex_ID: 4731, Skin_Name: [ex]
+Decimal_ID: 12616, Hex_ID: 4831, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12617, Hex_ID: 4931, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12618, Hex_ID: 4a31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12619, Hex_ID: 4b31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12620, Hex_ID: 4c31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12621, Hex_ID: 4d31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12622, Hex_ID: 4e31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12623, Hex_ID: 4f31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12624, Hex_ID: 5031, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12700, Hex_ID: 9c31, Skin_Name: Mặc định
 Decimal_ID: 12701, Hex_ID: 9d31, Skin_Name: Hoàng tử cát
 Decimal_ID: 12702, Hex_ID: 9e31, Skin_Name: Linh hồn lữ khách
-Decimal_ID: 12703, Hex_ID: 9f31, Skin_Name: Ghẹo hay kẹo
-Decimal_ID: 12704, Hex_ID: a031, Skin_Name: Quỷ diện lãng khách
+Decimal_ID: 12703, Hex_ID: 9f31, Skin_Name: Azzen'Ka Ghẹo hay Kẹo
+Decimal_ID: 12704, Hex_ID: a031, Skin_Name: Azzen'ka Quỷ diện lãng khách
 Decimal_ID: 12705, Hex_ID: a131, Skin_Name: Quang vinh 2.0
 Decimal_ID: 12706, Hex_ID: a231, Skin_Name: Giáng sinh "An lành"
-Decimal_ID: 12707, Hex_ID: a331, Skin_Name: [ex][DNT]
-Decimal_ID: 12708, Hex_ID: a431, Skin_Name: [ex][DNT]
+Decimal_ID: 12707, Hex_ID: a331, Skin_Name: Azzen'Ka U hồn sa mạc
+Decimal_ID: 12708, Hex_ID: a431, Skin_Name: Tông đồ thần miếu
 Decimal_ID: 12709, Hex_ID: a531, Skin_Name: [ex][DNT]
 Decimal_ID: 12710, Hex_ID: a631, Skin_Name: [ex]
 Decimal_ID: 12711, Hex_ID: a731, Skin_Name: [ex]
 Decimal_ID: 12712, Hex_ID: a831, Skin_Name: [ex]
 Decimal_ID: 12713, Hex_ID: a931, Skin_Name: [ex]
 Decimal_ID: 12714, Hex_ID: aa31, Skin_Name: [ex]
-Decimal_ID: 12801, Hex_ID: 0132, Skin_Name: Tiệc bãi biển
+Decimal_ID: 12715, Hex_ID: ab31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12716, Hex_ID: ac31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12717, Hex_ID: ad31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12718, Hex_ID: ae31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12719, Hex_ID: af31, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12720, Hex_ID: b031, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12721, Hex_ID: b131, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12722, Hex_ID: b231, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12723, Hex_ID: b331, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12724, Hex_ID: b431, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12800, Hex_ID: 0032, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12801, Hex_ID: 0132, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12802, Hex_ID: 0232, Skin_Name: Nam vương
 Decimal_ID: 12803, Hex_ID: 0332, Skin_Name: Long kỵ sĩ
 Decimal_ID: 12804, Hex_ID: 0432, Skin_Name: Kỵ sĩ âm phủ
@@ -395,7 +544,11 @@ Decimal_ID: 12817, Hex_ID: 1132, Skin_Name: [ex]
 Decimal_ID: 12818, Hex_ID: 1232, Skin_Name: [ex]
 Decimal_ID: 12819, Hex_ID: 1332, Skin_Name: [ex]
 Decimal_ID: 12820, Hex_ID: 1432, Skin_Name: [ex]
-Decimal_ID: 12900, Hex_ID: 6432, Skin_Name: Mặc định
+Decimal_ID: 12821, Hex_ID: 1532, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12822, Hex_ID: 1632, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12823, Hex_ID: 1732, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12824, Hex_ID: 1832, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12900, Hex_ID: 6432, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12901, Hex_ID: 6532, Skin_Name: Tiến sĩ thiên tài
 Decimal_ID: 12902, Hex_ID: 6632, Skin_Name: Đoạt mệnh thương
 Decimal_ID: 12903, Hex_ID: 6732, Skin_Name: Quý công tử
@@ -403,17 +556,23 @@ Decimal_ID: 12904, Hex_ID: 6832, Skin_Name: Dũng sĩ đồ long
 Decimal_ID: 12905, Hex_ID: 6932, Skin_Name: Quang vinh
 Decimal_ID: 12906, Hex_ID: 6a32, Skin_Name: Chiến tướng mùa đông
 Decimal_ID: 12907, Hex_ID: 6b32, Skin_Name: Kỵ sĩ tận thế
-Decimal_ID: 12908, Hex_ID: 6c32, Skin_Name: Cẩm y vệDecimal_ID: 12909, Hex_ID: 6d32, Skin_Name: [ex][DNT]
-Decimal_ID: 12910, Hex_ID: 6e32, Skin_Name: Thần tài
-Decimal_ID: 12911, Hex_ID: 6f32, Skin_Name: [ex]
+Decimal_ID: 12908, Hex_ID: 6c32, Skin_Name: Cẩm y vệ: Hỏa long
+Decimal_ID: 12909, Hex_ID: 6d32, Skin_Name: [ex][DNT]
+Decimal_ID: 12910, Hex_ID: 6e32, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12911, Hex_ID: 6f32, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12912, Hex_ID: 7032, Skin_Name: Minh Chung Long Đế
-Decimal_ID: 12914, Hex_ID: 7232, Skin_Name: [ex]
+Decimal_ID: 12913, Hex_ID: 7132, Skin_Name: Chiến Thần Vô Song
+Decimal_ID: 12914, Hex_ID: 7232, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12915, Hex_ID: 7332, Skin_Name: [ex]
-Decimal_ID: 12916, Hex_ID: 7432, Skin_Name: [ex]
+Decimal_ID: 12916, Hex_ID: 7432, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12917, Hex_ID: 7532, Skin_Name: [ex]
 Decimal_ID: 12918, Hex_ID: 7632, Skin_Name: [ex]
-Decimal_ID: 12919, Hex_ID: 7732, Skin_Name: [ex]
+Decimal_ID: 12919, Hex_ID: 7732, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 12920, Hex_ID: 7832, Skin_Name: [ex]
+Decimal_ID: 12921, Hex_ID: 7932, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12922, Hex_ID: 7a32, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12923, Hex_ID: 7b32, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 12924, Hex_ID: 7c32, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13000, Hex_ID: c832, Skin_Name: Mặc định
 Decimal_ID: 13001, Hex_ID: c932, Skin_Name: Thích khách
 Decimal_ID: 13002, Hex_ID: ca32, Skin_Name: Ninja xanh lá
@@ -433,34 +592,37 @@ Decimal_ID: 13015, Hex_ID: d732, Skin_Name: Thứ nguyên Vệ thần
 Decimal_ID: 13016, Hex_ID: d832, Skin_Name: [ex]未命名
 Decimal_ID: 13017, Hex_ID: d932, Skin_Name: Ninja ẩm thực
 Decimal_ID: 13018, Hex_ID: da32, Skin_Name: Búp bê Mộng mị
-Decimal_ID: 13019, Hex_ID: db32, Skin_Name: [ex]未命名
+Decimal_ID: 13019, Hex_ID: db32, Skin_Name: Quản lý tài năng
 Decimal_ID: 13020, Hex_ID: dc32, Skin_Name: [ex]
 Decimal_ID: 13021, Hex_ID: dd32, Skin_Name: [ex]
 Decimal_ID: 13022, Hex_ID: de32, Skin_Name: [ex]
 Decimal_ID: 13023, Hex_ID: df32, Skin_Name: [ex]
+Decimal_ID: 13024, Hex_ID: e032, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13100, Hex_ID: 2c33, Skin_Name: Mặc định
-Decimal_ID: 13101, Hex_ID: 2d33, Skin_Name: Thợ săn tiền thưởng
+Decimal_ID: 13101, Hex_ID: 2d33, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13102, Hex_ID: 2e33, Skin_Name: M-TP Thần tượng học đường
-Decimal_ID: 13103, Hex_ID: 2f33, Skin_Name: Đồ thần đao
-Decimal_ID: 13104, Hex_ID: 3033, Skin_Name: Siêu việt
-Decimal_ID: 13105, Hex_ID: 3133, Skin_Name: Thiên tài sân cỏ
-Decimal_ID: 13106, Hex_ID: 3233, Skin_Name: Điệp viên Anubis
-Decimal_ID: 13107, Hex_ID: 3333, Skin_Name: Đặc dị
-Decimal_ID: 13108, Hex_ID: 3433, Skin_Name: Siêu việt 2.0
-Decimal_ID: 13109, Hex_ID: 3533, Skin_Name: Chí tôn thần kiếm
-Decimal_ID: 13110, Hex_ID: 3633, Skin_Name: Dược sĩ tình yêu
-Decimal_ID: 13111, Hex_ID: 3733, Skin_Name: Byakuya Kuchiki
-Decimal_ID: 13112, Hex_ID: 3833, Skin_Name: Zenitsu Agatsuma
-Decimal_ID: 13113, Hex_ID: 3933, Skin_Name: Thích khách sa mạc
+Decimal_ID: 13103, Hex_ID: 2f33, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13104, Hex_ID: 3033, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13105, Hex_ID: 3133, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13106, Hex_ID: 3233, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13107, Hex_ID: 3333, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13108, Hex_ID: 3433, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13109, Hex_ID: 3533, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13110, Hex_ID: 3633, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13111, Hex_ID: 3733, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13112, Hex_ID: 3833, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13113, Hex_ID: 3933, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13114, Hex_ID: 3a33, Skin_Name: S - Quang vinh
 Decimal_ID: 13115, Hex_ID: 3b33, Skin_Name: Huyết hỏa cuồng đồ
 Decimal_ID: 13116, Hex_ID: 3c33, Skin_Name: Tuyệt thế thần binh
-Decimal_ID: 13117, Hex_ID: 3d33, Skin_Name: Chiến binh đồ chơi
+Decimal_ID: 13117, Hex_ID: 3d33, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13118, Hex_ID: 3e33, Skin_Name: Thiên Luân Kiếm Thánh
+Decimal_ID: 13119, Hex_ID: 3f33, Skin_Name: Thần Pháo Hoa
 Decimal_ID: 13120, Hex_ID: 4033, Skin_Name: [ex]
-Decimal_ID: 13121, Hex_ID: 4133, Skin_Name: [ex]
-Decimal_ID: 13122, Hex_ID: 4233, Skin_Name: [ex]
-Decimal_ID: 13123, Hex_ID: 4333, Skin_Name: [ex]
+Decimal_ID: 13121, Hex_ID: 4133, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13122, Hex_ID: 4233, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13123, Hex_ID: 4333, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13124, Hex_ID: 4433, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13200, Hex_ID: 9033, Skin_Name: Mặc định
 Decimal_ID: 13201, Hex_ID: 9133, Skin_Name: Bạch ảnh
 Decimal_ID: 13202, Hex_ID: 9233, Skin_Name: Chiến binh trăng khuyết
@@ -474,14 +636,18 @@ Decimal_ID: 13209, Hex_ID: 9933, Skin_Name: Bóng người dưới trăng
 Decimal_ID: 13210, Hex_ID: 9a33, Skin_Name: Tu Di thánh đế
 Decimal_ID: 13211, Hex_ID: 9b33, Skin_Name: Mãnh hổ kim cang
 Decimal_ID: 13212, Hex_ID: 9c33, Skin_Name: Thống soái Dạ Ưng
-Decimal_ID: 13213, Hex_ID: 9d33, Skin_Name: [ex][DNT]
-Decimal_ID: 13214, Hex_ID: 9e33, Skin_Name: [ex][DNT]
+Decimal_ID: 13213, Hex_ID: 9d33, Skin_Name: Siêu đạo chích Kid
+Decimal_ID: 13214, Hex_ID: 9e33, Skin_Name: Đầu bếp Yakitori
 Decimal_ID: 13215, Hex_ID: 9f33, Skin_Name: [ex]
 Decimal_ID: 13216, Hex_ID: a033, Skin_Name: [ex]
 Decimal_ID: 13217, Hex_ID: a133, Skin_Name: [ex]
 Decimal_ID: 13218, Hex_ID: a233, Skin_Name: [ex]
 Decimal_ID: 13219, Hex_ID: a333, Skin_Name: [ex]
 Decimal_ID: 13220, Hex_ID: a433, Skin_Name: [ex]
+Decimal_ID: 13221, Hex_ID: a533, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13222, Hex_ID: a633, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13223, Hex_ID: a733, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13224, Hex_ID: a833, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13300, Hex_ID: f433, Skin_Name: Mặc định
 Decimal_ID: 13301, Hex_ID: f533, Skin_Name: Hoàng tử quạ
 Decimal_ID: 13302, Hex_ID: f633, Skin_Name: Vũ khí tối thượng
@@ -494,11 +660,11 @@ Decimal_ID: 13308, Hex_ID: fc33, Skin_Name: Cá mập "nghiêm túc"
 Decimal_ID: 13309, Hex_ID: fd33, Skin_Name: Hoàng tử Băng
 Decimal_ID: 13310, Hex_ID: fe33, Skin_Name: Thần tài
 Decimal_ID: 13311, Hex_ID: ff33, Skin_Name: Xạ thần Kagutsuchi
-Decimal_ID: 13312, Hex_ID: 0034, Skin_Name: S - Quang vinh
-Decimal_ID: 13313, Hex_ID: 0134, Skin_Name: Đệ nhất thần thám
-Decimal_ID: 13314, Hex_ID: 0234, Skin_Name: AW4
+Decimal_ID: 13312, Hex_ID: 0034, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13313, Hex_ID: 0134, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13314, Hex_ID: 0234, Skin_Name: Thứ nguyên vệ thần
 Decimal_ID: 13315, Hex_ID: 0334, Skin_Name: AW5
-Decimal_ID: 13316, Hex_ID: 0434, Skin_Name: [ex][DNT]
+Decimal_ID: 13316, Hex_ID: 0434, Skin_Name: Mã Hành Vạn Lý
 Decimal_ID: 13317, Hex_ID: 0534, Skin_Name: [ex][DNT]
 Decimal_ID: 13318, Hex_ID: 0634, Skin_Name: [ex][DNT]
 Decimal_ID: 13319, Hex_ID: 0734, Skin_Name: [ex][DNT]
@@ -507,29 +673,38 @@ Decimal_ID: 13321, Hex_ID: 0934, Skin_Name: [ex]
 Decimal_ID: 13322, Hex_ID: 0a34, Skin_Name: [ex]
 Decimal_ID: 13323, Hex_ID: 0b34, Skin_Name: [ex]
 Decimal_ID: 13324, Hex_ID: 0c34, Skin_Name: [ex]
-Decimal_ID: 13400, Hex_ID: 5834, Skin_Name: Mặc định
+Decimal_ID: 13400, Hex_ID: 5834, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13401, Hex_ID: 5934, Skin_Name: [ex][DNT]
-Decimal_ID: 13402, Hex_ID: 5a34, Skin_Name: Sơn tặc
+Decimal_ID: 13402, Hex_ID: 5a34, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13403, Hex_ID: 5b34, Skin_Name: Quang vinh
 Decimal_ID: 13404, Hex_ID: 5c34, Skin_Name: Tà linh ma tướng
 Decimal_ID: 13405, Hex_ID: 5d34, Skin_Name: Mafia
 Decimal_ID: 13406, Hex_ID: 5e34, Skin_Name: [ex][DNT]
-Decimal_ID: 13407, Hex_ID: 5f34, Skin_Name: [ex][DNT]
+Decimal_ID: 13407, Hex_ID: 5f34, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13408, Hex_ID: 6034, Skin_Name: Cứu hộ
-Decimal_ID: 13409, Hex_ID: 6134, Skin_Name: [ex][DNT]
-Decimal_ID: 13410, Hex_ID: 6234, Skin_Name: [ex]
+Decimal_ID: 13409, Hex_ID: 6134, Skin_Name: VĐV trượt ván
+Decimal_ID: 13410, Hex_ID: 6234, Skin_Name: Quái thần thủy vực
 Decimal_ID: 13411, Hex_ID: 6334, Skin_Name: [ex]
 Decimal_ID: 13412, Hex_ID: 6434, Skin_Name: [ex]
-Decimal_ID: 13413, Hex_ID: 6534, Skin_Name: [ex]
+Decimal_ID: 13413, Hex_ID: 6534, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13414, Hex_ID: 6634, Skin_Name: [ex]
 Decimal_ID: 13415, Hex_ID: 6734, Skin_Name: [ex]
+Decimal_ID: 13416, Hex_ID: 6834, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13417, Hex_ID: 6934, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13418, Hex_ID: 6a34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13419, Hex_ID: 6b34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13420, Hex_ID: 6c34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13421, Hex_ID: 6d34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13422, Hex_ID: 6e34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13423, Hex_ID: 6f34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13424, Hex_ID: 7034, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13500, Hex_ID: bc34, Skin_Name: Mặc định
 Decimal_ID: 13501, Hex_ID: bd34, Skin_Name: Kẻ hủy diệt
 Decimal_ID: 13502, Hex_ID: be34, Skin_Name: Hiệp sĩ hoàng kim
 Decimal_ID: 13503, Hex_ID: bf34, Skin_Name: Quang vinh
 Decimal_ID: 13504, Hex_ID: c034, Skin_Name: Mật vụ
 Decimal_ID: 13505, Hex_ID: c134, Skin_Name: Bác ong bay vừa
-Decimal_ID: 13506, Hex_ID: c234, Skin_Name: [ex][DNT]
+Decimal_ID: 13506, Hex_ID: c234, Skin_Name: Khoảnh khắc vinh quang
 Decimal_ID: 13507, Hex_ID: c334, Skin_Name: [ex][DNT]
 Decimal_ID: 13508, Hex_ID: c434, Skin_Name: [ex][DNT]
 Decimal_ID: 13509, Hex_ID: c534, Skin_Name: [ex][DNT]
@@ -539,6 +714,15 @@ Decimal_ID: 13512, Hex_ID: c834, Skin_Name: [ex]
 Decimal_ID: 13513, Hex_ID: c934, Skin_Name: [ex]
 Decimal_ID: 13514, Hex_ID: ca34, Skin_Name: [ex]
 Decimal_ID: 13515, Hex_ID: cb34, Skin_Name: [ex]
+Decimal_ID: 13516, Hex_ID: cc34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13517, Hex_ID: cd34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13518, Hex_ID: ce34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13519, Hex_ID: cf34, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13520, Hex_ID: d034, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13521, Hex_ID: d134, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13522, Hex_ID: d234, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13523, Hex_ID: d334, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13524, Hex_ID: d434, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13600, Hex_ID: 2035, Skin_Name: Mặc định
 Decimal_ID: 13601, Hex_ID: 2135, Skin_Name: Nữ chúa tuyết
 Decimal_ID: 13602, Hex_ID: 2235, Skin_Name: Thần mặt trời
@@ -553,9 +737,17 @@ Decimal_ID: 13610, Hex_ID: 2a35, Skin_Name: Trọng tài
 Decimal_ID: 13611, Hex_ID: 2b35, Skin_Name: Thụy Mộc liên hoa
 Decimal_ID: 13612, Hex_ID: 2c35, Skin_Name: Nộ hải Thiên ngư
 Decimal_ID: 13613, Hex_ID: 2d35, Skin_Name: Lưỡng Nghi Long Hậu
-Decimal_ID: 13614, Hex_ID: 2e35, Skin_Name: [ex]
+Decimal_ID: 13614, Hex_ID: 2e35, Skin_Name: Hải nữ Oán linh
 Decimal_ID: 13615, Hex_ID: 2f35, Skin_Name: [ex]
-Decimal_ID: 13616, Hex_ID: 3035, Skin_Name: [ex]
+Decimal_ID: 13616, Hex_ID: 3035, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13617, Hex_ID: 3135, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13618, Hex_ID: 3235, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13619, Hex_ID: 3335, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13620, Hex_ID: 3435, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13621, Hex_ID: 3535, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13622, Hex_ID: 3635, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13623, Hex_ID: 3735, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13624, Hex_ID: 3835, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13700, Hex_ID: 8435, Skin_Name: Mặc định
 Decimal_ID: 13701, Hex_ID: 8535, Skin_Name: Khúc nhạc tử vong
 Decimal_ID: 13702, Hex_ID: 8635, Skin_Name: Phi vụ thế kỷ
@@ -570,13 +762,24 @@ Decimal_ID: 13710, Hex_ID: 8e35, Skin_Name: [ex]
 Decimal_ID: 13711, Hex_ID: 8f35, Skin_Name: [ex]
 Decimal_ID: 13712, Hex_ID: 9035, Skin_Name: [ex]
 Decimal_ID: 13713, Hex_ID: 9135, Skin_Name: [ex]
-Decimal_ID: 13900, Hex_ID: 4c36, Skin_Name: Mặc định
-Decimal_ID: 13901, Hex_ID: 4d36, Skin_Name: Cảnh vệ biển
+Decimal_ID: 13714, Hex_ID: 9235, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13715, Hex_ID: 9335, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13716, Hex_ID: 9435, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13717, Hex_ID: 9535, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13718, Hex_ID: 9635, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13719, Hex_ID: 9735, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13720, Hex_ID: 9835, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13721, Hex_ID: 9935, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13722, Hex_ID: 9a35, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13723, Hex_ID: 9b35, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13724, Hex_ID: 9c35, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13900, Hex_ID: 4c36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13901, Hex_ID: 4d36, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13902, Hex_ID: 4e36, Skin_Name: Quang vinh
 Decimal_ID: 13903, Hex_ID: 4f36, Skin_Name: Chú lính chì
 Decimal_ID: 13904, Hex_ID: 5036, Skin_Name: Càn Nguyên thủ vệ
-Decimal_ID: 13905, Hex_ID: 5136, Skin_Name: [ex][DNT]
-Decimal_ID: 13906, Hex_ID: 5236, Skin_Name: [ex][DNT]
+Decimal_ID: 13905, Hex_ID: 5136, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13906, Hex_ID: 5236, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 13907, Hex_ID: 5336, Skin_Name: [ex][DNT]
 Decimal_ID: 13908, Hex_ID: 5436, Skin_Name: [ex][DNT]
 Decimal_ID: 13909, Hex_ID: 5536, Skin_Name: [ex][DNT]
@@ -584,6 +787,17 @@ Decimal_ID: 13910, Hex_ID: 5636, Skin_Name: [ex]
 Decimal_ID: 13911, Hex_ID: 5736, Skin_Name: [ex]
 Decimal_ID: 13912, Hex_ID: 5836, Skin_Name: [ex]
 Decimal_ID: 13913, Hex_ID: 5936, Skin_Name: [ex]
+Decimal_ID: 13914, Hex_ID: 5a36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13915, Hex_ID: 5b36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13916, Hex_ID: 5c36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13917, Hex_ID: 5d36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13918, Hex_ID: 5e36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13919, Hex_ID: 5f36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13920, Hex_ID: 6036, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13921, Hex_ID: 6136, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13922, Hex_ID: 6236, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13923, Hex_ID: 6336, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 13924, Hex_ID: 6436, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14000, Hex_ID: b036, Skin_Name: Mặc định
 Decimal_ID: 14001, Hex_ID: b136, Skin_Name: Chúa tể công lý
 Decimal_ID: 14002, Hex_ID: b236, Skin_Name: Bất công lý
@@ -597,6 +811,18 @@ Decimal_ID: 14009, Hex_ID: b936, Skin_Name: [ex][DNT]
 Decimal_ID: 14010, Hex_ID: ba36, Skin_Name: [ex]
 Decimal_ID: 14011, Hex_ID: bb36, Skin_Name: [ex]
 Decimal_ID: 14012, Hex_ID: bc36, Skin_Name: [ex]
+Decimal_ID: 14013, Hex_ID: bd36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14014, Hex_ID: be36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14015, Hex_ID: bf36, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14016, Hex_ID: c036, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14017, Hex_ID: c136, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14018, Hex_ID: c236, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14019, Hex_ID: c336, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14020, Hex_ID: c436, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14021, Hex_ID: c536, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14022, Hex_ID: c636, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14023, Hex_ID: c736, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14024, Hex_ID: c836, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14100, Hex_ID: 1437, Skin_Name: Mặc định
 Decimal_ID: 14101, Hex_ID: 1537, Skin_Name: Đọa lạc thiên sứ
 Decimal_ID: 14102, Hex_ID: 1637, Skin_Name: Hỏa phượng hoàng
@@ -617,14 +843,14 @@ Decimal_ID: 14116, Hex_ID: 2437, Skin_Name: Nữ vương học đường
 Decimal_ID: 14117, Hex_ID: 2537, Skin_Name: Vũ khúc miêu ảnh
 Decimal_ID: 14118, Hex_ID: 2637, Skin_Name: Thiên nữ Dạ Ưng
 Decimal_ID: 14119, Hex_ID: 2737, Skin_Name: [ex]
-Decimal_ID: 14120, Hex_ID: 2837, Skin_Name: [ex]
+Decimal_ID: 14120, Hex_ID: 2837, Skin_Name: Mã Đằng Cửu Thế
 Decimal_ID: 14121, Hex_ID: 2937, Skin_Name: [ex]
 Decimal_ID: 14122, Hex_ID: 2a37, Skin_Name: [ex]
 Decimal_ID: 14123, Hex_ID: 2b37, Skin_Name: [ex]
 Decimal_ID: 14124, Hex_ID: 2c37, Skin_Name: [ex]
 Decimal_ID: 14200, Hex_ID: 7837, Skin_Name: Mặc định
 Decimal_ID: 14201, Hex_ID: 7937, Skin_Name: Mị muốn đi chơi
-Decimal_ID: 14202, Hex_ID: 7a37, Skin_Name: Nghệ nhân lân
+Decimal_ID: 14202, Hex_ID: 7a37, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14203, Hex_ID: 7b37, Skin_Name: Quý cô thủy tề
 Decimal_ID: 14204, Hex_ID: 7c37, Skin_Name: Phó nháy nhí nhảnh
 Decimal_ID: 14205, Hex_ID: 7d37, Skin_Name: Quà quái quỷ
@@ -634,33 +860,44 @@ Decimal_ID: 14208, Hex_ID: 8037, Skin_Name: Nữ quái công nghệ
 Decimal_ID: 14209, Hex_ID: 8137, Skin_Name: Nghệ sĩ ma mị
 Decimal_ID: 14210, Hex_ID: 8237, Skin_Name: Thần phú quý
 Decimal_ID: 14211, Hex_ID: 8337, Skin_Name: [ex][DNT]
-Decimal_ID: 14212, Hex_ID: 8437, Skin_Name: Biệt đội băng lam
+Decimal_ID: 14212, Hex_ID: 8437, Skin_Name: Băng lam nữ soái
 Decimal_ID: 14213, Hex_ID: 8537, Skin_Name: Nguyệt Ảnh Kiếm Tiên
-Decimal_ID: 14214, Hex_ID: 8637, Skin_Name: [ex][DNT]
+Decimal_ID: 14214, Hex_ID: 8637, Skin_Name: Kuromi's Heart
 Decimal_ID: 14215, Hex_ID: 8737, Skin_Name: [ex]
 Decimal_ID: 14216, Hex_ID: 8837, Skin_Name: [ex]
 Decimal_ID: 14217, Hex_ID: 8937, Skin_Name: [ex]
 Decimal_ID: 14218, Hex_ID: 8a37, Skin_Name: [ex]
 Decimal_ID: 14219, Hex_ID: 8b37, Skin_Name: [ex]
 Decimal_ID: 14220, Hex_ID: 8c37, Skin_Name: [ex]
+Decimal_ID: 14221, Hex_ID: 8d37, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14222, Hex_ID: 8e37, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14223, Hex_ID: 8f37, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14224, Hex_ID: 9037, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14400, Hex_ID: 4038, Skin_Name: Mặc định
-Decimal_ID: 14401, Hex_ID: 4138, Skin_Name: Đại tù trưởng
-Decimal_ID: 14402, Hex_ID: 4238, Skin_Name: Lam Hải chiến nữ
-Decimal_ID: 14403, Hex_ID: 4338, Skin_Name: Hỏa ngọc nữ đế
-Decimal_ID: 14404, Hex_ID: 4438, Skin_Name: Tiệc bãi biển
-Decimal_ID: 14405, Hex_ID: 4538, Skin_Name: Hồng môn đường chủ
-Decimal_ID: 14406, Hex_ID: 4638, Skin_Name: Tư lệnh hải âu
+Decimal_ID: 14401, Hex_ID: 4138, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14402, Hex_ID: 4238, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14403, Hex_ID: 4338, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14404, Hex_ID: 4438, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14405, Hex_ID: 4538, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14406, Hex_ID: 4638, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14407, Hex_ID: 4738, Skin_Name: Nữ chiến binh
-Decimal_ID: 14408, Hex_ID: 4838, Skin_Name: [ex][DNT]
-Decimal_ID: 14409, Hex_ID: 4938, Skin_Name: [ex][DNT]
+Decimal_ID: 14408, Hex_ID: 4838, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14409, Hex_ID: 4938, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14410, Hex_ID: 4a38, Skin_Name: Hoa hồng đỏ tươi
-Decimal_ID: 14411, Hex_ID: 4b38, Skin_Name: Thần chiến tranh
-Decimal_ID: 14412, Hex_ID: 4c38, Skin_Name: [ex]
+Decimal_ID: 14411, Hex_ID: 4b38, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14412, Hex_ID: 4c38, Skin_Name: Shion
 Decimal_ID: 14413, Hex_ID: 4d38, Skin_Name: [ex]
 Decimal_ID: 14414, Hex_ID: 4e38, Skin_Name: [ex]
 Decimal_ID: 14415, Hex_ID: 4f38, Skin_Name: [ex]
 Decimal_ID: 14416, Hex_ID: 5038, Skin_Name: [ex]
 Decimal_ID: 14417, Hex_ID: 5138, Skin_Name: [ex]
+Decimal_ID: 14418, Hex_ID: 5238, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14419, Hex_ID: 5338, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14420, Hex_ID: 5438, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14421, Hex_ID: 5538, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14422, Hex_ID: 5638, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14423, Hex_ID: 5738, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14424, Hex_ID: 5838, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14600, Hex_ID: 0839, Skin_Name: Mặc định
 Decimal_ID: 14601, Hex_ID: 0939, Skin_Name: Lốc địa ngục
 Decimal_ID: 14602, Hex_ID: 0a39, Skin_Name: Dung nham
@@ -673,17 +910,25 @@ Decimal_ID: 14608, Hex_ID: 1039, Skin_Name: [ex][DNT]
 Decimal_ID: 14609, Hex_ID: 1139, Skin_Name: [ex][DNT]
 Decimal_ID: 14610, Hex_ID: 1239, Skin_Name: Quái xế
 Decimal_ID: 14611, Hex_ID: 1339, Skin_Name: Con quay gió
-Decimal_ID: 14612, Hex_ID: 1439, Skin_Name: [ex]
+Decimal_ID: 14612, Hex_ID: 1439, Skin_Name: Siêu việt
 Decimal_ID: 14613, Hex_ID: 1539, Skin_Name: [ex]
 Decimal_ID: 14614, Hex_ID: 1639, Skin_Name: [ex]
 Decimal_ID: 14615, Hex_ID: 1739, Skin_Name: [ex]
 Decimal_ID: 14616, Hex_ID: 1839, Skin_Name: [ex]
+Decimal_ID: 14617, Hex_ID: 1939, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14618, Hex_ID: 1a39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14619, Hex_ID: 1b39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14620, Hex_ID: 1c39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14621, Hex_ID: 1d39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14622, Hex_ID: 1e39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14623, Hex_ID: 1f39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14624, Hex_ID: 2039, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14800, Hex_ID: d039, Skin_Name: Mặc định
 Decimal_ID: 14801, Hex_ID: d139, Skin_Name: Không tặc
 Decimal_ID: 14802, Hex_ID: d239, Skin_Name: Băng hỏa long sư
 Decimal_ID: 14803, Hex_ID: d339, Skin_Name: Phi cơ F1
 Decimal_ID: 14804, Hex_ID: d439, Skin_Name: Ma độc huyết long
-Decimal_ID: 14805, Hex_ID: d539, Skin_Name: [ex][DNT]
+Decimal_ID: 14805, Hex_ID: d539, Skin_Name: Bù nhìn xứ Athanor
 Decimal_ID: 14806, Hex_ID: d639, Skin_Name: [ex][DNT]
 Decimal_ID: 14807, Hex_ID: d739, Skin_Name: [ex][DNT]
 Decimal_ID: 14808, Hex_ID: d839, Skin_Name: [ex][DNT]
@@ -692,6 +937,17 @@ Decimal_ID: 14810, Hex_ID: da39, Skin_Name: [ex]
 Decimal_ID: 14811, Hex_ID: db39, Skin_Name: [ex]
 Decimal_ID: 14812, Hex_ID: dc39, Skin_Name: [ex]
 Decimal_ID: 14813, Hex_ID: dd39, Skin_Name: [ex]
+Decimal_ID: 14814, Hex_ID: de39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14815, Hex_ID: df39, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14816, Hex_ID: e039, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14817, Hex_ID: e139, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14818, Hex_ID: e239, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14819, Hex_ID: e339, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14820, Hex_ID: e439, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14821, Hex_ID: e539, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14822, Hex_ID: e639, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14823, Hex_ID: e739, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14824, Hex_ID: e839, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 14900, Hex_ID: 343a, Skin_Name: Mặc định
 Decimal_ID: 14901, Hex_ID: 353a, Skin_Name: Thiên sứ hủy diệt
 Decimal_ID: 14902, Hex_ID: 363a, Skin_Name: Trung vệ thép
@@ -703,13 +959,20 @@ Decimal_ID: 14907, Hex_ID: 3b3a, Skin_Name: [ex][DNT]
 Decimal_ID: 14908, Hex_ID: 3c3a, Skin_Name: Shipper bánh mỳ
 Decimal_ID: 14909, Hex_ID: 3d3a, Skin_Name: Hóa thân Tengu
 Decimal_ID: 14910, Hex_ID: 3e3a, Skin_Name: Tay trống ngang tàng
-Decimal_ID: 14911, Hex_ID: 3f3a, Skin_Name: [ex]
+Decimal_ID: 14911, Hex_ID: 3f3a, Skin_Name: Cấm vệ
 Decimal_ID: 14912, Hex_ID: 403a, Skin_Name: [ex]
 Decimal_ID: 14913, Hex_ID: 413a, Skin_Name: [ex]
 Decimal_ID: 14914, Hex_ID: 423a, Skin_Name: [ex]
 Decimal_ID: 14915, Hex_ID: 433a, Skin_Name: [ex]
 Decimal_ID: 14916, Hex_ID: 443a, Skin_Name: [ex]
 Decimal_ID: 14917, Hex_ID: 453a, Skin_Name: [ex]
+Decimal_ID: 14918, Hex_ID: 463a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14919, Hex_ID: 473a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14920, Hex_ID: 483a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14921, Hex_ID: 493a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14922, Hex_ID: 4a3a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14923, Hex_ID: 4b3a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 14924, Hex_ID: 4c3a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15000, Hex_ID: 983a, Skin_Name: Mặc định
 Decimal_ID: 15001, Hex_ID: 993a, Skin_Name: Chiến binh hỏa ngục
 Decimal_ID: 15002, Hex_ID: 9a3a, Skin_Name: Quân đoàn địa ngục
@@ -726,13 +989,15 @@ Decimal_ID: 15012, Hex_ID: a43a, Skin_Name: Killua
 Decimal_ID: 15013, Hex_ID: a53a, Skin_Name: Quỷ thương Liệp đế
 Decimal_ID: 15014, Hex_ID: a63a, Skin_Name: Producer Tia chớp
 Decimal_ID: 15015, Hex_ID: a73a, Skin_Name: Bạch Diện chiến thương
-Decimal_ID: 15016, Hex_ID: a83a, Skin_Name: [ex]
+Decimal_ID: 15016, Hex_ID: a83a, Skin_Name: Levi
 Decimal_ID: 15017, Hex_ID: a93a, Skin_Name: [ex]
 Decimal_ID: 15018, Hex_ID: aa3a, Skin_Name: [ex]
 Decimal_ID: 15019, Hex_ID: ab3a, Skin_Name: [ex]
 Decimal_ID: 15020, Hex_ID: ac3a, Skin_Name: [ex]
 Decimal_ID: 15021, Hex_ID: ad3a, Skin_Name: [ex]
 Decimal_ID: 15022, Hex_ID: ae3a, Skin_Name: [ex]
+Decimal_ID: 15023, Hex_ID: af3a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15024, Hex_ID: b03a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15200, Hex_ID: 603b, Skin_Name: Mặc định
 Decimal_ID: 15201, Hex_ID: 613b, Skin_Name: Nữ vương anh đào
 Decimal_ID: 15202, Hex_ID: 623b, Skin_Name: Tiệc bãi biển
@@ -750,21 +1015,39 @@ Decimal_ID: 15213, Hex_ID: 6d3b, Skin_Name: Mối tình đầu
 Decimal_ID: 15214, Hex_ID: 6e3b, Skin_Name: [ex][DNT]
 Decimal_ID: 15215, Hex_ID: 6f3b, Skin_Name: [ex][DNT]
 Decimal_ID: 15216, Hex_ID: 703b, Skin_Name: Tuế Hàn Đỗ Quyên
-Decimal_ID: 15217, Hex_ID: 713b, Skin_Name: [ex]
+Decimal_ID: 15217, Hex_ID: 713b, Skin_Name: Nhật Nguyệt Thánh Linh
 Decimal_ID: 15218, Hex_ID: 723b, Skin_Name: [ex]
 Decimal_ID: 15219, Hex_ID: 733b, Skin_Name: [ex]
 Decimal_ID: 15220, Hex_ID: 743b, Skin_Name: [ex]
 Decimal_ID: 15221, Hex_ID: 753b, Skin_Name: [ex]
+Decimal_ID: 15222, Hex_ID: 763b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15223, Hex_ID: 773b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15224, Hex_ID: 783b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15300, Hex_ID: c43b, Skin_Name: Mặc định
 Decimal_ID: 15301, Hex_ID: c53b, Skin_Name: Đôi cánh đại dương
 Decimal_ID: 15302, Hex_ID: c63b, Skin_Name: Dơi địa ngục
 Decimal_ID: 15303, Hex_ID: c73b, Skin_Name: Người dơi
 Decimal_ID: 15304, Hex_ID: c83b, Skin_Name: Chiến binh kim quang
 Decimal_ID: 15305, Hex_ID: c93b, Skin_Name: Thiếu chủ bóng đêm
-Decimal_ID: 15306, Hex_ID: ca3b, Skin_Name: [ex][DNT]
+Decimal_ID: 15306, Hex_ID: ca3b, Skin_Name: Thợ săn chính nghĩa
 Decimal_ID: 15307, Hex_ID: cb3b, Skin_Name: [ex][DNT]
 Decimal_ID: 15308, Hex_ID: cc3b, Skin_Name: [ex][DNT]
 Decimal_ID: 15309, Hex_ID: cd3b, Skin_Name: [ex][DNT]
+Decimal_ID: 15310, Hex_ID: ce3b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15311, Hex_ID: cf3b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15312, Hex_ID: d03b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15313, Hex_ID: d13b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15314, Hex_ID: d23b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15315, Hex_ID: d33b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15316, Hex_ID: d43b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15317, Hex_ID: d53b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15318, Hex_ID: d63b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15319, Hex_ID: d73b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15320, Hex_ID: d83b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15321, Hex_ID: d93b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15322, Hex_ID: da3b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15323, Hex_ID: db3b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15324, Hex_ID: dc3b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15400, Hex_ID: 283c, Skin_Name: Mặc định
 Decimal_ID: 15401, Hex_ID: 293c, Skin_Name: Khuyên bạc
 Decimal_ID: 15402, Hex_ID: 2a3c, Skin_Name: Thỏ may mắn
@@ -779,13 +1062,17 @@ Decimal_ID: 15410, Hex_ID: 323c, Skin_Name: Vũ điệu Giáng Sinh
 Decimal_ID: 15411, Hex_ID: 333c, Skin_Name: [ex]
 Decimal_ID: 15412, Hex_ID: 343c, Skin_Name: Huyền Cửu Thiên
 Decimal_ID: 15413, Hex_ID: 353c, Skin_Name: Trấn Yêu Thần Lộc
-Decimal_ID: 15414, Hex_ID: 363c, Skin_Name: [ex]
-Decimal_ID: 15415, Hex_ID: 373c, Skin_Name: [ex]
+Decimal_ID: 15414, Hex_ID: 363c, Skin_Name: Thần Sứ kiều diễm
+Decimal_ID: 15415, Hex_ID: 373c, Skin_Name: Hoa tiêu Mộng giới
 Decimal_ID: 15416, Hex_ID: 383c, Skin_Name: [ex]
 Decimal_ID: 15417, Hex_ID: 393c, Skin_Name: [ex]
 Decimal_ID: 15418, Hex_ID: 3a3c, Skin_Name: [ex]
 Decimal_ID: 15419, Hex_ID: 3b3c, Skin_Name: [ex]
 Decimal_ID: 15420, Hex_ID: 3c3c, Skin_Name: [ex]
+Decimal_ID: 15421, Hex_ID: 3d3c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15422, Hex_ID: 3e3c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15423, Hex_ID: 3f3c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15424, Hex_ID: 403c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15600, Hex_ID: f03c, Skin_Name: Mặc định
 Decimal_ID: 15601, Hex_ID: f13c, Skin_Name: Thiếu niên hắc ám
 Decimal_ID: 15602, Hex_ID: f23c, Skin_Name: Quang vinh
@@ -800,12 +1087,17 @@ Decimal_ID: 15610, Hex_ID: fa3c, Skin_Name: Mật vụ thần thám
 Decimal_ID: 15611, Hex_ID: fb3c, Skin_Name: HLV bất bại
 Decimal_ID: 15612, Hex_ID: fc3c, Skin_Name: Ác nhân đồ chơi
 Decimal_ID: 15613, Hex_ID: fd3c, Skin_Name: [ex]
-Decimal_ID: 15614, Hex_ID: fe3c, Skin_Name: [ex]
+Decimal_ID: 15614, Hex_ID: fe3c, Skin_Name: S - Quang vinh
 Decimal_ID: 15615, Hex_ID: ff3c, Skin_Name: [ex]
-Decimal_ID: 15616, Hex_ID: 003d, Skin_Name: [ex]
-Decimal_ID: 15617, Hex_ID: 013d, Skin_Name: [ex]
+Decimal_ID: 15616, Hex_ID: 003d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15617, Hex_ID: 013d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15618, Hex_ID: 023d, Skin_Name: [ex]
 Decimal_ID: 15619, Hex_ID: 033d, Skin_Name: [ex]
+Decimal_ID: 15620, Hex_ID: 043d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15621, Hex_ID: 053d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15622, Hex_ID: 063d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15623, Hex_ID: 073d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15624, Hex_ID: 083d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15700, Hex_ID: 543d, Skin_Name: Mặc định
 Decimal_ID: 15701, Hex_ID: 553d, Skin_Name: [ex][DNT]
 Decimal_ID: 15702, Hex_ID: 563d, Skin_Name: Đại tù trưởng
@@ -822,30 +1114,40 @@ Decimal_ID: 15712, Hex_ID: 603d, Skin_Name: Lễ hội té nước
 Decimal_ID: 15713, Hex_ID: 613d, Skin_Name: [ex]
 Decimal_ID: 15714, Hex_ID: 623d, Skin_Name: [ex]
 Decimal_ID: 15715, Hex_ID: 633d, Skin_Name: [ex]
-Decimal_ID: 15716, Hex_ID: 643d, Skin_Name: [ex]
+Decimal_ID: 15716, Hex_ID: 643d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 15717, Hex_ID: 653d, Skin_Name: [ex]
 Decimal_ID: 15718, Hex_ID: 663d, Skin_Name: [ex]
 Decimal_ID: 15719, Hex_ID: 673d, Skin_Name: [ex]
 Decimal_ID: 15720, Hex_ID: 683d, Skin_Name: [ex]
-Decimal_ID: 15900, Hex_ID: 1c3e, Skin_Name: Mặc định
-Decimal_ID: 15901, Hex_ID: 1d3e, Skin_Name: Hoa tiêu đại dương
-Decimal_ID: 15902, Hex_ID: 1e3e, Skin_Name: Môn đồ tập sự
+Decimal_ID: 15721, Hex_ID: 693d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15722, Hex_ID: 6a3d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15723, Hex_ID: 6b3d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 15724, Hex_ID: 6c3d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16200, Hex_ID: 483f, Skin_Name: Mặc định
 Decimal_ID: 16201, Hex_ID: 493f, Skin_Name: Bọ cánh bạc
 Decimal_ID: 16202, Hex_ID: 4a3f, Skin_Name: Yêu trùng cổ mộ
 Decimal_ID: 16203, Hex_ID: 4b3f, Skin_Name: ST.L-162
 Decimal_ID: 16204, Hex_ID: 4c3f, Skin_Name: Bọ cánh cam
-Decimal_ID: 16205, Hex_ID: 4d3f, Skin_Name: Tử trùng DDos
-Decimal_ID: 16206, Hex_ID: 4e3f, Skin_Name: [ex][DNT]
+Decimal_ID: 16205, Hex_ID: 4d3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16206, Hex_ID: 4e3f, Skin_Name: Bọ hoàng kim
 Decimal_ID: 16207, Hex_ID: 4f3f, Skin_Name: [ex][DNT]
 Decimal_ID: 16208, Hex_ID: 503f, Skin_Name: [ex][DNT]
-Decimal_ID: 16209, Hex_ID: 513f, Skin_Name: [ex][DNT]
+Decimal_ID: 16209, Hex_ID: 513f, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16210, Hex_ID: 523f, Skin_Name: [ex]
 Decimal_ID: 16211, Hex_ID: 533f, Skin_Name: [ex]
 Decimal_ID: 16212, Hex_ID: 543f, Skin_Name: [ex]
-Decimal_ID: 16213, Hex_ID: 553f, Skin_Name: [ex]
+Decimal_ID: 16213, Hex_ID: 553f, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16214, Hex_ID: 563f, Skin_Name: [ex]
 Decimal_ID: 16215, Hex_ID: 573f, Skin_Name: [ex]
+Decimal_ID: 16216, Hex_ID: 583f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16217, Hex_ID: 593f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16218, Hex_ID: 5a3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16219, Hex_ID: 5b3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16220, Hex_ID: 5c3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16221, Hex_ID: 5d3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16222, Hex_ID: 5e3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16223, Hex_ID: 5f3f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16224, Hex_ID: 603f, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16300, Hex_ID: ac3f, Skin_Name: Mặc định
 Decimal_ID: 16301, Hex_ID: ad3f, Skin_Name: Thợ săn tiền thưởng
 Decimal_ID: 16302, Hex_ID: ae3f, Skin_Name: Đại tướng nguyệt tộc
@@ -859,13 +1161,18 @@ Decimal_ID: 16309, Hex_ID: b53f, Skin_Name: Khiêu chiến
 Decimal_ID: 16310, Hex_ID: b63f, Skin_Name: Ailing Samurai
 Decimal_ID: 16311, Hex_ID: b73f, Skin_Name: Maple Frost
 Decimal_ID: 16312, Hex_ID: b83f, Skin_Name: [ex]
-Decimal_ID: 16313, Hex_ID: b93f, Skin_Name: [ex]
+Decimal_ID: 16313, Hex_ID: b93f, Skin_Name: Thống lãnh quỷ binh
 Decimal_ID: 16314, Hex_ID: ba3f, Skin_Name: [ex]
 Decimal_ID: 16315, Hex_ID: bb3f, Skin_Name: [ex]
 Decimal_ID: 16316, Hex_ID: bc3f, Skin_Name: [ex]
 Decimal_ID: 16317, Hex_ID: bd3f, Skin_Name: [ex]
 Decimal_ID: 16318, Hex_ID: be3f, Skin_Name: [ex]
 Decimal_ID: 16319, Hex_ID: bf3f, Skin_Name: [ex]
+Decimal_ID: 16320, Hex_ID: c03f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16321, Hex_ID: c13f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16322, Hex_ID: c23f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16323, Hex_ID: c33f, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16324, Hex_ID: c43f, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16600, Hex_ID: d840, Skin_Name: Mặc định
 Decimal_ID: 16601, Hex_ID: d940, Skin_Name: Hoàng kim cốt
 Decimal_ID: 16602, Hex_ID: da40, Skin_Name: Lãnh chúa xương
@@ -877,8 +1184,8 @@ Decimal_ID: 16607, Hex_ID: df40, Skin_Name: Siêu việt
 Decimal_ID: 16608, Hex_ID: e040, Skin_Name: Crescent General
 Decimal_ID: 16609, Hex_ID: e140, Skin_Name: Tôn Hổ vô song
 Decimal_ID: 16610, Hex_ID: e240, Skin_Name: Hoàng tử Okka
-Decimal_ID: 16611, Hex_ID: e340, Skin_Name: Biệt đội băng lam
-Decimal_ID: 16612, Hex_ID: e440, Skin_Name: [ex][DNT]
+Decimal_ID: 16611, Hex_ID: e340, Skin_Name: Băng lam kiếm vệ
+Decimal_ID: 16612, Hex_ID: e440, Skin_Name: Pompompurin‘s Oath
 Decimal_ID: 16613, Hex_ID: e540, Skin_Name: [ex][DNT]
 Decimal_ID: 16614, Hex_ID: e640, Skin_Name: [ex][DNT]
 Decimal_ID: 16615, Hex_ID: e740, Skin_Name: [ex]
@@ -887,27 +1194,35 @@ Decimal_ID: 16617, Hex_ID: e940, Skin_Name: [ex]
 Decimal_ID: 16618, Hex_ID: ea40, Skin_Name: [ex]
 Decimal_ID: 16619, Hex_ID: eb40, Skin_Name: [ex]
 Decimal_ID: 16620, Hex_ID: ec40, Skin_Name: [ex]
+Decimal_ID: 16621, Hex_ID: ed40, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16622, Hex_ID: ee40, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16623, Hex_ID: ef40, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16624, Hex_ID: f040, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16700, Hex_ID: 3c41, Skin_Name: Mặc định
-Decimal_ID: 16701, Hex_ID: 3d41, Skin_Name: Đạo tặc
+Decimal_ID: 16701, Hex_ID: 3d41, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16702, Hex_ID: 3e41, Skin_Name: Hỏa nhãn kim tinh
 Decimal_ID: 16703, Hex_ID: 3f41, Skin_Name: Siêu việt
 Decimal_ID: 16704, Hex_ID: 4041, Skin_Name: Ngộ khá trẩu
-Decimal_ID: 16705, Hex_ID: 4141, Skin_Name: Siêu việt 2.0
-Decimal_ID: 16706, Hex_ID: 4241, Skin_Name: Đặc vụ băng hầu
-Decimal_ID: 16707, Hex_ID: 4341, Skin_Name: Nhóc tì bá đạo
-Decimal_ID: 16708, Hex_ID: 4441, Skin_Name: Tề Thiên ma hầu
-Decimal_ID: 16709, Hex_ID: 4541, Skin_Name: Cổ thần Ai Cập
-Decimal_ID: 16710, Hex_ID: 4641, Skin_Name: Tân niên Võ thần
-Decimal_ID: 16711, Hex_ID: 4741, Skin_Name: Thần Giáp Xích Diễm
+Decimal_ID: 16705, Hex_ID: 4141, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16706, Hex_ID: 4241, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16707, Hex_ID: 4341, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16708, Hex_ID: 4441, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16709, Hex_ID: 4541, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16710, Hex_ID: 4641, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16711, Hex_ID: 4741, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16712, Hex_ID: 4841, Skin_Name: Tề Thiên Võ Thánh
 Decimal_ID: 16713, Hex_ID: 4941, Skin_Name: [ex]未命名
-Decimal_ID: 16714, Hex_ID: 4a41, Skin_Name: [ex]未命名
+Decimal_ID: 16714, Hex_ID: 4a41, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16715, Hex_ID: 4b41, Skin_Name: [ex]
 Decimal_ID: 16716, Hex_ID: 4c41, Skin_Name: [ex]
 Decimal_ID: 16717, Hex_ID: 4d41, Skin_Name: [ex]
-Decimal_ID: 16718, Hex_ID: 4e41, Skin_Name: [ex]
-Decimal_ID: 16719, Hex_ID: 4f41, Skin_Name: [ex]
-Decimal_ID: 16720, Hex_ID: 5041, Skin_Name: [ex]
+Decimal_ID: 16718, Hex_ID: 4e41, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16719, Hex_ID: 4f41, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16720, Hex_ID: 5041, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16721, Hex_ID: 5141, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16722, Hex_ID: 5241, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16723, Hex_ID: 5341, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16724, Hex_ID: 5441, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16800, Hex_ID: a041, Skin_Name: Mặc định
 Decimal_ID: 16801, Hex_ID: a141, Skin_Name: Dung nham
 Decimal_ID: 16802, Hex_ID: a241, Skin_Name: Dung nham
@@ -915,7 +1230,7 @@ Decimal_ID: 16803, Hex_ID: a341, Skin_Name: Cự thần viễn cổ
 Decimal_ID: 16804, Hex_ID: a441, Skin_Name: Máy đào khoáng
 Decimal_ID: 16805, Hex_ID: a541, Skin_Name: Vệ binh hỏa diệm
 Decimal_ID: 16806, Hex_ID: a641, Skin_Name: Golem thảo nguyên
-Decimal_ID: 16807, Hex_ID: a741, Skin_Name: [ex][DNT]
+Decimal_ID: 16807, Hex_ID: a741, Skin_Name: Tóm được ngươi rồi
 Decimal_ID: 16808, Hex_ID: a841, Skin_Name: [ex][DNT]
 Decimal_ID: 16809, Hex_ID: a941, Skin_Name: [ex][DNT]
 Decimal_ID: 16810, Hex_ID: aa41, Skin_Name: [ex]
@@ -923,6 +1238,16 @@ Decimal_ID: 16811, Hex_ID: ab41, Skin_Name: [ex]
 Decimal_ID: 16812, Hex_ID: ac41, Skin_Name: [ex]
 Decimal_ID: 16813, Hex_ID: ad41, Skin_Name: [ex]
 Decimal_ID: 16814, Hex_ID: ae41, Skin_Name: [ex]
+Decimal_ID: 16815, Hex_ID: af41, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16816, Hex_ID: b041, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16817, Hex_ID: b141, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16818, Hex_ID: b241, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16819, Hex_ID: b341, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16820, Hex_ID: b441, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16821, Hex_ID: b541, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16822, Hex_ID: b641, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16823, Hex_ID: b741, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16824, Hex_ID: b841, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 16900, Hex_ID: 0442, Skin_Name: Mặc định
 Decimal_ID: 16901, Hex_ID: 0542, Skin_Name: Thỏ thợ mỏ
 Decimal_ID: 16902, Hex_ID: 0642, Skin_Name: Chú thỏ ngọc
@@ -933,28 +1258,46 @@ Decimal_ID: 16906, Hex_ID: 0a42, Skin_Name: Lẩu chua cay
 Decimal_ID: 16907, Hex_ID: 0b42, Skin_Name: Sứ giả thiên giới
 Decimal_ID: 16908, Hex_ID: 0c42, Skin_Name: [ex][DNT]
 Decimal_ID: 16909, Hex_ID: 0d42, Skin_Name: "Siêu Cấp Tối Thượng"
-Decimal_ID: 16910, Hex_ID: 0e42, Skin_Name: Linh Hoa thần nữ
-Decimal_ID: 16911, Hex_ID: 0f42, Skin_Name: [ex]
-Decimal_ID: 16912, Hex_ID: 1042, Skin_Name: [ex]
+Decimal_ID: 16910, Hex_ID: 0e42, Skin_Name: Linh Hoa đạo sĩ
+Decimal_ID: 16911, Hex_ID: 0f42, Skin_Name: Thỏ săn Ác mộng
+Decimal_ID: 16912, Hex_ID: 1042, Skin_Name: Cam siêu quậy
 Decimal_ID: 16913, Hex_ID: 1142, Skin_Name: [ex]
 Decimal_ID: 16914, Hex_ID: 1242, Skin_Name: [ex]
 Decimal_ID: 16915, Hex_ID: 1342, Skin_Name: [ex]
 Decimal_ID: 16916, Hex_ID: 1442, Skin_Name: [ex]
 Decimal_ID: 16917, Hex_ID: 1542, Skin_Name: [ex]
+Decimal_ID: 16918, Hex_ID: 1642, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16919, Hex_ID: 1742, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16920, Hex_ID: 1842, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16921, Hex_ID: 1942, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16922, Hex_ID: 1a42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16923, Hex_ID: 1b42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 16924, Hex_ID: 1c42, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17000, Hex_ID: 6842, Skin_Name: Mặc định
-Decimal_ID: 17001, Hex_ID: 6942, Skin_Name: Anh thợ điện
+Decimal_ID: 17001, Hex_ID: 6942, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17002, Hex_ID: 6a42, Skin_Name: Lính cứu hỏa
 Decimal_ID: 17003, Hex_ID: 6b42, Skin_Name: Binh nhì
-Decimal_ID: 17004, Hex_ID: 6c42, Skin_Name: [ex][DNT]
-Decimal_ID: 17005, Hex_ID: 6d42, Skin_Name: [ex][DNT]
-Decimal_ID: 17006, Hex_ID: 6e42, Skin_Name: [ex][DNT]
+Decimal_ID: 17004, Hex_ID: 6c42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17005, Hex_ID: 6d42, Skin_Name: Thợ cắt cáp
+Decimal_ID: 17006, Hex_ID: 6e42, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17007, Hex_ID: 6f42, Skin_Name: [ex][DNT]
 Decimal_ID: 17008, Hex_ID: 7042, Skin_Name: [ex][DNT]
 Decimal_ID: 17009, Hex_ID: 7142, Skin_Name: [ex][DNT]
 Decimal_ID: 17010, Hex_ID: 7242, Skin_Name: [ex]
-Decimal_ID: 17011, Hex_ID: 7342, Skin_Name: [ex]
+Decimal_ID: 17011, Hex_ID: 7342, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17012, Hex_ID: 7442, Skin_Name: [ex]
-Decimal_ID: 17013, Hex_ID: 7542, Skin_Name: [ex]
+Decimal_ID: 17013, Hex_ID: 7542, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17014, Hex_ID: 7642, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17015, Hex_ID: 7742, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17016, Hex_ID: 7842, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17017, Hex_ID: 7942, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17018, Hex_ID: 7a42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17019, Hex_ID: 7b42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17020, Hex_ID: 7c42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17021, Hex_ID: 7d42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17022, Hex_ID: 7e42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17023, Hex_ID: 7f42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17024, Hex_ID: 8042, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17100, Hex_ID: cc42, Skin_Name: Mặc định
 Decimal_ID: 17101, Hex_ID: cd42, Skin_Name: Thợ sửa cáp
 Decimal_ID: 17102, Hex_ID: ce42, Skin_Name: Cá cắn cáp
@@ -962,14 +1305,24 @@ Decimal_ID: 17103, Hex_ID: cf42, Skin_Name: Đại sư sushi
 Decimal_ID: 17104, Hex_ID: d042, Skin_Name: Tiệc bãi biển
 Decimal_ID: 17105, Hex_ID: d142, Skin_Name: [ex][DNT]
 Decimal_ID: 17106, Hex_ID: d242, Skin_Name: Bách tướng Lão tam
-Decimal_ID: 17107, Hex_ID: d342, Skin_Name: [ex][DNT]
-Decimal_ID: 17108, Hex_ID: d442, Skin_Name: [ex][DNT]
+Decimal_ID: 17107, Hex_ID: d342, Skin_Name: Caesar bão tố
+Decimal_ID: 17108, Hex_ID: d442, Skin_Name: Eren Jaegar
 Decimal_ID: 17109, Hex_ID: d542, Skin_Name: [ex][DNT]
 Decimal_ID: 17110, Hex_ID: d642, Skin_Name: [ex]
 Decimal_ID: 17111, Hex_ID: d742, Skin_Name: [ex]
 Decimal_ID: 17112, Hex_ID: d842, Skin_Name: [ex]
 Decimal_ID: 17113, Hex_ID: d942, Skin_Name: [ex]
 Decimal_ID: 17114, Hex_ID: da42, Skin_Name: [ex]
+Decimal_ID: 17115, Hex_ID: db42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17116, Hex_ID: dc42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17117, Hex_ID: dd42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17118, Hex_ID: de42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17119, Hex_ID: df42, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17120, Hex_ID: e042, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17121, Hex_ID: e142, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17122, Hex_ID: e242, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17123, Hex_ID: e342, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17124, Hex_ID: e442, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17300, Hex_ID: 9443, Skin_Name: Mặc định
 Decimal_ID: 17301, Hex_ID: 9543, Skin_Name: Nhà thám hiểm
 Decimal_ID: 17302, Hex_ID: 9643, Skin_Name: Đội đặc nhiệm
@@ -980,14 +1333,21 @@ Decimal_ID: 17306, Hex_ID: 9a43, Skin_Name: Tay đua F1
 Decimal_ID: 17307, Hex_ID: 9b43, Skin_Name: Shipper Siêu thanh
 Decimal_ID: 17308, Hex_ID: 9c43, Skin_Name: Phi hồ ẩn sĩ
 Decimal_ID: 17309, Hex_ID: 9d43, Skin_Name: Phong tranh thám xuân
-Decimal_ID: 17310, Hex_ID: 9e43, Skin_Name: [ex]
-Decimal_ID: 17311, Hex_ID: 9f43, Skin_Name: [ex]
+Decimal_ID: 17310, Hex_ID: 9e43, Skin_Name: Rối Gỗ Tinh Quái
+Decimal_ID: 17311, Hex_ID: 9f43, Skin_Name: Cáo chiêu tài
 Decimal_ID: 17312, Hex_ID: a043, Skin_Name: [ex]
 Decimal_ID: 17313, Hex_ID: a143, Skin_Name: [ex]
 Decimal_ID: 17314, Hex_ID: a243, Skin_Name: [ex]
 Decimal_ID: 17315, Hex_ID: a343, Skin_Name: [ex]
 Decimal_ID: 17316, Hex_ID: a443, Skin_Name: [ex]
 Decimal_ID: 17317, Hex_ID: a543, Skin_Name: [ex]
+Decimal_ID: 17318, Hex_ID: a643, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17319, Hex_ID: a743, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17320, Hex_ID: a843, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17321, Hex_ID: a943, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17322, Hex_ID: aa43, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17323, Hex_ID: ab43, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17324, Hex_ID: ac43, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17400, Hex_ID: f843, Skin_Name: Mặc định
 Decimal_ID: 17401, Hex_ID: f943, Skin_Name: Trò đùa tử vong
 Decimal_ID: 17402, Hex_ID: fa43, Skin_Name: Vua hề
@@ -996,32 +1356,48 @@ Decimal_ID: 17404, Hex_ID: fc43, Skin_Name: Đêm kinh hoàng
 Decimal_ID: 17405, Hex_ID: fd43, Skin_Name: Đạo tặc tử quang
 Decimal_ID: 17406, Hex_ID: fe43, Skin_Name: Streamer bí ẩn
 Decimal_ID: 17407, Hex_ID: ff43, Skin_Name: Dạ Xoa thiếu chủ
-Decimal_ID: 17408, Hex_ID: 0044, Skin_Name: [ex][DNT]
-Decimal_ID: 17409, Hex_ID: 0144, Skin_Name: [ex][DNT]
-Decimal_ID: 17410, Hex_ID: 0244, Skin_Name: [ex]
-Decimal_ID: 17411, Hex_ID: 0344, Skin_Name: [ex]
-Decimal_ID: 17412, Hex_ID: 0444, Skin_Name: [ex]
+Decimal_ID: 17408, Hex_ID: 0044, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17409, Hex_ID: 0144, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17410, Hex_ID: 0244, Skin_Name: 17410
+Decimal_ID: 17411, Hex_ID: 0344, Skin_Name: 17411
+Decimal_ID: 17412, Hex_ID: 0444, Skin_Name: 17412
+Decimal_ID: 17413, Hex_ID: 0544, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17414, Hex_ID: 0644, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17415, Hex_ID: 0744, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17416, Hex_ID: 0844, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17417, Hex_ID: 0944, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17418, Hex_ID: 0a44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17419, Hex_ID: 0b44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17420, Hex_ID: 0c44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17421, Hex_ID: 0d44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17422, Hex_ID: 0e44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17423, Hex_ID: 0f44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17424, Hex_ID: 1044, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17500, Hex_ID: 5c44, Skin_Name: Mặc định
 Decimal_ID: 17501, Hex_ID: 5d44, Skin_Name: Thuyền trưởng râu đỏ
 Decimal_ID: 17502, Hex_ID: 5e44, Skin_Name: Khô lâu đại tướng
-Decimal_ID: 17503, Hex_ID: 5f44, Skin_Name: Chàng gấu tuyết
+Decimal_ID: 17503, Hex_ID: 5f44, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17504, Hex_ID: 6044, Skin_Name: Đi vào lòng đất
 Decimal_ID: 17505, Hex_ID: 6144, Skin_Name: Mèo "Thần tài"
 Decimal_ID: 17506, Hex_ID: 6244, Skin_Name: Sumo
-Decimal_ID: 17507, Hex_ID: 6344, Skin_Name: Tiệc bãi biển
-Decimal_ID: 17508, Hex_ID: 6444, Skin_Name: Màu cờ sắc áo
+Decimal_ID: 17507, Hex_ID: 6344, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17508, Hex_ID: 6444, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17509, Hex_ID: 6544, Skin_Name: Vũ điệu Samba
 Decimal_ID: 17510, Hex_ID: 6644, Skin_Name: Cỗ xe tăng
-Decimal_ID: 17511, Hex_ID: 6744, Skin_Name: [ex][DNT]
+Decimal_ID: 17511, Hex_ID: 6744, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17512, Hex_ID: 6844, Skin_Name: Cận vệ Mafia
-Decimal_ID: 17513, Hex_ID: 6944, Skin_Name: [ex][DNT]
+Decimal_ID: 17513, Hex_ID: 6944, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17514, Hex_ID: 6a44, Skin_Name: [ex][DNT]
-Decimal_ID: 17515, Hex_ID: 6b44, Skin_Name: [ex]
-Decimal_ID: 17516, Hex_ID: 6c44, Skin_Name: [ex]
+Decimal_ID: 17515, Hex_ID: 6b44, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17516, Hex_ID: 6c44, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17517, Hex_ID: 6d44, Skin_Name: Thần ẩm thực
 Decimal_ID: 17518, Hex_ID: 6e44, Skin_Name: Thủ vệ Dạ Ưng
-Decimal_ID: 17519, Hex_ID: 6f44, Skin_Name: [ex]
+Decimal_ID: 17519, Hex_ID: 6f44, Skin_Name: Ngũ Cốc Phong Đăng
 Decimal_ID: 17520, Hex_ID: 7044, Skin_Name: [ex]
+Decimal_ID: 17521, Hex_ID: 7144, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17522, Hex_ID: 7244, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17523, Hex_ID: 7344, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17524, Hex_ID: 7444, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17700, Hex_ID: 2445, Skin_Name: Mặc định
 Decimal_ID: 17701, Hex_ID: 2545, Skin_Name: Thám tử tư
 Decimal_ID: 17702, Hex_ID: 2645, Skin_Name: Quang thánh tiễn
@@ -1031,32 +1407,47 @@ Decimal_ID: 17705, Hex_ID: 2945, Skin_Name: Dạ tiệc
 Decimal_ID: 17706, Hex_ID: 2a45, Skin_Name: Đồng phục Shihakusho
 Decimal_ID: 17707, Hex_ID: 2b45, Skin_Name: [ex][DNT]
 Decimal_ID: 17708, Hex_ID: 2c45, Skin_Name: Đặc vụ thần thám
-Decimal_ID: 17709, Hex_ID: 2d45, Skin_Name: Linh Hoa thần nữ
+Decimal_ID: 17709, Hex_ID: 2d45, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 17710, Hex_ID: 2e45, Skin_Name: [ex]
-Decimal_ID: 17711, Hex_ID: 2f45, Skin_Name: [ex]
-Decimal_ID: 17712, Hex_ID: 3045, Skin_Name: [ex]
-Decimal_ID: 17713, Hex_ID: 3145, Skin_Name: [ex]
-Decimal_ID: 17714, Hex_ID: 3245, Skin_Name: [ex]
-Decimal_ID: 17715, Hex_ID: 3345, Skin_Name: [ex]
-Decimal_ID: 17716, Hex_ID: 3445, Skin_Name: [ex]
+Decimal_ID: 17711, Hex_ID: 2f45, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17712, Hex_ID: 3045, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17713, Hex_ID: 3145, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17714, Hex_ID: 3245, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17715, Hex_ID: 3345, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17716, Hex_ID: 3445, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17717, Hex_ID: 3545, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17718, Hex_ID: 3645, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17719, Hex_ID: 3745, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17720, Hex_ID: 3845, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17721, Hex_ID: 3945, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17722, Hex_ID: 3a45, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17723, Hex_ID: 3b45, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 17724, Hex_ID: 3c45, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18000, Hex_ID: 5046, Skin_Name: Mặc định
 Decimal_ID: 18001, Hex_ID: 5146, Skin_Name: Hiệp sĩ nhí
 Decimal_ID: 18002, Hex_ID: 5246, Skin_Name: Găng tay vàng
 Decimal_ID: 18003, Hex_ID: 5346, Skin_Name: Quang vinh
-Decimal_ID: 18004, Hex_ID: 5446, Skin_Name: Thần đồng sinh hóa
-Decimal_ID: 18005, Hex_ID: 5546, Skin_Name: Thần thoại Hy Lạp
+Decimal_ID: 18004, Hex_ID: 5446, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18005, Hex_ID: 5546, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18006, Hex_ID: 5646, Skin_Name: Tiểu King Kong
 Decimal_ID: 18007, Hex_ID: 5746, Skin_Name: Chuyên gia đập hộp
 Decimal_ID: 18008, Hex_ID: 5846, Skin_Name: "Không trêu bạn"
-Decimal_ID: 18009, Hex_ID: 5946, Skin_Name: [ex][DNT]
+Decimal_ID: 18009, Hex_ID: 5946, Skin_Name: Trà chanh
 Decimal_ID: 18010, Hex_ID: 5a46, Skin_Name: [ex]
 Decimal_ID: 18011, Hex_ID: 5b46, Skin_Name: [ex]
 Decimal_ID: 18012, Hex_ID: 5c46, Skin_Name: [ex]
 Decimal_ID: 18013, Hex_ID: 5d46, Skin_Name: [ex]
 Decimal_ID: 18014, Hex_ID: 5e46, Skin_Name: [ex]
-Decimal_ID: 18015, Hex_ID: 5f46, Skin_Name: [ex]
+Decimal_ID: 18015, Hex_ID: 5f46, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18016, Hex_ID: 6046, Skin_Name: [ex]
 Decimal_ID: 18017, Hex_ID: 6146, Skin_Name: [ex]
+Decimal_ID: 18018, Hex_ID: 6246, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18019, Hex_ID: 6346, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18020, Hex_ID: 6446, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18021, Hex_ID: 6546, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18022, Hex_ID: 6646, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18023, Hex_ID: 6746, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18024, Hex_ID: 6846, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18400, Hex_ID: e047, Skin_Name: Mặc định
 Decimal_ID: 18401, Hex_ID: e147, Skin_Name: Cảnh vệ rừng
 Decimal_ID: 18402, Hex_ID: e247, Skin_Name: Nghìn lẻ một đêm
@@ -1066,13 +1457,22 @@ Decimal_ID: 18405, Hex_ID: e547, Skin_Name: Hồng liên tiên tử
 Decimal_ID: 18406, Hex_ID: e647, Skin_Name: Xứ sở diệu kỳ
 Decimal_ID: 18407, Hex_ID: e747, Skin_Name: Cổ tích Biển xanh
 Decimal_ID: 18408, Hex_ID: e847, Skin_Name: Bé hoa xuân
-Decimal_ID: 18409, Hex_ID: e947, Skin_Name: [ex][DNT]
+Decimal_ID: 18409, Hex_ID: e947, Skin_Name: Trợ lý nghệ sĩ
 Decimal_ID: 18410, Hex_ID: ea47, Skin_Name: [ex]
 Decimal_ID: 18411, Hex_ID: eb47, Skin_Name: [ex]
 Decimal_ID: 18412, Hex_ID: ec47, Skin_Name: [ex]
 Decimal_ID: 18413, Hex_ID: ed47, Skin_Name: [ex]
 Decimal_ID: 18414, Hex_ID: ee47, Skin_Name: [ex]
 Decimal_ID: 18415, Hex_ID: ef47, Skin_Name: [ex]
+Decimal_ID: 18416, Hex_ID: f047, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18417, Hex_ID: f147, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18418, Hex_ID: f247, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18419, Hex_ID: f347, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18420, Hex_ID: f447, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18421, Hex_ID: f547, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18422, Hex_ID: f647, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18423, Hex_ID: f747, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18424, Hex_ID: f847, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18600, Hex_ID: a848, Skin_Name: Mặc định
 Decimal_ID: 18601, Hex_ID: a948, Skin_Name: Xiếc cung đình
 Decimal_ID: 18602, Hex_ID: aa48, Skin_Name: Mặc định
@@ -1083,13 +1483,21 @@ Decimal_ID: 18606, Hex_ID: ae48, Skin_Name: Tanuki chiêu tài
 Decimal_ID: 18607, Hex_ID: af48, Skin_Name: [ex][DNT]
 Decimal_ID: 18608, Hex_ID: b048, Skin_Name: [ex][DNT]
 Decimal_ID: 18609, Hex_ID: b148, Skin_Name: Lẩu nấm
-Decimal_ID: 18610, Hex_ID: b248, Skin_Name: [ex]
+Decimal_ID: 18610, Hex_ID: b248, Skin_Name: Giấc mơ ngọt ngào
 Decimal_ID: 18611, Hex_ID: b348, Skin_Name: [ex]
 Decimal_ID: 18612, Hex_ID: b448, Skin_Name: [ex]
 Decimal_ID: 18613, Hex_ID: b548, Skin_Name: [ex]
 Decimal_ID: 18614, Hex_ID: b648, Skin_Name: [ex]
 Decimal_ID: 18615, Hex_ID: b748, Skin_Name: [ex]
 Decimal_ID: 18616, Hex_ID: b848, Skin_Name: [ex]
+Decimal_ID: 18617, Hex_ID: b948, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18618, Hex_ID: ba48, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18619, Hex_ID: bb48, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18620, Hex_ID: bc48, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18621, Hex_ID: bd48, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18622, Hex_ID: be48, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18623, Hex_ID: bf48, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18624, Hex_ID: c048, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18700, Hex_ID: 0c49, Skin_Name: Mặc định
 Decimal_ID: 18701, Hex_ID: 0d49, Skin_Name: Thú vệ cổ mộ
 Decimal_ID: 18702, Hex_ID: 0e49, Skin_Name: Vũ khúc long hổ
@@ -1105,11 +1513,16 @@ Decimal_ID: 18711, Hex_ID: 1749, Skin_Name: [ex]
 Decimal_ID: 18712, Hex_ID: 1849, Skin_Name: Thần phong Thống lĩnh
 Decimal_ID: 18713, Hex_ID: 1949, Skin_Name: Thần tượng nhạc rock
 Decimal_ID: 18714, Hex_ID: 1a49, Skin_Name: Ký Ức Đại Dương
-Decimal_ID: 18715, Hex_ID: 1b49, Skin_Name: [ex]
+Decimal_ID: 18715, Hex_ID: 1b49, Skin_Name: Chị đại Gangster
 Decimal_ID: 18716, Hex_ID: 1c49, Skin_Name: [ex]
 Decimal_ID: 18717, Hex_ID: 1d49, Skin_Name: [ex]
 Decimal_ID: 18718, Hex_ID: 1e49, Skin_Name: [ex]
 Decimal_ID: 18719, Hex_ID: 1f49, Skin_Name: [ex]
+Decimal_ID: 18720, Hex_ID: 2049, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18721, Hex_ID: 2149, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18722, Hex_ID: 2249, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18723, Hex_ID: 2349, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18724, Hex_ID: 2449, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 18900, Hex_ID: d449, Skin_Name: Mặc định
 Decimal_ID: 18901, Hex_ID: d549, Skin_Name: Cún siêu quậy
 Decimal_ID: 18902, Hex_ID: d649, Skin_Name: Đội đặc nhiệm
@@ -1117,36 +1530,49 @@ Decimal_ID: 18903, Hex_ID: d749, Skin_Name: Nghệ sĩ đường phố
 Decimal_ID: 18904, Hex_ID: d849, Skin_Name: [ex][DNT]
 Decimal_ID: 18905, Hex_ID: d949, Skin_Name: Trưởng lão
 Decimal_ID: 18906, Hex_ID: da49, Skin_Name: Cursed Corpse
-Decimal_ID: 18907, Hex_ID: db49, Skin_Name: [ex][DNT]
+Decimal_ID: 18907, Hex_ID: db49, Skin_Name: Thám tử tư
 Decimal_ID: 18908, Hex_ID: dc49, Skin_Name: [ex][DNT]
 Decimal_ID: 18909, Hex_ID: dd49, Skin_Name: [ex][DNT]
 Decimal_ID: 18910, Hex_ID: de49, Skin_Name: [ex]
 Decimal_ID: 18911, Hex_ID: df49, Skin_Name: [ex]
 Decimal_ID: 18912, Hex_ID: e049, Skin_Name: [ex]
 Decimal_ID: 18913, Hex_ID: e149, Skin_Name: [ex]
-Decimal_ID: 19000, Hex_ID: 384a, Skin_Name: Mặc định
+Decimal_ID: 18914, Hex_ID: e249, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18915, Hex_ID: e349, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18916, Hex_ID: e449, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18917, Hex_ID: e549, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18918, Hex_ID: e649, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18919, Hex_ID: e749, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18920, Hex_ID: e849, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18921, Hex_ID: e949, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18922, Hex_ID: ea49, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18923, Hex_ID: eb49, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 18924, Hex_ID: ec49, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19000, Hex_ID: 384a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19001, Hex_ID: 394a, Skin_Name: Nhà thám hiểm
 Decimal_ID: 19002, Hex_ID: 3a4a, Skin_Name: Tân thần thiên hà
 Decimal_ID: 19003, Hex_ID: 3b4a, Skin_Name: Phù thủy kiến tạo
 Decimal_ID: 19004, Hex_ID: 3c4a, Skin_Name: Đông êm đềm
-Decimal_ID: 19005, Hex_ID: 3d4a, Skin_Name: Phó kỷ luật
+Decimal_ID: 19005, Hex_ID: 3d4a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19006, Hex_ID: 3e4a, Skin_Name: Tân thần hoàng kim
 Decimal_ID: 19007, Hex_ID: 3f4a, Skin_Name: Chí tôn kiếm tiên
 Decimal_ID: 19008, Hex_ID: 404a, Skin_Name: Dạ hội
-Decimal_ID: 19009, Hex_ID: 414a, Skin_Name: Thần sứ STL-79
+Decimal_ID: 19009, Hex_ID: 414a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19010, Hex_ID: 424a, Skin_Name: Hỏa thần long tộc
-Decimal_ID: 19011, Hex_ID: 434a, Skin_Name: Đại úy Athanor
-Decimal_ID: 19012, Hex_ID: 444a, Skin_Name: Tân niên vệ thần
-Decimal_ID: 19013, Hex_ID: 454a, Skin_Name: Tiêu Dao Vũ Thần
+Decimal_ID: 19011, Hex_ID: 434a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19012, Hex_ID: 444a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19013, Hex_ID: 454a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19014, Hex_ID: 464a, Skin_Name: Giám thị sấm sét
 Decimal_ID: 19015, Hex_ID: 474a, Skin_Name: Satoru Gojo
 Decimal_ID: 19016, Hex_ID: 484a, Skin_Name: [ex]
-Decimal_ID: 19017, Hex_ID: 494a, Skin_Name: [ex]
+Decimal_ID: 19017, Hex_ID: 494a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19018, Hex_ID: 4a4a, Skin_Name: [ex]
-Decimal_ID: 19019, Hex_ID: 4b4a, Skin_Name: [ex]
-Decimal_ID: 19020, Hex_ID: 4c4a, Skin_Name: [ex]
-Decimal_ID: 19021, Hex_ID: 4d4a, Skin_Name: [ex]
+Decimal_ID: 19019, Hex_ID: 4b4a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19020, Hex_ID: 4c4a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19021, Hex_ID: 4d4a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19022, Hex_ID: 4e4a, Skin_Name: [ex]
+Decimal_ID: 19023, Hex_ID: 4f4a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19024, Hex_ID: 504a, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19100, Hex_ID: 9c4a, Skin_Name: Mặc định
 Decimal_ID: 19101, Hex_ID: 9d4a, Skin_Name: Sứ giả vũ trụ
 Decimal_ID: 19102, Hex_ID: 9e4a, Skin_Name: Công chúa hỏa long
@@ -1156,7 +1582,7 @@ Decimal_ID: 19105, Hex_ID: a14a, Skin_Name: Sứ giả quang minh
 Decimal_ID: 19106, Hex_ID: a24a, Skin_Name: Quang vinh
 Decimal_ID: 19107, Hex_ID: a34a, Skin_Name: [ex][DNT]
 Decimal_ID: 19108, Hex_ID: a44a, Skin_Name: Thụy mộc Thanh long
-Decimal_ID: 19109, Hex_ID: a54a, Skin_Name: Lữ hành Thời không
+Decimal_ID: 19109, Hex_ID: a54a, Skin_Name: Linh Sứ Thời không
 Decimal_ID: 19110, Hex_ID: a64a, Skin_Name: Mèo hầu gái
 Decimal_ID: 19111, Hex_ID: a74a, Skin_Name: [ex]
 Decimal_ID: 19112, Hex_ID: a84a, Skin_Name: [ex]
@@ -1164,37 +1590,64 @@ Decimal_ID: 19113, Hex_ID: a94a, Skin_Name: [ex]
 Decimal_ID: 19114, Hex_ID: aa4a, Skin_Name: [ex]
 Decimal_ID: 19115, Hex_ID: ab4a, Skin_Name: [ex]
 Decimal_ID: 19116, Hex_ID: ac4a, Skin_Name: [ex]
-Decimal_ID: 19200, Hex_ID: 004b, Skin_Name: Mặc định
-Decimal_ID: 19201, Hex_ID: 014b, Skin_Name: Nữ cao bồi
+Decimal_ID: 19117, Hex_ID: ad4a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19118, Hex_ID: ae4a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19119, Hex_ID: af4a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19120, Hex_ID: b04a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19121, Hex_ID: b14a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19122, Hex_ID: b24a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19123, Hex_ID: b34a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19124, Hex_ID: b44a, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19200, Hex_ID: 004b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19201, Hex_ID: 014b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19202, Hex_ID: 024b, Skin_Name: Đếm cừu
 Decimal_ID: 19203, Hex_ID: 034b, Skin_Name: S - Quang vinh
 Decimal_ID: 19204, Hex_ID: 044b, Skin_Name: Tâm hồn trà sữa
-Decimal_ID: 19205, Hex_ID: 054b, Skin_Name: Biệt đội băng lam
+Decimal_ID: 19205, Hex_ID: 054b, Skin_Name: Băng lam pháo thủ
 Decimal_ID: 19206, Hex_ID: 064b, Skin_Name: Vịt lướt bọt biển
-Decimal_ID: 19207, Hex_ID: 074b, Skin_Name: [ex][DNT]
+Decimal_ID: 19207, Hex_ID: 074b, Skin_Name: Ảo thuật gia
 Decimal_ID: 19208, Hex_ID: 084b, Skin_Name: [ex][DNT]
 Decimal_ID: 19209, Hex_ID: 094b, Skin_Name: [ex][DNT]
 Decimal_ID: 19210, Hex_ID: 0a4b, Skin_Name: [ex]
 Decimal_ID: 19211, Hex_ID: 0b4b, Skin_Name: [ex]
 Decimal_ID: 19212, Hex_ID: 0c4b, Skin_Name: [ex]
+Decimal_ID: 19213, Hex_ID: 0d4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19214, Hex_ID: 0e4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19215, Hex_ID: 0f4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19216, Hex_ID: 104b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19217, Hex_ID: 114b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19218, Hex_ID: 124b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19219, Hex_ID: 134b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19220, Hex_ID: 144b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19221, Hex_ID: 154b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19222, Hex_ID: 164b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19223, Hex_ID: 174b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19224, Hex_ID: 184b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19300, Hex_ID: 644b, Skin_Name: Sát thủ lưu vong
 Decimal_ID: 19301, Hex_ID: 654b, Skin_Name: Đặc cảnh NYPD
 Decimal_ID: 19302, Hex_ID: 664b, Skin_Name: Đặc công Nhện đỏ
-Decimal_ID: 19303, Hex_ID: 674b, Skin_Name: Thư ký
+Decimal_ID: 19303, Hex_ID: 674b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19304, Hex_ID: 684b, Skin_Name: Thỏ may mắn
-Decimal_ID: 19305, Hex_ID: 694b, Skin_Name: Võ thần thiên hà
+Decimal_ID: 19305, Hex_ID: 694b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19306, Hex_ID: 6a4b, Skin_Name: Hội ám hoàng
-Decimal_ID: 19307, Hex_ID: 6b4b, Skin_Name: Nữ đội trưởng
+Decimal_ID: 19307, Hex_ID: 6b4b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19308, Hex_ID: 6c4b, Skin_Name: [ex][DNT]
 Decimal_ID: 19309, Hex_ID: 6d4b, Skin_Name: [ex][DNT]
 Decimal_ID: 19310, Hex_ID: 6e4b, Skin_Name: Khủng long xanh
 Decimal_ID: 19311, Hex_ID: 6f4b, Skin_Name: [ex]
-Decimal_ID: 19312, Hex_ID: 704b, Skin_Name: [ex]
+Decimal_ID: 19312, Hex_ID: 704b, Skin_Name: Thám tử trung học
 Decimal_ID: 19313, Hex_ID: 714b, Skin_Name: [ex]
 Decimal_ID: 19314, Hex_ID: 724b, Skin_Name: [ex]
 Decimal_ID: 19315, Hex_ID: 734b, Skin_Name: [ex]
-Decimal_ID: 19316, Hex_ID: 744b, Skin_Name: [ex]
-Decimal_ID: 19317, Hex_ID: 754b, Skin_Name: [ex]
+Decimal_ID: 19316, Hex_ID: 744b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19317, Hex_ID: 754b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19318, Hex_ID: 764b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19319, Hex_ID: 774b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19320, Hex_ID: 784b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19321, Hex_ID: 794b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19322, Hex_ID: 7a4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19323, Hex_ID: 7b4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19324, Hex_ID: 7c4b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19400, Hex_ID: c84b, Skin_Name: Mặc định
 Decimal_ID: 19401, Hex_ID: c94b, Skin_Name: [ex][DNT]
 Decimal_ID: 19402, Hex_ID: ca4b, Skin_Name: [ex][DNT]
@@ -1205,23 +1658,46 @@ Decimal_ID: 19406, Hex_ID: ce4b, Skin_Name: [ex][DNT]
 Decimal_ID: 19407, Hex_ID: cf4b, Skin_Name: [ex][DNT]
 Decimal_ID: 19408, Hex_ID: d04b, Skin_Name: [ex][DNT]
 Decimal_ID: 19409, Hex_ID: d14b, Skin_Name: [ex][DNT]
+Decimal_ID: 19410, Hex_ID: d24b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19411, Hex_ID: d34b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19412, Hex_ID: d44b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19413, Hex_ID: d54b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19414, Hex_ID: d64b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19415, Hex_ID: d74b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19416, Hex_ID: d84b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19417, Hex_ID: d94b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19418, Hex_ID: da4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19419, Hex_ID: db4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19420, Hex_ID: dc4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19421, Hex_ID: dd4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19422, Hex_ID: de4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19423, Hex_ID: df4b, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19424, Hex_ID: e04b, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19500, Hex_ID: 2c4c, Skin_Name: Mặc định
 Decimal_ID: 19501, Hex_ID: 2d4c, Skin_Name: Phẩm chất quý tộc
 Decimal_ID: 19502, Hex_ID: 2e4c, Skin_Name: Chiến binh trăng khuyết
-Decimal_ID: 19503, Hex_ID: 2f4c, Skin_Name: Thần thoại Hy Lạp
+Decimal_ID: 19503, Hex_ID: 2f4c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19504, Hex_ID: 304c, Skin_Name: Nhà leo núi
 Decimal_ID: 19505, Hex_ID: 314c, Skin_Name: Hồng hạc thị vệ
 Decimal_ID: 19506, Hex_ID: 324c, Skin_Name: Sát quỷ đoàn
 Decimal_ID: 19507, Hex_ID: 334c, Skin_Name: [ex][DNT]
-Decimal_ID: 19508, Hex_ID: 344c, Skin_Name: Kurapika
+Decimal_ID: 19508, Hex_ID: 344c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19509, Hex_ID: 354c, Skin_Name: Sát thần Bạch Hổ
 Decimal_ID: 19510, Hex_ID: 364c, Skin_Name: Cá heo bảnh chọe
-Decimal_ID: 19511, Hex_ID: 374c, Skin_Name: [ex]
+Decimal_ID: 19511, Hex_ID: 374c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19512, Hex_ID: 384c, Skin_Name: [ex]
 Decimal_ID: 19513, Hex_ID: 394c, Skin_Name: [ex]
 Decimal_ID: 19514, Hex_ID: 3a4c, Skin_Name: [ex]
 Decimal_ID: 19515, Hex_ID: 3b4c, Skin_Name: [ex]
 Decimal_ID: 19516, Hex_ID: 3c4c, Skin_Name: [ex]
+Decimal_ID: 19517, Hex_ID: 3d4c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19518, Hex_ID: 3e4c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19519, Hex_ID: 3f4c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19520, Hex_ID: 404c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19521, Hex_ID: 414c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19522, Hex_ID: 424c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19523, Hex_ID: 434c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19524, Hex_ID: 444c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19600, Hex_ID: 904c, Skin_Name: Đôi cánh tự do
 Decimal_ID: 19601, Hex_ID: 914c, Skin_Name: Cảnh vệ thảo nguyên
 Decimal_ID: 19602, Hex_ID: 924c, Skin_Name: Mafia
@@ -1236,12 +1712,17 @@ Decimal_ID: 19610, Hex_ID: 9a4c, Skin_Name: [ex]
 Decimal_ID: 19611, Hex_ID: 9b4c, Skin_Name: Hỏa diệm Chu Tước
 Decimal_ID: 19612, Hex_ID: 9c4c, Skin_Name: Tuyệt ảnh
 Decimal_ID: 19613, Hex_ID: 9d4c, Skin_Name: DJ <Siêu Đẳng>
-Decimal_ID: 19614, Hex_ID: 9e4c, Skin_Name: [ex]
+Decimal_ID: 19614, Hex_ID: 9e4c, Skin_Name: Xạ Thần Mộng Giới
 Decimal_ID: 19615, Hex_ID: 9f4c, Skin_Name: [ex]
 Decimal_ID: 19616, Hex_ID: a04c, Skin_Name: [ex]
 Decimal_ID: 19617, Hex_ID: a14c, Skin_Name: [ex]
 Decimal_ID: 19618, Hex_ID: a24c, Skin_Name: [ex]
 Decimal_ID: 19619, Hex_ID: a34c, Skin_Name: [ex]
+Decimal_ID: 19620, Hex_ID: a44c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19621, Hex_ID: a54c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19622, Hex_ID: a64c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19623, Hex_ID: a74c, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19624, Hex_ID: a84c, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 19900, Hex_ID: bc4d, Skin_Name: Mặc định
 Decimal_ID: 19901, Hex_ID: bd4d, Skin_Name: Soái tặc
 Decimal_ID: 19902, Hex_ID: be4d, Skin_Name: Phi vụ thế kỷ
@@ -1250,24 +1731,58 @@ Decimal_ID: 19904, Hex_ID: c04d, Skin_Name: Siêu thám tử
 Decimal_ID: 19905, Hex_ID: c14d, Skin_Name: Chú ong bay cao
 Decimal_ID: 19906, Hex_ID: c24d, Skin_Name: Tuxedo Mask
 Decimal_ID: 19907, Hex_ID: c34d, Skin_Name: Uyên Ương mộng điệp
-Decimal_ID: 19908, Hex_ID: c44d, Skin_Name: [ex][DNT]
-Decimal_ID: 19909, Hex_ID: c54d, Skin_Name: [ex][DNT]
+Decimal_ID: 19908, Hex_ID: c44d, Skin_Name: Mộng Giới Thần Chủ
+Decimal_ID: 19909, Hex_ID: c54d, Skin_Name: S - Quang vinh
 Decimal_ID: 19910, Hex_ID: c64d, Skin_Name: [ex]
 Decimal_ID: 19911, Hex_ID: c74d, Skin_Name: [ex]
 Decimal_ID: 19912, Hex_ID: c84d, Skin_Name: [ex]
 Decimal_ID: 19913, Hex_ID: c94d, Skin_Name: [ex]
 Decimal_ID: 19914, Hex_ID: ca4d, Skin_Name: [ex]
 Decimal_ID: 19915, Hex_ID: cb4d, Skin_Name: [ex]
+Decimal_ID: 19916, Hex_ID: cc4d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19917, Hex_ID: cd4d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19918, Hex_ID: ce4d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19919, Hex_ID: cf4d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19920, Hex_ID: d04d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19921, Hex_ID: d14d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19922, Hex_ID: d24d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19923, Hex_ID: d34d, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 19924, Hex_ID: d44d, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 20600, Hex_ID: 7850, Skin_Name: Mặc định
 Decimal_ID: 20601, Hex_ID: 7950, Skin_Name: Hexsword
+Decimal_ID: 20602, Hex_ID: 7a50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20603, Hex_ID: 7b50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20604, Hex_ID: 7c50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20605, Hex_ID: 7d50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20606, Hex_ID: 7e50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20607, Hex_ID: 7f50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20608, Hex_ID: 8050, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20609, Hex_ID: 8150, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20610, Hex_ID: 8250, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20611, Hex_ID: 8350, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20612, Hex_ID: 8450, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20613, Hex_ID: 8550, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20614, Hex_ID: 8650, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20615, Hex_ID: 8750, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20616, Hex_ID: 8850, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20617, Hex_ID: 8950, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20618, Hex_ID: 8a50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20619, Hex_ID: 8b50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20620, Hex_ID: 8c50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20621, Hex_ID: 8d50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20622, Hex_ID: 8e50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20623, Hex_ID: 8f50, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 20624, Hex_ID: 9050, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50100, Hex_ID: b4c3, Skin_Name: Mặc định
 Decimal_ID: 50101, Hex_ID: b5c3, Skin_Name: Cảnh vệ rừng
 Decimal_ID: 50102, Hex_ID: b6c3, Skin_Name: Giám thị thân thiện
 Decimal_ID: 50103, Hex_ID: b7c3, Skin_Name: Chung tình tiễn
 Decimal_ID: 50104, Hex_ID: b8c3, Skin_Name: Thánh nữ mật hội
 Decimal_ID: 50105, Hex_ID: b9c3, Skin_Name: Thần sứ F.E.E-X1
-Decimal_ID: 50106, Hex_ID: bac3, Skin_Name: Cẩm y vệDecimal_ID: 50107, Hex_ID: bbc3, Skin_Name: Dạ hội
+Decimal_ID: 50106, Hex_ID: bac3, Skin_Name: Cẩm y vệ: Phi ưng
+Decimal_ID: 50107, Hex_ID: bbc3, Skin_Name: Dạ hội
 Decimal_ID: 50108, Hex_ID: bcc3, Skin_Name: Thứ nguyên vệ thần
+Decimal_ID: 50109, Hex_ID: bdc3, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50110, Hex_ID: bec3, Skin_Name: Công chúa mộng mơ
 Decimal_ID: 50111, Hex_ID: bfc3, Skin_Name: Vũ khúc yêu hồ
 Decimal_ID: 50112, Hex_ID: c0c3, Skin_Name: Tân niên vệ thần
@@ -1278,8 +1793,8 @@ Decimal_ID: 50116, Hex_ID: c4c3, Skin_Name: Ô Thước tiên nữ
 Decimal_ID: 50117, Hex_ID: c5c3, Skin_Name: Thiên Vũ Thần Long
 Decimal_ID: 50118, Hex_ID: c6c3, Skin_Name: Jujutsu Socerer
 Decimal_ID: 50119, Hex_ID: c7c3, Skin_Name: Lân Quang Thánh Điệu
-Decimal_ID: 50120, Hex_ID: c8c3, Skin_Name: [ex]
-Decimal_ID: 50121, Hex_ID: c9c3, Skin_Name: [ex]
+Decimal_ID: 50120, Hex_ID: c8c3, Skin_Name: Kỷ Nguyên Hổ Phách
+Decimal_ID: 50121, Hex_ID: c9c3, Skin_Name: Tiệc bãi biển
 Decimal_ID: 50122, Hex_ID: cac3, Skin_Name: [ex]
 Decimal_ID: 50123, Hex_ID: cbc3, Skin_Name: [ex]
 Decimal_ID: 50124, Hex_ID: ccc3, Skin_Name: [ex]
@@ -1292,14 +1807,22 @@ Decimal_ID: 50205, Hex_ID: 1dc4, Skin_Name: Nữ tổng tài
 Decimal_ID: 50206, Hex_ID: 1ec4, Skin_Name: Thần trí tuệ
 Decimal_ID: 50207, Hex_ID: 1fc4, Skin_Name: Xứ sở diệu kỳ
 Decimal_ID: 50208, Hex_ID: 20c4, Skin_Name: Hoa anh đào
-Decimal_ID: 50209, Hex_ID: 21c4, Skin_Name: [ex][DNT]
-Decimal_ID: 50210, Hex_ID: 22c4, Skin_Name: [ex]
+Decimal_ID: 50209, Hex_ID: 21c4, Skin_Name: Nữ thuyền trưởng
+Decimal_ID: 50210, Hex_ID: 22c4, Skin_Name: Tiệc bãi biển
 Decimal_ID: 50211, Hex_ID: 23c4, Skin_Name: [ex]
 Decimal_ID: 50212, Hex_ID: 24c4, Skin_Name: [ex]
 Decimal_ID: 50213, Hex_ID: 25c4, Skin_Name: [ex]
 Decimal_ID: 50214, Hex_ID: 26c4, Skin_Name: [ex]
 Decimal_ID: 50215, Hex_ID: 27c4, Skin_Name: [ex]
 Decimal_ID: 50216, Hex_ID: 28c4, Skin_Name: [ex]
+Decimal_ID: 50217, Hex_ID: 29c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50218, Hex_ID: 2ac4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50219, Hex_ID: 2bc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50220, Hex_ID: 2cc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50221, Hex_ID: 2dc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50222, Hex_ID: 2ec4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50223, Hex_ID: 2fc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50224, Hex_ID: 30c4, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50300, Hex_ID: 7cc4, Skin_Name: Mặc định
 Decimal_ID: 50301, Hex_ID: 7dc4, Skin_Name: Zuka
 Decimal_ID: 50302, Hex_ID: 7ec4, Skin_Name: Đại phú ông
@@ -1311,7 +1834,7 @@ Decimal_ID: 50307, Hex_ID: 83c4, Skin_Name: Đầu bếp hoàng cung
 Decimal_ID: 50308, Hex_ID: 84c4, Skin_Name: Mãnh hổ
 Decimal_ID: 50309, Hex_ID: 85c4, Skin_Name: Rapper Big Panda
 Decimal_ID: 50310, Hex_ID: 86c4, Skin_Name: Ngư ông đắc lợi
-Decimal_ID: 50311, Hex_ID: 87c4, Skin_Name: [ex]
+Decimal_ID: 50311, Hex_ID: 87c4, Skin_Name: Xích Hùng Chiến Giáp
 Decimal_ID: 50312, Hex_ID: 88c4, Skin_Name: [ex]
 Decimal_ID: 50313, Hex_ID: 89c4, Skin_Name: [ex]
 Decimal_ID: 50314, Hex_ID: 8ac4, Skin_Name: [ex]
@@ -1320,6 +1843,11 @@ Decimal_ID: 50316, Hex_ID: 8cc4, Skin_Name: [ex]
 Decimal_ID: 50317, Hex_ID: 8dc4, Skin_Name: [ex]
 Decimal_ID: 50318, Hex_ID: 8ec4, Skin_Name: [ex]
 Decimal_ID: 50319, Hex_ID: 8fc4, Skin_Name: [ex]
+Decimal_ID: 50320, Hex_ID: 90c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50321, Hex_ID: 91c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50322, Hex_ID: 92c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50323, Hex_ID: 93c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50324, Hex_ID: 94c4, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50400, Hex_ID: e0c4, Skin_Name: Mặc định
 Decimal_ID: 50401, Hex_ID: e1c4, Skin_Name: Thế chiến
 Decimal_ID: 50402, Hex_ID: e2c4, Skin_Name: [ex][DNT]
@@ -1330,13 +1858,28 @@ Decimal_ID: 50406, Hex_ID: e6c4, Skin_Name: [ex][DNT]
 Decimal_ID: 50407, Hex_ID: e7c4, Skin_Name: [ex][DNT]
 Decimal_ID: 50408, Hex_ID: e8c4, Skin_Name: [ex][DNT]
 Decimal_ID: 50409, Hex_ID: e9c4, Skin_Name: [ex][DNT]
+Decimal_ID: 50410, Hex_ID: eac4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50411, Hex_ID: ebc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50412, Hex_ID: ecc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50413, Hex_ID: edc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50414, Hex_ID: eec4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50415, Hex_ID: efc4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50416, Hex_ID: f0c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50417, Hex_ID: f1c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50418, Hex_ID: f2c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50419, Hex_ID: f3c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50420, Hex_ID: f4c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50421, Hex_ID: f5c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50422, Hex_ID: f6c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50423, Hex_ID: f7c4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50424, Hex_ID: f8c4, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50500, Hex_ID: 44c5, Skin_Name: Mặc định
 Decimal_ID: 50501, Hex_ID: 45c5, Skin_Name: Chú thợ ống nước
 Decimal_ID: 50502, Hex_ID: 46c5, Skin_Name: Liệt hỏa dung nham
 Decimal_ID: 50503, Hex_ID: 47c5, Skin_Name: Thần thoại Hy Lạp
 Decimal_ID: 50504, Hex_ID: 48c5, Skin_Name: Thế giới kẹo ngọt
 Decimal_ID: 50505, Hex_ID: 49c5, Skin_Name: Đồ chơi
-Decimal_ID: 50506, Hex_ID: 4ac5, Skin_Name: [ex][DNT]
+Decimal_ID: 50506, Hex_ID: 4ac5, Skin_Name: Sói Quàng Khăn Đỏ
 Decimal_ID: 50507, Hex_ID: 4bc5, Skin_Name: [ex][DNT]
 Decimal_ID: 50508, Hex_ID: 4cc5, Skin_Name: [ex][DNT]
 Decimal_ID: 50509, Hex_ID: 4dc5, Skin_Name: [ex][DNT]
@@ -1346,6 +1889,15 @@ Decimal_ID: 50512, Hex_ID: 50c5, Skin_Name: [ex]
 Decimal_ID: 50513, Hex_ID: 51c5, Skin_Name: [ex]
 Decimal_ID: 50514, Hex_ID: 52c5, Skin_Name: [ex]
 Decimal_ID: 50515, Hex_ID: 53c5, Skin_Name: [ex]
+Decimal_ID: 50516, Hex_ID: 54c5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50517, Hex_ID: 55c5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50518, Hex_ID: 56c5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50519, Hex_ID: 57c5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50520, Hex_ID: 58c5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50521, Hex_ID: 59c5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50522, Hex_ID: 5ac5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50523, Hex_ID: 5bc5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50524, Hex_ID: 5cc5, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50600, Hex_ID: a8c5, Skin_Name: Mặc định
 Decimal_ID: 50601, Hex_ID: a9c5, Skin_Name: Sĩ quan viễn chinh
 Decimal_ID: 50602, Hex_ID: aac5, Skin_Name: Ám tử đao
@@ -1359,13 +1911,18 @@ Decimal_ID: 50609, Hex_ID: b1c5, Skin_Name: [ex][DNT]
 Decimal_ID: 50610, Hex_ID: b2c5, Skin_Name: Huyết ảnh Tà thần
 Decimal_ID: 50611, Hex_ID: b3c5, Skin_Name: Chiến xa hắc ám
 Decimal_ID: 50612, Hex_ID: b4c5, Skin_Name: Chiến xa quang minh
-Decimal_ID: 50613, Hex_ID: b5c5, Skin_Name: [ex]
+Decimal_ID: 50613, Hex_ID: b5c5, Skin_Name: Liệt Hỏa Thiên Cang
 Decimal_ID: 50614, Hex_ID: b6c5, Skin_Name: [ex]
 Decimal_ID: 50615, Hex_ID: b7c5, Skin_Name: [ex]
 Decimal_ID: 50616, Hex_ID: b8c5, Skin_Name: [ex]
 Decimal_ID: 50617, Hex_ID: b9c5, Skin_Name: [ex]
 Decimal_ID: 50618, Hex_ID: bac5, Skin_Name: [ex]
 Decimal_ID: 50619, Hex_ID: bbc5, Skin_Name: [ex]
+Decimal_ID: 50620, Hex_ID: bcc5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50621, Hex_ID: bdc5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50622, Hex_ID: bec5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50623, Hex_ID: bfc5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50624, Hex_ID: c0c5, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50700, Hex_ID: 0cc6, Skin_Name: Mặc định
 Decimal_ID: 50701, Hex_ID: 0dc6, Skin_Name: Tia chớp tương lai
 Decimal_ID: 50702, Hex_ID: 0ec6, Skin_Name: [ex][DNT]
@@ -1376,6 +1933,21 @@ Decimal_ID: 50706, Hex_ID: 12c6, Skin_Name: [ex][DNT]
 Decimal_ID: 50707, Hex_ID: 13c6, Skin_Name: [ex][DNT]
 Decimal_ID: 50708, Hex_ID: 14c6, Skin_Name: [ex][DNT]
 Decimal_ID: 50709, Hex_ID: 15c6, Skin_Name: [ex][DNT]
+Decimal_ID: 50710, Hex_ID: 16c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50711, Hex_ID: 17c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50712, Hex_ID: 18c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50713, Hex_ID: 19c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50714, Hex_ID: 1ac6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50715, Hex_ID: 1bc6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50716, Hex_ID: 1cc6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50717, Hex_ID: 1dc6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50718, Hex_ID: 1ec6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50719, Hex_ID: 1fc6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50720, Hex_ID: 20c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50721, Hex_ID: 21c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50722, Hex_ID: 22c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50723, Hex_ID: 23c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50724, Hex_ID: 24c6, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50800, Hex_ID: 70c6, Skin_Name: Mặc định
 Decimal_ID: 50801, Hex_ID: 71c6, Skin_Name: Hải tặc nhí
 Decimal_ID: 50802, Hex_ID: 72c6, Skin_Name: Thỏ siêu quậy
@@ -1384,9 +1956,9 @@ Decimal_ID: 50804, Hex_ID: 74c6, Skin_Name: [ex]未命名
 Decimal_ID: 50805, Hex_ID: 75c6, Skin_Name: Máy phát quà
 Decimal_ID: 50806, Hex_ID: 76c6, Skin_Name: Rồng đi bộ
 Decimal_ID: 50807, Hex_ID: 77c6, Skin_Name: Cô bé bút chì
-Decimal_ID: 50808, Hex_ID: 78c6, Skin_Name: [ex][DNT]
-Decimal_ID: 50809, Hex_ID: 79c6, Skin_Name: [ex][DNT]
-Decimal_ID: 50810, Hex_ID: 7ac6, Skin_Name: [ex]
+Decimal_ID: 50808, Hex_ID: 78c6, Skin_Name: Bé hề
+Decimal_ID: 50809, Hex_ID: 79c6, Skin_Name: Tiểu Ronin
+Decimal_ID: 50810, Hex_ID: 7ac6, Skin_Name: Hành Trình Kỳ Ảo
 Decimal_ID: 50811, Hex_ID: 7bc6, Skin_Name: [ex]
 Decimal_ID: 50812, Hex_ID: 7cc6, Skin_Name: [ex]
 Decimal_ID: 50813, Hex_ID: 7dc6, Skin_Name: [ex]
@@ -1394,13 +1966,20 @@ Decimal_ID: 50814, Hex_ID: 7ec6, Skin_Name: [ex]
 Decimal_ID: 50815, Hex_ID: 7fc6, Skin_Name: [ex]
 Decimal_ID: 50816, Hex_ID: 80c6, Skin_Name: [ex]
 Decimal_ID: 50817, Hex_ID: 81c6, Skin_Name: [ex]
+Decimal_ID: 50818, Hex_ID: 82c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50819, Hex_ID: 83c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50820, Hex_ID: 84c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50821, Hex_ID: 85c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50822, Hex_ID: 86c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50823, Hex_ID: 87c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50824, Hex_ID: 88c6, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 50900, Hex_ID: d4c6, Skin_Name: Mặc định
 Decimal_ID: 50901, Hex_ID: d5c6, Skin_Name: Hạt trưởng kiểm lâm
 Decimal_ID: 50902, Hex_ID: d6c6, Skin_Name: Chiến binh lục bảo
 Decimal_ID: 50903, Hex_ID: d7c6, Skin_Name: Động cơ vĩnh cửu
 Decimal_ID: 50904, Hex_ID: d8c6, Skin_Name: Mộc quỷ
 Decimal_ID: 50905, Hex_ID: d9c6, Skin_Name: Titan Băng giá
-Decimal_ID: 50906, Hex_ID: dac6, Skin_Name: Động cơ vĩnh cửu
+Decimal_ID: 50906, Hex_ID: dac6, Skin_Name: Candy Bear
 Decimal_ID: 50907, Hex_ID: dbc6, Skin_Name: [ex][DNT]
 Decimal_ID: 50908, Hex_ID: dcc6, Skin_Name: [ex][DNT]
 Decimal_ID: 50909, Hex_ID: ddc6, Skin_Name: [ex][DNT]
@@ -1411,6 +1990,14 @@ Decimal_ID: 50913, Hex_ID: e1c6, Skin_Name: [ex]
 Decimal_ID: 50914, Hex_ID: e2c6, Skin_Name: [ex]
 Decimal_ID: 50915, Hex_ID: e3c6, Skin_Name: [ex]
 Decimal_ID: 50916, Hex_ID: e4c6, Skin_Name: [ex]
+Decimal_ID: 50917, Hex_ID: e5c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50918, Hex_ID: e6c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50919, Hex_ID: e7c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50920, Hex_ID: e8c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50921, Hex_ID: e9c6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50922, Hex_ID: eac6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50923, Hex_ID: ebc6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 50924, Hex_ID: ecc6, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51000, Hex_ID: 38c7, Skin_Name: Mặc định
 Decimal_ID: 51001, Hex_ID: 39c7, Skin_Name: Hồ quý phi
 Decimal_ID: 51002, Hex_ID: 3ac7, Skin_Name: Thần tượng âm nhạc
@@ -1431,6 +2018,11 @@ Decimal_ID: 51016, Hex_ID: 48c7, Skin_Name: [ex]
 Decimal_ID: 51017, Hex_ID: 49c7, Skin_Name: [ex]
 Decimal_ID: 51018, Hex_ID: 4ac7, Skin_Name: [ex]
 Decimal_ID: 51019, Hex_ID: 4bc7, Skin_Name: [ex]
+Decimal_ID: 51020, Hex_ID: 4cc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51021, Hex_ID: 4dc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51022, Hex_ID: 4ec7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51023, Hex_ID: 4fc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51024, Hex_ID: 50c7, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51100, Hex_ID: 9cc7, Skin_Name: Mặc định
 Decimal_ID: 51101, Hex_ID: 9dc7, Skin_Name: Tân thủy thủ
 Decimal_ID: 51102, Hex_ID: 9ec7, Skin_Name: Cao bồi
@@ -1441,13 +2033,23 @@ Decimal_ID: 51106, Hex_ID: a2c7, Skin_Name: [ex][DNT]
 Decimal_ID: 51107, Hex_ID: a3c7, Skin_Name: [ex][DNT]
 Decimal_ID: 51108, Hex_ID: a4c7, Skin_Name: Gà mờ
 Decimal_ID: 51109, Hex_ID: a5c7, Skin_Name: Giao long
-Decimal_ID: 51110, Hex_ID: a6c7, Skin_Name: [ex]
+Decimal_ID: 51110, Hex_ID: a6c7, Skin_Name: Sushi Master
 Decimal_ID: 51111, Hex_ID: a7c7, Skin_Name: [ex]
 Decimal_ID: 51112, Hex_ID: a8c7, Skin_Name: [ex]
 Decimal_ID: 51113, Hex_ID: a9c7, Skin_Name: [ex]
 Decimal_ID: 51114, Hex_ID: aac7, Skin_Name: [ex]
-Decimal_ID: 51200, Hex_ID: 00c8, Skin_Name: Mặc định
-Decimal_ID: 51201, Hex_ID: 01c8, Skin_Name: Pháo thủ tuộc neo
+Decimal_ID: 51115, Hex_ID: abc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51116, Hex_ID: acc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51117, Hex_ID: adc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51118, Hex_ID: aec7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51119, Hex_ID: afc7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51120, Hex_ID: b0c7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51121, Hex_ID: b1c7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51122, Hex_ID: b2c7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51123, Hex_ID: b3c7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51124, Hex_ID: b4c7, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51200, Hex_ID: 00c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51201, Hex_ID: 01c8, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51202, Hex_ID: 02c8, Skin_Name: Biệt đội siêu hùng
 Decimal_ID: 51203, Hex_ID: 03c8, Skin_Name: Cuồng tặc
 Decimal_ID: 51204, Hex_ID: 04c8, Skin_Name: Thợ cơ khí
@@ -1455,7 +2057,22 @@ Decimal_ID: 51205, Hex_ID: 05c8, Skin_Name: [ex][DNT]
 Decimal_ID: 51206, Hex_ID: 06c8, Skin_Name: [ex][DNT]
 Decimal_ID: 51207, Hex_ID: 07c8, Skin_Name: Cảnh sát trưởng
 Decimal_ID: 51208, Hex_ID: 08c8, Skin_Name: Bách tướng Lão đại
-Decimal_ID: 51209, Hex_ID: 09c8, Skin_Name: [ex][DNT]
+Decimal_ID: 51209, Hex_ID: 09c8, Skin_Name: Thánh Vệ
+Decimal_ID: 51210, Hex_ID: 0ac8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51211, Hex_ID: 0bc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51212, Hex_ID: 0cc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51213, Hex_ID: 0dc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51214, Hex_ID: 0ec8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51215, Hex_ID: 0fc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51216, Hex_ID: 10c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51217, Hex_ID: 11c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51218, Hex_ID: 12c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51219, Hex_ID: 13c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51220, Hex_ID: 14c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51221, Hex_ID: 15c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51222, Hex_ID: 16c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51223, Hex_ID: 17c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51224, Hex_ID: 18c8, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51300, Hex_ID: 64c8, Skin_Name: Mặc định
 Decimal_ID: 51301, Hex_ID: 65c8, Skin_Name: Tư lệnh viễn chinh
 Decimal_ID: 51302, Hex_ID: 66c8, Skin_Name: Sứ giả tinh hệ
@@ -1464,8 +2081,23 @@ Decimal_ID: 51304, Hex_ID: 68c8, Skin_Name: Khiêu chiến
 Decimal_ID: 51305, Hex_ID: 69c8, Skin_Name: Tác gia đương đại
 Decimal_ID: 51306, Hex_ID: 6ac8, Skin_Name: Chí tôn Tà phượng
 Decimal_ID: 51307, Hex_ID: 6bc8, Skin_Name: Xích Huyết Bá Tước
-Decimal_ID: 51308, Hex_ID: 6cc8, Skin_Name: [ex][DNT]
+Decimal_ID: 51308, Hex_ID: 6cc8, Skin_Name: Idol Giáng Sinh
 Decimal_ID: 51309, Hex_ID: 6dc8, Skin_Name: [ex][DNT]
+Decimal_ID: 51310, Hex_ID: 6ec8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51311, Hex_ID: 6fc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51312, Hex_ID: 70c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51313, Hex_ID: 71c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51314, Hex_ID: 72c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51315, Hex_ID: 73c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51316, Hex_ID: 74c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51317, Hex_ID: 75c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51318, Hex_ID: 76c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51319, Hex_ID: 77c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51320, Hex_ID: 78c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51321, Hex_ID: 79c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51322, Hex_ID: 7ac8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51323, Hex_ID: 7bc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51324, Hex_ID: 7cc8, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51400, Hex_ID: c8c8, Skin_Name: Mặc định
 Decimal_ID: 51401, Hex_ID: c9c8, Skin_Name: Thám tử tập sự
 Decimal_ID: 51402, Hex_ID: cac8, Skin_Name: Kèn ái tình
@@ -1475,7 +2107,22 @@ Decimal_ID: 51405, Hex_ID: cdc8, Skin_Name: Cháy phố
 Decimal_ID: 51406, Hex_ID: cec8, Skin_Name: Lễ hội hoa
 Decimal_ID: 51407, Hex_ID: cfc8, Skin_Name: [ex][DNT]
 Decimal_ID: 51408, Hex_ID: d0c8, Skin_Name: Hỏa thuật sư
-Decimal_ID: 51409, Hex_ID: d1c8, Skin_Name: [ex][DNT]
+Decimal_ID: 51409, Hex_ID: d1c8, Skin_Name: "Bạch Tuyết" Kỳ Lạ
+Decimal_ID: 51410, Hex_ID: d2c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51411, Hex_ID: d3c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51412, Hex_ID: d4c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51413, Hex_ID: d5c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51414, Hex_ID: d6c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51415, Hex_ID: d7c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51416, Hex_ID: d8c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51417, Hex_ID: d9c8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51418, Hex_ID: dac8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51419, Hex_ID: dbc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51420, Hex_ID: dcc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51421, Hex_ID: ddc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51422, Hex_ID: dec8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51423, Hex_ID: dfc8, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51424, Hex_ID: e0c8, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51500, Hex_ID: 2cc9, Skin_Name: Mặc định
 Decimal_ID: 51501, Hex_ID: 2dc9, Skin_Name: Bá tước
 Decimal_ID: 51502, Hex_ID: 2ec9, Skin_Name: Thống soái kháng chiến
@@ -1485,7 +2132,22 @@ Decimal_ID: 51505, Hex_ID: 31c9, Skin_Name: Quang vinh 2.0
 Decimal_ID: 51506, Hex_ID: 32c9, Skin_Name: Nguyệt loan đao
 Decimal_ID: 51507, Hex_ID: 33c9, Skin_Name: [ex][DNT]
 Decimal_ID: 51508, Hex_ID: 34c9, Skin_Name: Cứu hộ
-Decimal_ID: 51509, Hex_ID: 35c9, Skin_Name: [ex][DNT]
+Decimal_ID: 51509, Hex_ID: 35c9, Skin_Name: Tổng Lãnh thiên thần
+Decimal_ID: 51510, Hex_ID: 36c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51511, Hex_ID: 37c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51512, Hex_ID: 38c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51513, Hex_ID: 39c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51514, Hex_ID: 3ac9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51515, Hex_ID: 3bc9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51516, Hex_ID: 3cc9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51517, Hex_ID: 3dc9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51518, Hex_ID: 3ec9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51519, Hex_ID: 3fc9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51520, Hex_ID: 40c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51521, Hex_ID: 41c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51522, Hex_ID: 42c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51523, Hex_ID: 43c9, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51524, Hex_ID: 44c9, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51800, Hex_ID: 58ca, Skin_Name: Mặc định
 Decimal_ID: 51801, Hex_ID: 59ca, Skin_Name: Trưởng ngoại khoa
 Decimal_ID: 51802, Hex_ID: 5aca, Skin_Name: Đặc công mãng xà
@@ -1500,7 +2162,17 @@ Decimal_ID: 51810, Hex_ID: 62ca, Skin_Name: Giám đốc âm nhạc
 Decimal_ID: 51811, Hex_ID: 63ca, Skin_Name: [ex]
 Decimal_ID: 51812, Hex_ID: 64ca, Skin_Name: Huyết phong
 Decimal_ID: 51813, Hex_ID: 65ca, Skin_Name: Đảo thiên đường
-Decimal_ID: 51814, Hex_ID: 66ca, Skin_Name: [ex]
+Decimal_ID: 51814, Hex_ID: 66ca, Skin_Name: Thẩm phán Trăng khuyết
+Decimal_ID: 51815, Hex_ID: 67ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51816, Hex_ID: 68ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51817, Hex_ID: 69ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51818, Hex_ID: 6aca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51819, Hex_ID: 6bca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51820, Hex_ID: 6cca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51821, Hex_ID: 6dca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51822, Hex_ID: 6eca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51823, Hex_ID: 6fca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51824, Hex_ID: 70ca, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 51900, Hex_ID: bcca, Skin_Name: Mặc định
 Decimal_ID: 51901, Hex_ID: bdca, Skin_Name: Nữ quản ga
 Decimal_ID: 51902, Hex_ID: beca, Skin_Name: Xứ sở thần tiên
@@ -1513,9 +2185,19 @@ Decimal_ID: 51908, Hex_ID: c4ca, Skin_Name: Chị ong bay thấp
 Decimal_ID: 51909, Hex_ID: c5ca, Skin_Name: Tiên tri tập sự
 Decimal_ID: 51910, Hex_ID: c6ca, Skin_Name: [ex]
 Decimal_ID: 51911, Hex_ID: c7ca, Skin_Name: Băng kỳ lâm
-Decimal_ID: 51912, Hex_ID: c8ca, Skin_Name: [ex]
+Decimal_ID: 51912, Hex_ID: c8ca, Skin_Name: Doombot Thơ ngây
 Decimal_ID: 51913, Hex_ID: c9ca, Skin_Name: [ex]
 Decimal_ID: 51914, Hex_ID: caca, Skin_Name: [ex]
+Decimal_ID: 51915, Hex_ID: cbca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51916, Hex_ID: ccca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51917, Hex_ID: cdca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51918, Hex_ID: ceca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51919, Hex_ID: cfca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51920, Hex_ID: d0ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51921, Hex_ID: d1ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51922, Hex_ID: d2ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51923, Hex_ID: d3ca, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 51924, Hex_ID: d4ca, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52000, Hex_ID: 20cb, Skin_Name: Mặc định
 Decimal_ID: 52001, Hex_ID: 21cb, Skin_Name: Đạo tặc
 Decimal_ID: 52002, Hex_ID: 22cb, Skin_Name: Gián điệp tinh hệ
@@ -1529,6 +2211,18 @@ Decimal_ID: 52009, Hex_ID: 29cb, Skin_Name: Tiệc bãi biển
 Decimal_ID: 52010, Hex_ID: 2acb, Skin_Name: Men Lam Hồn Gốm
 Decimal_ID: 52011, Hex_ID: 2bcb, Skin_Name: Lưu Ly Long Mẫu
 Decimal_ID: 52012, Hex_ID: 2ccb, Skin_Name: Vũ điệu dân gian
+Decimal_ID: 52013, Hex_ID: 2dcb, Skin_Name: Thỏ may mắn
+Decimal_ID: 52014, Hex_ID: 2ecb, Skin_Name: Idol Giáng Sinh
+Decimal_ID: 52015, Hex_ID: 2fcb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52016, Hex_ID: 30cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52017, Hex_ID: 31cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52018, Hex_ID: 32cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52019, Hex_ID: 33cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52020, Hex_ID: 34cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52021, Hex_ID: 35cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52022, Hex_ID: 36cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52023, Hex_ID: 37cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52024, Hex_ID: 38cb, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52100, Hex_ID: 84cb, Skin_Name: Mặc định
 Decimal_ID: 52101, Hex_ID: 85cb, Skin_Name: Vũ kiếm sư
 Decimal_ID: 52102, Hex_ID: 86cb, Skin_Name: Giám sát tinh Hệ
@@ -1541,16 +2235,44 @@ Decimal_ID: 52108, Hex_ID: 8ccb, Skin_Name: Bá vương Âm nhạc
 Decimal_ID: 52109, Hex_ID: 8dcb, Skin_Name: [ex][DNT]
 Decimal_ID: 52110, Hex_ID: 8ecb, Skin_Name: Hisoka
 Decimal_ID: 52111, Hex_ID: 8fcb, Skin_Name: Hỏa diệm Thần long
+Decimal_ID: 52112, Hex_ID: 90cb, Skin_Name: S - Quang vinh
+Decimal_ID: 52113, Hex_ID: 91cb, Skin_Name: Kỷ Nguyên Hổ Phách
+Decimal_ID: 52114, Hex_ID: 92cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52115, Hex_ID: 93cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52116, Hex_ID: 94cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52117, Hex_ID: 95cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52118, Hex_ID: 96cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52119, Hex_ID: 97cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52120, Hex_ID: 98cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52121, Hex_ID: 99cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52122, Hex_ID: 9acb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52123, Hex_ID: 9bcb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52124, Hex_ID: 9ccb, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52200, Hex_ID: e8cb, Skin_Name: Mặc định
 Decimal_ID: 52201, Hex_ID: e9cb, Skin_Name: Vượt ngục
 Decimal_ID: 52202, Hex_ID: eacb, Skin_Name: Diệt nguyệt tiên phong
-Decimal_ID: 52203, Hex_ID: ebcb, Skin_Name: Quái vật cương thi
+Decimal_ID: 52203, Hex_ID: ebcb, Skin_Name: Đêm ác mộng
 Decimal_ID: 52204, Hex_ID: eccb, Skin_Name: Genos
 Decimal_ID: 52205, Hex_ID: edcb, Skin_Name: Huyết thủ Tu La
 Decimal_ID: 52206, Hex_ID: eecb, Skin_Name: [ex][DNT]
 Decimal_ID: 52207, Hex_ID: efcb, Skin_Name: Stream đến bao giờ
 Decimal_ID: 52208, Hex_ID: f0cb, Skin_Name: Sát thủ Mafia
-Decimal_ID: 52209, Hex_ID: f1cb, Skin_Name: [ex][DNT]
+Decimal_ID: 52209, Hex_ID: f1cb, Skin_Name: Dị nhân tinh hệ
+Decimal_ID: 52210, Hex_ID: f2cb, Skin_Name: Dũng Sĩ Pixel
+Decimal_ID: 52211, Hex_ID: f3cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52212, Hex_ID: f4cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52213, Hex_ID: f5cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52214, Hex_ID: f6cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52215, Hex_ID: f7cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52216, Hex_ID: f8cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52217, Hex_ID: f9cb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52218, Hex_ID: facb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52219, Hex_ID: fbcb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52220, Hex_ID: fccb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52221, Hex_ID: fdcb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52222, Hex_ID: fecb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52223, Hex_ID: ffcb, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52224, Hex_ID: 00cc, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52300, Hex_ID: 4ccc, Skin_Name: Mặc định
 Decimal_ID: 52301, Hex_ID: 4dcc, Skin_Name: Nam tước
 Decimal_ID: 52302, Hex_ID: 4ecc, Skin_Name: Đô đốc tinh Hệ
@@ -1558,9 +2280,24 @@ Decimal_ID: 52303, Hex_ID: 4fcc, Skin_Name: Pháp sư hỏa long
 Decimal_ID: 52304, Hex_ID: 50cc, Skin_Name: Tiến sĩ thiên tài
 Decimal_ID: 52305, Hex_ID: 51cc, Skin_Name: Chân nhân
 Decimal_ID: 52306, Hex_ID: 52cc, Skin_Name: Tông đồ Chân lý
-Decimal_ID: 52307, Hex_ID: 53cc, Skin_Name: [ex][DNT]
+Decimal_ID: 52307, Hex_ID: 53cc, Skin_Name: Bác sĩ thú y
 Decimal_ID: 52308, Hex_ID: 54cc, Skin_Name: [ex][DNT]
 Decimal_ID: 52309, Hex_ID: 55cc, Skin_Name: [ex][DNT]
+Decimal_ID: 52310, Hex_ID: 56cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52311, Hex_ID: 57cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52312, Hex_ID: 58cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52313, Hex_ID: 59cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52314, Hex_ID: 5acc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52315, Hex_ID: 5bcc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52316, Hex_ID: 5ccc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52317, Hex_ID: 5dcc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52318, Hex_ID: 5ecc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52319, Hex_ID: 5fcc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52320, Hex_ID: 60cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52321, Hex_ID: 61cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52322, Hex_ID: 62cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52323, Hex_ID: 63cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52324, Hex_ID: 64cc, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52400, Hex_ID: b0cc, Skin_Name: Mặc định
 Decimal_ID: 52401, Hex_ID: b1cc, Skin_Name: Hầu gái
 Decimal_ID: 52402, Hex_ID: b2cc, Skin_Name: Thần tượng âm nhạc
@@ -1575,7 +2312,17 @@ Decimal_ID: 52410, Hex_ID: bacc, Skin_Name: Tử đinh hương
 Decimal_ID: 52411, Hex_ID: bbcc, Skin_Name: Vua trò chơi
 Decimal_ID: 52412, Hex_ID: bccc, Skin_Name: S - Quang vinh
 Decimal_ID: 52413, Hex_ID: bdcc, Skin_Name: Huyết phong
-Decimal_ID: 52414, Hex_ID: becc, Skin_Name: 52414
+Decimal_ID: 52414, Hex_ID: becc, Skin_Name: Càn Nguyên Điện Chủ
+Decimal_ID: 52415, Hex_ID: bfcc, Skin_Name: Bugcat Assemble
+Decimal_ID: 52416, Hex_ID: c0cc, Skin_Name: Hoa Linh Lan
+Decimal_ID: 52417, Hex_ID: c1cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52418, Hex_ID: c2cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52419, Hex_ID: c3cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52420, Hex_ID: c4cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52421, Hex_ID: c5cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52422, Hex_ID: c6cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52423, Hex_ID: c7cc, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52424, Hex_ID: c8cc, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52500, Hex_ID: 14cd, Skin_Name: Mặc định
 Decimal_ID: 52501, Hex_ID: 15cd, Skin_Name: Gà siêu quậy
 Decimal_ID: 52502, Hex_ID: 16cd, Skin_Name: Tiểu đệ hổ báo
@@ -1584,8 +2331,23 @@ Decimal_ID: 52504, Hex_ID: 18cd, Skin_Name: Gà siêu cấp
 Decimal_ID: 52505, Hex_ID: 19cd, Skin_Name: Vua sân cỏ
 Decimal_ID: 52506, Hex_ID: 1acd, Skin_Name: Ông trùm Giáng sinh
 Decimal_ID: 52507, Hex_ID: 1bcd, Skin_Name: Duyên tơ hồng
-Decimal_ID: 52508, Hex_ID: 1ccd, Skin_Name: [ex][DNT]
+Decimal_ID: 52508, Hex_ID: 1ccd, Skin_Name: Tiểu quái gánh xiếc
 Decimal_ID: 52509, Hex_ID: 1dcd, Skin_Name: [ex][DNT]
+Decimal_ID: 52510, Hex_ID: 1ecd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52511, Hex_ID: 1fcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52512, Hex_ID: 20cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52513, Hex_ID: 21cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52514, Hex_ID: 22cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52515, Hex_ID: 23cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52516, Hex_ID: 24cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52517, Hex_ID: 25cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52518, Hex_ID: 26cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52519, Hex_ID: 27cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52520, Hex_ID: 28cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52521, Hex_ID: 29cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52522, Hex_ID: 2acd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52523, Hex_ID: 2bcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52524, Hex_ID: 2ccd, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52600, Hex_ID: 78cd, Skin_Name: Mặc định
 Decimal_ID: 52601, Hex_ID: 79cd, Skin_Name: Giấc mơ ngọt ngào
 Decimal_ID: 52602, Hex_ID: 7acd, Skin_Name: Tiểu thư kẹo ngọt
@@ -1596,11 +2358,21 @@ Decimal_ID: 52606, Hex_ID: 7ecd, Skin_Name: Lễ hội ma quái
 Decimal_ID: 52607, Hex_ID: 7fcd, Skin_Name: Tiểu thư
 Decimal_ID: 52608, Hex_ID: 80cd, Skin_Name: Rồng bé bự
 Decimal_ID: 52609, Hex_ID: 81cd, Skin_Name: Quận chúa sông Nile
-Decimal_ID: 52610, Hex_ID: 82cd, Skin_Name: [ex][DNT]
-Decimal_ID: 52611, Hex_ID: 83cd, Skin_Name: [ex][DNT]
+Decimal_ID: 52610, Hex_ID: 82cd, Skin_Name: Capoo Boom
+Decimal_ID: 52611, Hex_ID: 83cd, Skin_Name: Đoàn trưởng tạp kỹ
 Decimal_ID: 52612, Hex_ID: 84cd, Skin_Name: [ex][DNT]
 Decimal_ID: 52613, Hex_ID: 85cd, Skin_Name: [ex][DNT]
 Decimal_ID: 52614, Hex_ID: 86cd, Skin_Name: [ex][DNT]
+Decimal_ID: 52615, Hex_ID: 87cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52616, Hex_ID: 88cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52617, Hex_ID: 89cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52618, Hex_ID: 8acd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52619, Hex_ID: 8bcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52620, Hex_ID: 8ccd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52621, Hex_ID: 8dcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52622, Hex_ID: 8ecd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52623, Hex_ID: 8fcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52624, Hex_ID: 90cd, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52700, Hex_ID: dccd, Skin_Name: Mặc định
 Decimal_ID: 52701, Hex_ID: ddcd, Skin_Name: Quý tiểu thư
 Decimal_ID: 52702, Hex_ID: decd, Skin_Name: Chiêm tinh gia
@@ -1612,6 +2384,20 @@ Decimal_ID: 52707, Hex_ID: e3cd, Skin_Name: Thủy liên hoa
 Decimal_ID: 52708, Hex_ID: e4cd, Skin_Name: Cô thủ thư
 Decimal_ID: 52709, Hex_ID: e5cd, Skin_Name: Bách nhạn Ngân linh
 Decimal_ID: 52710, Hex_ID: e6cd, Skin_Name: Nova Stardust
+Decimal_ID: 52711, Hex_ID: e7cd, Skin_Name: Tây Vực phong tình
+Decimal_ID: 52712, Hex_ID: e8cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52713, Hex_ID: e9cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52714, Hex_ID: eacd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52715, Hex_ID: ebcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52716, Hex_ID: eccd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52717, Hex_ID: edcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52718, Hex_ID: eecd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52719, Hex_ID: efcd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52720, Hex_ID: f0cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52721, Hex_ID: f1cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52722, Hex_ID: f2cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52723, Hex_ID: f3cd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52724, Hex_ID: f4cd, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52800, Hex_ID: 40ce, Skin_Name: Mặc định
 Decimal_ID: 52801, Hex_ID: 41ce, Skin_Name: Tiểu long
 Decimal_ID: 52802, Hex_ID: 42ce, Skin_Name: Đặc vụ cáo tuyết
@@ -1621,7 +2407,22 @@ Decimal_ID: 52805, Hex_ID: 45ce, Skin_Name: Blogger Ẩm thực
 Decimal_ID: 52806, Hex_ID: 46ce, Skin_Name: Búp bê Daruma
 Decimal_ID: 52807, Hex_ID: 47ce, Skin_Name: [ex][DNT]
 Decimal_ID: 52808, Hex_ID: 48ce, Skin_Name: Thần phong Hiệp nữ
-Decimal_ID: 52809, Hex_ID: 49ce, Skin_Name: [ex][DNT]
+Decimal_ID: 52809, Hex_ID: 49ce, Skin_Name: Milim Nava
+Decimal_ID: 52810, Hex_ID: 4ace, Skin_Name: Annie Leonhart
+Decimal_ID: 52811, Hex_ID: 4bce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52812, Hex_ID: 4cce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52813, Hex_ID: 4dce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52814, Hex_ID: 4ece, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52815, Hex_ID: 4fce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52816, Hex_ID: 50ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52817, Hex_ID: 51ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52818, Hex_ID: 52ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52819, Hex_ID: 53ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52820, Hex_ID: 54ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52821, Hex_ID: 55ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52822, Hex_ID: 56ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52823, Hex_ID: 57ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52824, Hex_ID: 58ce, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 52900, Hex_ID: a4ce, Skin_Name: Mặc định
 Decimal_ID: 52901, Hex_ID: a5ce, Skin_Name: Dạ huyết tộc
 Decimal_ID: 52902, Hex_ID: a6ce, Skin_Name: Ma kỵ tử sĩ
@@ -1630,8 +2431,23 @@ Decimal_ID: 52904, Hex_ID: a8ce, Skin_Name: Tư lệnh viễn chinh
 Decimal_ID: 52905, Hex_ID: a9ce, Skin_Name: Chiến thần Ai Cập
 Decimal_ID: 52906, Hex_ID: aace, Skin_Name: Hắc kỵ thời không
 Decimal_ID: 52907, Hex_ID: abce, Skin_Name: S - Quang vinh
-Decimal_ID: 52908, Hex_ID: acce, Skin_Name: [ex][DNT]
+Decimal_ID: 52908, Hex_ID: acce, Skin_Name: Ma Ảnh Thần Đao
 Decimal_ID: 52909, Hex_ID: adce, Skin_Name: [ex][DNT]
+Decimal_ID: 52910, Hex_ID: aece, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52911, Hex_ID: afce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52912, Hex_ID: b0ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52913, Hex_ID: b1ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52914, Hex_ID: b2ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52915, Hex_ID: b3ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52916, Hex_ID: b4ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52917, Hex_ID: b5ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52918, Hex_ID: b6ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52919, Hex_ID: b7ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52920, Hex_ID: b8ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52921, Hex_ID: b9ce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52922, Hex_ID: bace, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52923, Hex_ID: bbce, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 52924, Hex_ID: bcce, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53000, Hex_ID: 08cf, Skin_Name: Mặc định
 Decimal_ID: 53001, Hex_ID: 09cf, Skin_Name: Cảnh vệ bầu trời
 Decimal_ID: 53002, Hex_ID: 0acf, Skin_Name: Pháp sư trăng khuyết
@@ -1640,8 +2456,23 @@ Decimal_ID: 53004, Hex_ID: 0ccf, Skin_Name: [ex][DNT]
 Decimal_ID: 53005, Hex_ID: 0dcf, Skin_Name: Ông bầu Showbiz
 Decimal_ID: 53006, Hex_ID: 0ecf, Skin_Name: [ex][DNT]
 Decimal_ID: 53007, Hex_ID: 0fcf, Skin_Name: Đường chủ yêu giới
-Decimal_ID: 53008, Hex_ID: 10cf, Skin_Name: [ex][DNT]
-Decimal_ID: 53009, Hex_ID: 11cf, Skin_Name: [ex][DNT]
+Decimal_ID: 53008, Hex_ID: 10cf, Skin_Name: Snack giòn tan
+Decimal_ID: 53009, Hex_ID: 11cf, Skin_Name: Lốp trưởng
+Decimal_ID: 53010, Hex_ID: 12cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53011, Hex_ID: 13cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53012, Hex_ID: 14cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53013, Hex_ID: 15cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53014, Hex_ID: 16cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53015, Hex_ID: 17cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53016, Hex_ID: 18cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53017, Hex_ID: 19cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53018, Hex_ID: 1acf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53019, Hex_ID: 1bcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53020, Hex_ID: 1ccf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53021, Hex_ID: 1dcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53022, Hex_ID: 1ecf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53023, Hex_ID: 1fcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53024, Hex_ID: 20cf, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53100, Hex_ID: 6ccf, Skin_Name: Mặc định
 Decimal_ID: 53101, Hex_ID: 6dcf, Skin_Name: Y tá lạ
 Decimal_ID: 53102, Hex_ID: 6ecf, Skin_Name: Học viện Carano
@@ -1654,16 +2485,44 @@ Decimal_ID: 53108, Hex_ID: 74cf, Skin_Name: [ex][DNT]
 Decimal_ID: 53109, Hex_ID: 75cf, Skin_Name: Nghệ sĩ Graffiti
 Decimal_ID: 53110, Hex_ID: 76cf, Skin_Name: Hồ điệp
 Decimal_ID: 53111, Hex_ID: 77cf, Skin_Name: Môn đồ Xảo quyệt
+Decimal_ID: 53112, Hex_ID: 78cf, Skin_Name: Quán quân
+Decimal_ID: 53113, Hex_ID: 79cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53114, Hex_ID: 7acf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53115, Hex_ID: 7bcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53116, Hex_ID: 7ccf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53117, Hex_ID: 7dcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53118, Hex_ID: 7ecf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53119, Hex_ID: 7fcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53120, Hex_ID: 80cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53121, Hex_ID: 81cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53122, Hex_ID: 82cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53123, Hex_ID: 83cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53124, Hex_ID: 84cf, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53200, Hex_ID: d0cf, Skin_Name: Mặc định
 Decimal_ID: 53201, Hex_ID: d1cf, Skin_Name: Cận vệ hoàng gia
 Decimal_ID: 53202, Hex_ID: d2cf, Skin_Name: Giả kim thuật sư
 Decimal_ID: 53203, Hex_ID: d3cf, Skin_Name: Quán quân
 Decimal_ID: 53204, Hex_ID: d4cf, Skin_Name: Tiệc bãi biển
 Decimal_ID: 53205, Hex_ID: d5cf, Skin_Name: Ước nguyện Giáng sinh
-Decimal_ID: 53206, Hex_ID: d6cf, Skin_Name: [ex][DNT]
-Decimal_ID: 53207, Hex_ID: d7cf, Skin_Name: [ex][DNT]
+Decimal_ID: 53206, Hex_ID: d6cf, Skin_Name: Thủy thủ
+Decimal_ID: 53207, Hex_ID: d7cf, Skin_Name: Thám tử trung học
 Decimal_ID: 53208, Hex_ID: d8cf, Skin_Name: [ex][DNT]
 Decimal_ID: 53209, Hex_ID: d9cf, Skin_Name: [ex][DNT]
+Decimal_ID: 53210, Hex_ID: dacf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53211, Hex_ID: dbcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53212, Hex_ID: dccf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53213, Hex_ID: ddcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53214, Hex_ID: decf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53215, Hex_ID: dfcf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53216, Hex_ID: e0cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53217, Hex_ID: e1cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53218, Hex_ID: e2cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53219, Hex_ID: e3cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53220, Hex_ID: e4cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53221, Hex_ID: e5cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53222, Hex_ID: e6cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53223, Hex_ID: e7cf, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53224, Hex_ID: e8cf, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53300, Hex_ID: 34d0, Skin_Name: Mặc định
 Decimal_ID: 53301, Hex_ID: 35d0, Skin_Name: Tay đua đường phố
 Decimal_ID: 53302, Hex_ID: 36d0, Skin_Name: Tay súng diệt thần
@@ -1675,6 +2534,20 @@ Decimal_ID: 53307, Hex_ID: 3bd0, Skin_Name: Sắc màu Holi
 Decimal_ID: 53308, Hex_ID: 3cd0, Skin_Name: Chiến thần MOBA
 Decimal_ID: 53309, Hex_ID: 3dd0, Skin_Name: Vệ binh Giáng sinh
 Decimal_ID: 53310, Hex_ID: 3ed0, Skin_Name: Thám tử học đường
+Decimal_ID: 53311, Hex_ID: 3fd0, Skin_Name: Thợ Săn Truy Ảnh
+Decimal_ID: 53312, Hex_ID: 40d0, Skin_Name: S - Quang vinh
+Decimal_ID: 53313, Hex_ID: 41d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53314, Hex_ID: 42d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53315, Hex_ID: 43d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53316, Hex_ID: 44d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53317, Hex_ID: 45d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53318, Hex_ID: 46d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53319, Hex_ID: 47d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53320, Hex_ID: 48d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53321, Hex_ID: 49d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53322, Hex_ID: 4ad0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53323, Hex_ID: 4bd0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53324, Hex_ID: 4cd0, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53400, Hex_ID: 98d0, Skin_Name: Mặc định
 Decimal_ID: 53401, Hex_ID: 99d0, Skin_Name: Chiến binh quyến rũ
 Decimal_ID: 53402, Hex_ID: 9ad0, Skin_Name: Quận chúa Tuyết
@@ -1683,20 +2556,48 @@ Decimal_ID: 53404, Hex_ID: 9cd0, Skin_Name: Quý cô tuổi Dần
 Decimal_ID: 53405, Hex_ID: 9dd0, Skin_Name: Băng Sa công chúa
 Decimal_ID: 53406, Hex_ID: 9ed0, Skin_Name: Lữ khách cao nguyên
 Decimal_ID: 53407, Hex_ID: 9fd0, Skin_Name: Đảo thiên đường
-Decimal_ID: 53408, Hex_ID: a0d0, Skin_Name: [ex][DNT]
+Decimal_ID: 53408, Hex_ID: a0d0, Skin_Name: Nữ hoàng tốc độ
 Decimal_ID: 53409, Hex_ID: a1d0, Skin_Name: [ex][DNT]
+Decimal_ID: 53410, Hex_ID: a2d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53411, Hex_ID: a3d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53412, Hex_ID: a4d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53413, Hex_ID: a5d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53414, Hex_ID: a6d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53415, Hex_ID: a7d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53416, Hex_ID: a8d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53417, Hex_ID: a9d0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53418, Hex_ID: aad0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53419, Hex_ID: abd0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53420, Hex_ID: acd0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53421, Hex_ID: add0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53422, Hex_ID: aed0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53423, Hex_ID: afd0, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53424, Hex_ID: b0d0, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53500, Hex_ID: fcd0, Skin_Name: Mặc định
 Decimal_ID: 53501, Hex_ID: fdd0, Skin_Name: Giấc mơ trưa
 Decimal_ID: 53502, Hex_ID: fed0, Skin_Name: Tiểu thư Băng giá
 Decimal_ID: 53503, Hex_ID: ffd0, Skin_Name: WaVe
-Decimal_ID: 53504, Hex_ID: 00d1, Skin_Name: Điệp viên cánh cụt
-Decimal_ID: 53505, Hex_ID: 01d1, Skin_Name: [ex][DNT]
+Decimal_ID: 53504, Hex_ID: 00d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53505, Hex_ID: 01d1, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53506, Hex_ID: 02d1, Skin_Name: [ex][DNT]
 Decimal_ID: 53507, Hex_ID: 03d1, Skin_Name: Đại tiểu thư
 Decimal_ID: 53508, Hex_ID: 04d1, Skin_Name: Tiểu thư bóng đêm
 Decimal_ID: 53509, Hex_ID: 05d1, Skin_Name: Lữ khách sa mạc
 Decimal_ID: 53510, Hex_ID: 06d1, Skin_Name: Giấc mộng biển xanh
 Decimal_ID: 53511, Hex_ID: 07d1, Skin_Name: S - Quang vinh
+Decimal_ID: 53512, Hex_ID: 08d1, Skin_Name: Nữ quỷ say ngủ
+Decimal_ID: 53513, Hex_ID: 09d1, Skin_Name: Định Vị Tuyệt Đối
+Decimal_ID: 53514, Hex_ID: 0ad1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53515, Hex_ID: 0bd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53516, Hex_ID: 0cd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53517, Hex_ID: 0dd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53518, Hex_ID: 0ed1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53519, Hex_ID: 0fd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53520, Hex_ID: 10d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53521, Hex_ID: 11d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53522, Hex_ID: 12d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53523, Hex_ID: 13d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53524, Hex_ID: 14d1, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53600, Hex_ID: 60d1, Skin_Name: Mặc định
 Decimal_ID: 53601, Hex_ID: 61d1, Skin_Name: Sát thủ đô thị
 Decimal_ID: 53602, Hex_ID: 62d1, Skin_Name: Hoàng kim công chúa
@@ -1707,6 +2608,21 @@ Decimal_ID: 53606, Hex_ID: 66d1, Skin_Name: Tiểu thư Mafia
 Decimal_ID: 53607, Hex_ID: 67d1, Skin_Name: [ex][DNT]
 Decimal_ID: 53608, Hex_ID: 68d1, Skin_Name: Sát thủ Dạ Ưng
 Decimal_ID: 53609, Hex_ID: 69d1, Skin_Name: Quán Quân
+Decimal_ID: 53610, Hex_ID: 6ad1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53611, Hex_ID: 6bd1, Skin_Name: Bách thú triều Long
+Decimal_ID: 53612, Hex_ID: 6cd1, Skin_Name: Mikasa
+Decimal_ID: 53613, Hex_ID: 6dd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53614, Hex_ID: 6ed1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53615, Hex_ID: 6fd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53616, Hex_ID: 70d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53617, Hex_ID: 71d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53618, Hex_ID: 72d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53619, Hex_ID: 73d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53620, Hex_ID: 74d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53621, Hex_ID: 75d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53622, Hex_ID: 76d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53623, Hex_ID: 77d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53624, Hex_ID: 78d1, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53700, Hex_ID: c4d1, Skin_Name: Mặc định
 Decimal_ID: 53701, Hex_ID: c5d1, Skin_Name: Hắc kiếm sĩ Kirito
 Decimal_ID: 53702, Hex_ID: c6d1, Skin_Name: Kirito
@@ -1716,27 +2632,72 @@ Decimal_ID: 53705, Hex_ID: c9d1, Skin_Name: Bạch kiếm sĩ
 Decimal_ID: 53706, Hex_ID: cad1, Skin_Name: Hạo Thiên Khuyển
 Decimal_ID: 53707, Hex_ID: cbd1, Skin_Name: Tình yêu nổi loạn
 Decimal_ID: 53708, Hex_ID: ccd1, Skin_Name: Lân sư Vũ thần
-Decimal_ID: 53709, Hex_ID: cdd1, Skin_Name: [ex][DNT]
+Decimal_ID: 53709, Hex_ID: cdd1, Skin_Name: Cẩm y vệ - Xích Hổ
+Decimal_ID: 53710, Hex_ID: ced1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53711, Hex_ID: cfd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53712, Hex_ID: d0d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53713, Hex_ID: d1d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53714, Hex_ID: d2d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53715, Hex_ID: d3d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53716, Hex_ID: d4d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53717, Hex_ID: d5d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53718, Hex_ID: d6d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53719, Hex_ID: d7d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53720, Hex_ID: d8d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53721, Hex_ID: d9d1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53722, Hex_ID: dad1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53723, Hex_ID: dbd1, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53724, Hex_ID: dcd1, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53800, Hex_ID: 28d2, Skin_Name: Mặc định
 Decimal_ID: 53801, Hex_ID: 29d2, Skin_Name: Tiểu hoàng đế
 Decimal_ID: 53802, Hex_ID: 2ad2, Skin_Name: Thần Miêu thiếu chủ
 Decimal_ID: 53803, Hex_ID: 2bd2, Skin_Name: Bạch hồ ly
 Decimal_ID: 53804, Hex_ID: 2cd2, Skin_Name: Yêu nhân học viện
 Decimal_ID: 53805, Hex_ID: 2dd2, Skin_Name: Tiếng thét Hỗn mang
-Decimal_ID: 53806, Hex_ID: 2ed2, Skin_Name: [ex][DNT]
+Decimal_ID: 53806, Hex_ID: 2ed2, Skin_Name: Rimuru Tempest
 Decimal_ID: 53807, Hex_ID: 2fd2, Skin_Name: [ex][DNT]
 Decimal_ID: 53808, Hex_ID: 30d2, Skin_Name: [ex][DNT]
 Decimal_ID: 53809, Hex_ID: 31d2, Skin_Name: [ex][DNT]
+Decimal_ID: 53810, Hex_ID: 32d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53811, Hex_ID: 33d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53812, Hex_ID: 34d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53813, Hex_ID: 35d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53814, Hex_ID: 36d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53815, Hex_ID: 37d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53816, Hex_ID: 38d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53817, Hex_ID: 39d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53818, Hex_ID: 3ad2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53819, Hex_ID: 3bd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53820, Hex_ID: 3cd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53821, Hex_ID: 3dd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53822, Hex_ID: 3ed2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53823, Hex_ID: 3fd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53824, Hex_ID: 40d2, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 53900, Hex_ID: 8cd2, Skin_Name: Mặc định
 Decimal_ID: 53901, Hex_ID: 8dd2, Skin_Name: Chiến giáp hắc ám
 Decimal_ID: 53902, Hex_ID: 8ed2, Skin_Name: Hỏa vân tà thần
 Decimal_ID: 53903, Hex_ID: 8fd2, Skin_Name: Quân vương bóng tối
 Decimal_ID: 53904, Hex_ID: 90d2, Skin_Name: Quân vương ánh sáng
-Decimal_ID: 53905, Hex_ID: 91d2, Skin_Name: [ex][DNT]
+Decimal_ID: 53905, Hex_ID: 91d2, Skin_Name: Giáo chủ tinh hệ
 Decimal_ID: 53906, Hex_ID: 92d2, Skin_Name: [ex][DNT]
 Decimal_ID: 53907, Hex_ID: 93d2, Skin_Name: [ex][DNT]
 Decimal_ID: 53908, Hex_ID: 94d2, Skin_Name: [ex][DNT]
 Decimal_ID: 53909, Hex_ID: 95d2, Skin_Name: [ex][DNT]
+Decimal_ID: 53910, Hex_ID: 96d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53911, Hex_ID: 97d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53912, Hex_ID: 98d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53913, Hex_ID: 99d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53914, Hex_ID: 9ad2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53915, Hex_ID: 9bd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53916, Hex_ID: 9cd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53917, Hex_ID: 9dd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53918, Hex_ID: 9ed2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53919, Hex_ID: 9fd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53920, Hex_ID: a0d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53921, Hex_ID: a1d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53922, Hex_ID: a2d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53923, Hex_ID: a3d2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 53924, Hex_ID: a4d2, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54000, Hex_ID: f0d2, Skin_Name: Mặc định
 Decimal_ID: 54001, Hex_ID: f1d2, Skin_Name: Soái ca thánh điện
 Decimal_ID: 54002, Hex_ID: f2d2, Skin_Name: Toshiro Hitsugaya
@@ -1747,16 +2708,46 @@ Decimal_ID: 54006, Hex_ID: f6d2, Skin_Name: Kỳ Lân soái
 Decimal_ID: 54007, Hex_ID: f7d2, Skin_Name: Vua về nhì
 Decimal_ID: 54008, Hex_ID: f8d2, Skin_Name: [ex][DNT]
 Decimal_ID: 54009, Hex_ID: f9d2, Skin_Name: [ex][DNT]
+Decimal_ID: 54010, Hex_ID: fad2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54011, Hex_ID: fbd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54012, Hex_ID: fcd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54013, Hex_ID: fdd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54014, Hex_ID: fed2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54015, Hex_ID: ffd2, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54016, Hex_ID: 00d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54017, Hex_ID: 01d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54018, Hex_ID: 02d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54019, Hex_ID: 03d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54020, Hex_ID: 04d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54021, Hex_ID: 05d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54022, Hex_ID: 06d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54023, Hex_ID: 07d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54024, Hex_ID: 08d3, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54100, Hex_ID: 54d3, Skin_Name: Mặc định
 Decimal_ID: 54101, Hex_ID: 55d3, Skin_Name: Thỏ ma quái
 Decimal_ID: 54102, Hex_ID: 56d3, Skin_Name: Cô bé sợ ma
 Decimal_ID: 54103, Hex_ID: 57d3, Skin_Name: Hoa hướng dương
-Decimal_ID: 54104, Hex_ID: 58d3, Skin_Name: [ex][DNT]
-Decimal_ID: 54105, Hex_ID: 59d3, Skin_Name: [ex][DNT]
+Decimal_ID: 54104, Hex_ID: 58d3, Skin_Name: S - Quang vinh
+Decimal_ID: 54105, Hex_ID: 59d3, Skin_Name: Tân Binh Pixel
 Decimal_ID: 54106, Hex_ID: 5ad3, Skin_Name: [ex][DNT]
 Decimal_ID: 54107, Hex_ID: 5bd3, Skin_Name: [ex][DNT]
 Decimal_ID: 54108, Hex_ID: 5cd3, Skin_Name: [ex][DNT]
 Decimal_ID: 54109, Hex_ID: 5dd3, Skin_Name: [ex][DNT]
+Decimal_ID: 54110, Hex_ID: 5ed3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54111, Hex_ID: 5fd3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54112, Hex_ID: 60d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54113, Hex_ID: 61d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54114, Hex_ID: 62d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54115, Hex_ID: 63d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54116, Hex_ID: 64d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54117, Hex_ID: 65d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54118, Hex_ID: 66d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54119, Hex_ID: 67d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54120, Hex_ID: 68d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54121, Hex_ID: 69d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54122, Hex_ID: 6ad3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54123, Hex_ID: 6bd3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54124, Hex_ID: 6cd3, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54200, Hex_ID: b8d3, Skin_Name: Mặc định
 Decimal_ID: 54201, Hex_ID: b9d3, Skin_Name: Lãng khách
 Decimal_ID: 54202, Hex_ID: bad3, Skin_Name: Đao khách vô tình
@@ -1765,8 +2756,23 @@ Decimal_ID: 54204, Hex_ID: bcd3, Skin_Name: S - Quang vinh
 Decimal_ID: 54205, Hex_ID: bdd3, Skin_Name: Thần phong Hộ vệ
 Decimal_ID: 54206, Hex_ID: bed3, Skin_Name: Hỗn mang đao
 Decimal_ID: 54207, Hex_ID: bfd3, Skin_Name: [ex][DNT]
-Decimal_ID: 54208, Hex_ID: c0d3, Skin_Name: [ex][DNT]
-Decimal_ID: 54209, Hex_ID: c1d3, Skin_Name: [ex][DNT]
+Decimal_ID: 54208, Hex_ID: c0d3, Skin_Name: Thần thoại Hy Lạp
+Decimal_ID: 54209, Hex_ID: c1d3, Skin_Name: Cần Thủ Cyborg
+Decimal_ID: 54210, Hex_ID: c2d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54211, Hex_ID: c3d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54212, Hex_ID: c4d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54213, Hex_ID: c5d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54214, Hex_ID: c6d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54215, Hex_ID: c7d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54216, Hex_ID: c8d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54217, Hex_ID: c9d3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54218, Hex_ID: cad3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54219, Hex_ID: cbd3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54220, Hex_ID: ccd3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54221, Hex_ID: cdd3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54222, Hex_ID: ced3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54223, Hex_ID: cfd3, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54224, Hex_ID: d0d3, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54300, Hex_ID: 1cd4, Skin_Name: Mặc định
 Decimal_ID: 54301, Hex_ID: 1dd4, Skin_Name: Hoạt náo viên
 Decimal_ID: 54302, Hex_ID: 1ed4, Skin_Name: Điệp viên ký ức
@@ -1776,60 +2782,169 @@ Decimal_ID: 54305, Hex_ID: 21d4, Skin_Name: [ex][DNT]
 Decimal_ID: 54306, Hex_ID: 22d4, Skin_Name: [ex][DNT]
 Decimal_ID: 54307, Hex_ID: 23d4, Skin_Name: Công chúa Cầu Vồng
 Decimal_ID: 54308, Hex_ID: 24d4, Skin_Name: Hỏa Hồ Tiên Ngư
-Decimal_ID: 54309, Hex_ID: 25d4, Skin_Name: [ex][DNT]
+Decimal_ID: 54309, Hex_ID: 25d4, Skin_Name: Cinnamoroll's Dream
+Decimal_ID: 54310, Hex_ID: 26d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54311, Hex_ID: 27d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54312, Hex_ID: 28d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54313, Hex_ID: 29d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54314, Hex_ID: 2ad4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54315, Hex_ID: 2bd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54316, Hex_ID: 2cd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54317, Hex_ID: 2dd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54318, Hex_ID: 2ed4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54319, Hex_ID: 2fd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54320, Hex_ID: 30d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54321, Hex_ID: 31d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54322, Hex_ID: 32d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54323, Hex_ID: 33d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54324, Hex_ID: 34d4, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54400, Hex_ID: 80d4, Skin_Name: Mặc định
 Decimal_ID: 54401, Hex_ID: 81d4, Skin_Name: Nhà chế tác
 Decimal_ID: 54402, Hex_ID: 82d4, Skin_Name: Tanjiro Kamado
 Decimal_ID: 54403, Hex_ID: 83d4, Skin_Name: Công tước Norman
 Decimal_ID: 54404, Hex_ID: 84d4, Skin_Name: Giấc mơ sao
 Decimal_ID: 54405, Hex_ID: 85d4, Skin_Name: Bích Hạc Phiên Vân
-Decimal_ID: 54406, Hex_ID: 86d4, Skin_Name: [ex][DNT]
+Decimal_ID: 54406, Hex_ID: 86d4, Skin_Name: Nghệ nhân Trung Thu
 Decimal_ID: 54407, Hex_ID: 87d4, Skin_Name: [ex][DNT]
 Decimal_ID: 54408, Hex_ID: 88d4, Skin_Name: [ex][DNT]
 Decimal_ID: 54409, Hex_ID: 89d4, Skin_Name: [ex][DNT]
+Decimal_ID: 54410, Hex_ID: 8ad4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54411, Hex_ID: 8bd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54412, Hex_ID: 8cd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54413, Hex_ID: 8dd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54414, Hex_ID: 8ed4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54415, Hex_ID: 8fd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54416, Hex_ID: 90d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54417, Hex_ID: 91d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54418, Hex_ID: 92d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54419, Hex_ID: 93d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54420, Hex_ID: 94d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54421, Hex_ID: 95d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54422, Hex_ID: 96d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54423, Hex_ID: 97d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54424, Hex_ID: 98d4, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54500, Hex_ID: e4d4, Skin_Name: Mặc định
 Decimal_ID: 54501, Hex_ID: e5d4, Skin_Name: Tiểu công chúa
 Decimal_ID: 54502, Hex_ID: e6d4, Skin_Name: [ex][DNT]
 Decimal_ID: 54503, Hex_ID: e7d4, Skin_Name: Chiêm tinh gia
 Decimal_ID: 54504, Hex_ID: e8d4, Skin_Name: Vũ phiến hỏa diệm
 Decimal_ID: 54505, Hex_ID: e9d4, Skin_Name: Nữ hoàng Băng giá
-Decimal_ID: 54506, Hex_ID: ead4, Skin_Name: [ex][DNT]
-Decimal_ID: 54507, Hex_ID: ebd4, Skin_Name: [ex][DNT]
+Decimal_ID: 54506, Hex_ID: ead4, Skin_Name: Nàng tiên Gạo
+Decimal_ID: 54507, Hex_ID: ebd4, Skin_Name: Hỗn Độn Thần Ma
 Decimal_ID: 54508, Hex_ID: ecd4, Skin_Name: [ex][DNT]
 Decimal_ID: 54509, Hex_ID: edd4, Skin_Name: [ex][DNT]
+Decimal_ID: 54510, Hex_ID: eed4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54511, Hex_ID: efd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54512, Hex_ID: f0d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54513, Hex_ID: f1d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54514, Hex_ID: f2d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54515, Hex_ID: f3d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54516, Hex_ID: f4d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54517, Hex_ID: f5d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54518, Hex_ID: f6d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54519, Hex_ID: f7d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54520, Hex_ID: f8d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54521, Hex_ID: f9d4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54522, Hex_ID: fad4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54523, Hex_ID: fbd4, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54524, Hex_ID: fcd4, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54600, Hex_ID: 48d5, Skin_Name: Mặc định
 Decimal_ID: 54601, Hex_ID: 49d5, Skin_Name: Tiểu kỳ lân
 Decimal_ID: 54602, Hex_ID: 4ad5, Skin_Name: Minh tinh ảo thuật
 Decimal_ID: 54603, Hex_ID: 4bd5, Skin_Name: Thuyền trưởng song luân
-Decimal_ID: 54604, Hex_ID: 4cd5, Skin_Name: [ex][DNT]
+Decimal_ID: 54604, Hex_ID: 4cd5, Skin_Name: 54604
 Decimal_ID: 54605, Hex_ID: 4dd5, Skin_Name: Ốc quế ngọt ngào
 Decimal_ID: 54606, Hex_ID: 4ed5, Skin_Name: Lễ hội té nước
-Decimal_ID: 54607, Hex_ID: 4fd5, Skin_Name: [ex][DNT]
-Decimal_ID: 54608, Hex_ID: 50d5, Skin_Name: [ex][DNT]
+Decimal_ID: 54607, Hex_ID: 4fd5, Skin_Name: Vân Y Cẩm Tú
+Decimal_ID: 54608, Hex_ID: 50d5, Skin_Name: Kỳ ngộ sắc màu
 Decimal_ID: 54609, Hex_ID: 51d5, Skin_Name: [ex][DNT]
+Decimal_ID: 54610, Hex_ID: 52d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54611, Hex_ID: 53d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54612, Hex_ID: 54d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54613, Hex_ID: 55d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54614, Hex_ID: 56d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54615, Hex_ID: 57d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54616, Hex_ID: 58d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54617, Hex_ID: 59d5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54618, Hex_ID: 5ad5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54619, Hex_ID: 5bd5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54620, Hex_ID: 5cd5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54621, Hex_ID: 5dd5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54622, Hex_ID: 5ed5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54623, Hex_ID: 5fd5, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54624, Hex_ID: 60d5, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 54800, Hex_ID: 10d6, Skin_Name: Mặc định
 Decimal_ID: 54801, Hex_ID: 11d6, Skin_Name: Chiến binh sa mạc
 Decimal_ID: 54802, Hex_ID: 12d6, Skin_Name: Hoàng Kim cơ giáp
 Decimal_ID: 54803, Hex_ID: 13d6, Skin_Name: Đập vỡ Cây đàn
 Decimal_ID: 54804, Hex_ID: 14d6, Skin_Name: Kình thiên Long Kỵ
-Decimal_ID: 54805, Hex_ID: 15d6, Skin_Name: [ex]
-Decimal_ID: 54806, Hex_ID: 16d6, Skin_Name: [ex]
+Decimal_ID: 54805, Hex_ID: 15d6, Skin_Name: Lữ Hành Thời Không
+Decimal_ID: 54806, Hex_ID: 16d6, Skin_Name: Giai điệu Giáng Sinh
 Decimal_ID: 54807, Hex_ID: 17d6, Skin_Name: [ex]
 Decimal_ID: 54808, Hex_ID: 18d6, Skin_Name: [ex]
 Decimal_ID: 54809, Hex_ID: 19d6, Skin_Name: [ex][DNT]
+Decimal_ID: 54810, Hex_ID: 1ad6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54811, Hex_ID: 1bd6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54812, Hex_ID: 1cd6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54813, Hex_ID: 1dd6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54814, Hex_ID: 1ed6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54815, Hex_ID: 1fd6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54816, Hex_ID: 20d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54817, Hex_ID: 21d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54818, Hex_ID: 22d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54819, Hex_ID: 23d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54820, Hex_ID: 24d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54821, Hex_ID: 25d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54822, Hex_ID: 26d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54823, Hex_ID: 27d6, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 54824, Hex_ID: 28d6, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 56700, Hex_ID: 7cdd, Skin_Name: Mặc định
 Decimal_ID: 56701, Hex_ID: 7ddd, Skin_Name: Mộc tinh linh
 Decimal_ID: 56702, Hex_ID: 7edd, Skin_Name: Cực địa tinh linh
 Decimal_ID: 56703, Hex_ID: 7fdd, Skin_Name: Tình yêu cổ tích
 Decimal_ID: 56704, Hex_ID: 80dd, Skin_Name: Huyễn Ảnh Mị Điệp
+Decimal_ID: 56705, Hex_ID: 81dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56706, Hex_ID: 82dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56707, Hex_ID: 83dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56708, Hex_ID: 84dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56709, Hex_ID: 85dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56710, Hex_ID: 86dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56711, Hex_ID: 87dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56712, Hex_ID: 88dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56713, Hex_ID: 89dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56714, Hex_ID: 8add, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56715, Hex_ID: 8bdd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56716, Hex_ID: 8cdd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56717, Hex_ID: 8ddd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56718, Hex_ID: 8edd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56719, Hex_ID: 8fdd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56720, Hex_ID: 90dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56721, Hex_ID: 91dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56722, Hex_ID: 92dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56723, Hex_ID: 93dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56724, Hex_ID: 94dd, Skin_Name: Không tìm thấy Skin
 Decimal_ID: 56800, Hex_ID: e0dd, Skin_Name: Mặc định
 Decimal_ID: 56801, Hex_ID: e1dd, Skin_Name: Thầy tướng
-Decimal_ID: 56802, Hex_ID: e2dd, Skin_Name: [ex]
-Decimal_ID: 59700, Hex_ID: 34e9, Skin_Name: Mặc định
-Decimal_ID: 59701, Hex_ID: 35e9, Skin_Name: Võ sĩ Giác đấu
-Decimal_ID: 59702, Hex_ID: 36e9, Skin_Name: Yuji Itadori
-Decimal_ID: 59800, Hex_ID: 98e9, Skin_Name: Mặc định
-Decimal_ID: 59801, Hex_ID: 99e9, Skin_Name: Lôi vệ
-Decimal_ID: 59802, Hex_ID: 9ae9, Skin_Name: Thiên Phủ - Tư Mệnh
-Decimal_ID: 59900, Hex_ID: fce9, Skin_Name: Mặc định
-Decimal_ID: 59901, Hex_ID: fde9, Skin_Name: Thiên Tướng - Độ Ách
+Decimal_ID: 56802, Hex_ID: e2dd, Skin_Name: 56802
+Decimal_ID: 56803, Hex_ID: e3dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56804, Hex_ID: e4dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56805, Hex_ID: e5dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56806, Hex_ID: e6dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56807, Hex_ID: e7dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56808, Hex_ID: e8dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56809, Hex_ID: e9dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56810, Hex_ID: eadd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56811, Hex_ID: ebdd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56812, Hex_ID: ecdd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56813, Hex_ID: eddd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56814, Hex_ID: eedd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56815, Hex_ID: efdd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56816, Hex_ID: f0dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56817, Hex_ID: f1dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56818, Hex_ID: f2dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56819, Hex_ID: f3dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56820, Hex_ID: f4dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56821, Hex_ID: f5dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56822, Hex_ID: f6dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56823, Hex_ID: f7dd, Skin_Name: Không tìm thấy Skin
+Decimal_ID: 56824, Hex_ID: f8dd, Skin_Name: Không tìm thấy Skin
