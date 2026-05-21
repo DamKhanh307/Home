@@ -1,171 +1,957 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../mp.png" type="image/x-icon">
+    <meta name="description" content="Music Player - Vinyl Record Style with YouTube support">
+    <title>Vinyl Music Player</title>
+    <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Music Player</title>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
 
+        :root {
+            --bg: #0c0c14;
+            --surface: #161622;
+            --surface2: #1e1e2e;
+            --border: rgba(255,255,255,0.06);
+            --text: #f0eef5;
+            --text-dim: #7a7890;
+            --accent: #a855f7;
+            --accent-glow: rgba(168, 85, 247, 0.25);
+            --warm: #f59e0b;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Background */
+        .bg-glow {
+            position: fixed; inset: 0; pointer-events: none; z-index: 0;
+            background:
+                radial-gradient(ellipse 50% 50% at 30% 20%, rgba(168,85,247,0.07) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 50% at 70% 80%, rgba(245,158,11,0.05) 0%, transparent 60%);
+        }
+
+        /* App Container */
+        .app {
+            position: relative; z-index: 1;
+            width: min(95vw, 480px);
+            display: flex; flex-direction: column; align-items: center;
+            gap: 1.5rem; padding: 2rem 0;
+        }
+
+        /* ============ VINYL RECORD ============ */
+        .vinyl-container {
+            position: relative;
+            width: clamp(260px, 65vw, 340px);
+            height: clamp(260px, 65vw, 340px);
+            flex-shrink: 0;
+        }
+
+        .vinyl {
+            width: 100%; height: 100%;
+            border-radius: 50%;
+            position: relative;
+            animation: none;
+            transition: filter 0.5s ease;
+            cursor: pointer;
+        }
+
+        .vinyl.spinning {
+            animation: spin 3s linear infinite;
+        }
+
+        .vinyl.paused {
+            animation: spin 3s linear infinite;
+            animation-play-state: paused;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Record body — grooves */
+        .vinyl-disc {
+            position: absolute; inset: 0;
+            border-radius: 50%;
+            background:
+                repeating-radial-gradient(
+                    circle at center,
+                    transparent 0px, transparent 3px,
+                    rgba(255,255,255,0.03) 3px, rgba(255,255,255,0.03) 4px
+                );
+            background-color: #111;
+            box-shadow:
+                0 0 0 3px rgba(255,255,255,0.05),
+                0 10px 50px rgba(0,0,0,0.6),
+                inset 0 0 60px rgba(0,0,0,0.5);
+            overflow: hidden;
+        }
+
+        /* Vinyl shine */
+        .vinyl-disc::before {
+            content: '';
+            position: absolute; inset: 0;
+            border-radius: 50%;
+            background: linear-gradient(
+                135deg,
+                transparent 30%,
+                rgba(255,255,255,0.04) 45%,
+                transparent 50%,
+                rgba(255,255,255,0.02) 65%,
+                transparent 70%
+            );
+            z-index: 3;
+            pointer-events: none;
+        }
+
+        /* Center label (album art) */
+        .vinyl-label {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 42%; height: 42%;
+            border-radius: 50%;
+            overflow: hidden;
+            z-index: 2;
+            border: 3px solid rgba(40,40,50,0.8);
+            box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+            background: var(--surface2);
+        }
+
+        .vinyl-label img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Center hole */
+        .vinyl-hole {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 14px; height: 14px;
+            border-radius: 50%;
+            background: var(--bg);
+            border: 2px solid rgba(255,255,255,0.08);
+            z-index: 4;
+        }
+
+        /* Tonearm */
+        .tonearm-pivot {
+            position: absolute;
+            top: -8px; right: -8px;
+            width: 20px; height: 20px;
+            z-index: 10;
+        }
+
+        .tonearm {
+            position: absolute;
+            top: 50%; left: 50%;
+            width: 140px; height: 3px;
+            background: linear-gradient(90deg, #888, #555);
+            transform-origin: 0 50%;
+            transform: rotate(20deg);
+            transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border-radius: 2px;
+            z-index: 10;
+        }
+
+        .tonearm::before {
+            content: '';
+            position: absolute;
+            left: -5px; top: -5px;
+            width: 14px; height: 14px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #aaa, #666);
+            border: 2px solid #555;
+        }
+
+        .tonearm::after {
+            content: '';
+            position: absolute;
+            right: -4px; top: -3px;
+            width: 8px; height: 10px;
+            background: #999;
+            border-radius: 1px;
+            transform: rotate(15deg);
+        }
+
+        .tonearm.active {
+            transform: rotate(40deg);
+        }
+
+        /* Change image overlay */
+        .vinyl-change-hint {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 0.3rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 5;
+            pointer-events: none;
+            cursor: pointer;
+        }
+
+        .vinyl-label:hover .vinyl-change-hint {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .vinyl-change-hint i {
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+
+        .vinyl-change-hint span {
+            font-size: 0.6rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* ============ TRACK INFO ============ */
+        .track-info {
+            text-align: center;
+            max-width: 100%;
+            padding: 0 1rem;
+        }
+
+        .track-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 400px;
+        }
+
+        .track-subtitle {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+        }
+
+        /* ============ PROGRESS BAR ============ */
+        .progress-section {
+            width: 100%;
+            padding: 0 1.5rem;
+        }
+
+        .progress-bar-wrap {
+            position: relative;
+            width: 100%;
+            height: 4px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 2px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--accent), var(--warm));
+            border-radius: 2px;
+            transition: width 0.1s linear;
+        }
+
+        .progress-bar-wrap:hover {
+            height: 6px;
+            margin-top: -1px;
+        }
+
+        .progress-times {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.4rem;
+            font-size: 0.65rem;
+            color: var(--text-dim);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ============ CONTROLS ============ */
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .ctrl-btn {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: color 0.2s ease, transform 0.2s ease;
+            padding: 0.5rem;
+        }
+
+        .ctrl-btn:hover { color: var(--text); transform: scale(1.15); }
+
+        .ctrl-play {
+            width: 56px; height: 56px;
+            border-radius: 50%;
+            background: var(--accent);
+            color: #fff;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 4px 25px var(--accent-glow);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .ctrl-play:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 35px var(--accent-glow);
+        }
+
+        .ctrl-play i { margin-left: 2px; }
+
+        /* ============ VOLUME ============ */
+        .volume-section {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0 1.5rem;
+            width: 100%;
+            max-width: 280px;
+        }
+
+        .volume-icon {
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: color 0.2s;
+            flex-shrink: 0;
+        }
+
+        .volume-icon:hover { color: var(--text); }
+
+        .volume-slider {
+            flex: 1;
+            -webkit-appearance: none;
+            appearance: none;
+            height: 3px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 2px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 12px; height: 12px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+        }
+
+        /* ============ SOURCE SELECTOR ============ */
+        .source-section {
+            width: 100%;
+            padding: 0 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .source-tabs {
+            display: flex;
+            background: var(--surface);
+            border-radius: 10px;
+            padding: 3px;
+            border: 1px solid var(--border);
+        }
+
+        .source-tab {
+            flex: 1;
+            padding: 0.5rem;
+            border: none;
+            background: none;
+            color: var(--text-dim);
+            font-size: 0.75rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .source-tab.active {
+            background: var(--surface2);
+            color: var(--text);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .source-tab:hover:not(.active) { color: var(--text); }
+
+        /* File input area */
+        .input-area {
+            display: none;
+        }
+
+        .input-area.active {
+            display: block;
+        }
+
+        .file-drop {
+            border: 1.5px dashed rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.3s ease, background 0.3s ease;
+            background: rgba(255,255,255,0.01);
+        }
+
+        .file-drop:hover {
+            border-color: var(--accent);
+            background: rgba(168, 85, 247, 0.03);
+        }
+
+        .file-drop i {
+            font-size: 1.5rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        .file-drop p {
+            font-size: 0.78rem;
+            color: var(--text-dim);
+        }
+
+        .file-drop .file-formats {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.2);
+            margin-top: 0.3rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* YouTube input */
+        .yt-input-wrap {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .yt-input {
+            flex: 1;
+            padding: 0.7rem 1rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            font-size: 0.8rem;
+            font-family: 'Inter', sans-serif;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .yt-input::placeholder { color: var(--text-dim); }
+        .yt-input:focus { border-color: var(--accent); }
+
+        .yt-btn {
+            padding: 0 1.2rem;
+            border-radius: 10px;
+            border: none;
+            background: var(--accent);
+            color: #fff;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+            font-family: 'Inter', sans-serif;
+            white-space: nowrap;
+        }
+
+        .yt-btn:hover { opacity: 0.85; }
+
+        .yt-error {
+            font-size: 0.7rem;
+            color: #f87171;
+            margin-top: 0.4rem;
+            display: none;
+        }
+
+        /* Hidden YouTube player */
+        #yt-player-wrap {
+            position: fixed;
+            top: -9999px; left: -9999px;
+            width: 1px; height: 1px;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        /* ============ RESPONSIVE ============ */
+        @media (max-width: 400px) {
+            .app { padding: 1rem 0; gap: 1rem; }
+            .vinyl-container { width: 220px; height: 220px; }
+            .controls { gap: 1.5rem; }
+            .ctrl-play { width: 48px; height: 48px; font-size: 1rem; }
+        }
+
+        /* ============ ANIMATIONS ============ */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .app > * {
+            animation: fadeIn 0.6s ease-out backwards;
+        }
+        .app > *:nth-child(1) { animation-delay: 0s; }
+        .app > *:nth-child(2) { animation-delay: 0.1s; }
+        .app > *:nth-child(3) { animation-delay: 0.15s; }
+        .app > *:nth-child(4) { animation-delay: 0.2s; }
+        .app > *:nth-child(5) { animation-delay: 0.25s; }
+        .app > *:nth-child(6) { animation-delay: 0.3s; }
+    </style>
+</head>
 <body>
-    <div class="main">
-        <div class="cover-image">
-            <img src="" alt="" id="cover">
+    <div class="bg-glow"></div>
+
+    <div class="app">
+        <!-- Vinyl Record -->
+        <div class="vinyl-container">
+            <div class="tonearm-pivot">
+                <div class="tonearm" id="tonearm"></div>
+            </div>
+            <div class="vinyl" id="vinyl">
+                <div class="vinyl-disc"></div>
+                <div class="vinyl-label" id="vinylLabel">
+                    <img src="thumb.png" alt="Album Art" id="vinylImg">
+                    <div class="vinyl-change-hint" id="changeArtBtn">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Đổi ảnh</span>
+                    </div>
+                </div>
+                <div class="vinyl-hole"></div>
+            </div>
         </div>
-        <div class="content">
-            <h2 id="title_music"></h2>
+
+        <!-- Track Info -->
+        <div class="track-info">
+            <div class="track-title" id="trackTitle">Chọn nhạc để phát</div>
+            <div class="track-subtitle" id="trackSubtitle">— Vinyl Music Player —</div>
         </div>
-        <div class="player">
-            <input type="range" id="progress">
-            <div class="main-control">
-                <div id="back"><i class="fa-solid fa-forward"></i></div>
-                <div id="play"><i class="fa-solid fa-play" style="transition: all 1000ms ease-in-out;"></i></div>
-                <div id="next"><i class="fa-solid fa-backward"></i></div>
+
+        <!-- Progress -->
+        <div class="progress-section" id="progressSection">
+            <div class="progress-bar-wrap" id="progressWrap">
+                <div class="progress-bar-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-times">
+                <span id="timeCurrent">0:00</span>
+                <span id="timeDuration">0:00</span>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="ctrl-btn" id="btnPrev" title="Trước"><i class="fa-solid fa-backward-step"></i></button>
+            <button class="ctrl-play" id="btnPlay" title="Phát"><i class="fa-solid fa-play"></i></button>
+            <button class="ctrl-btn" id="btnNext" title="Tiếp"><i class="fa-solid fa-forward-step"></i></button>
+        </div>
+
+        <!-- Volume -->
+        <div class="volume-section">
+            <i class="fa-solid fa-volume-high volume-icon" id="volumeIcon"></i>
+            <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="80">
+        </div>
+
+        <!-- Source Selector -->
+        <div class="source-section">
+            <div class="source-tabs">
+                <button class="source-tab active" data-tab="file" id="tabFile">
+                    <i class="fa-solid fa-file-audio"></i> File nhạc
+                </button>
+                <button class="source-tab" data-tab="youtube" id="tabYoutube">
+                    <i class="fa-brands fa-youtube"></i> YouTube
+                </button>
+            </div>
+
+            <!-- File Upload -->
+            <div class="input-area active" id="areaFile">
+                <div class="file-drop" id="fileDrop">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <p>Nhấn để chọn hoặc kéo thả file nhạc</p>
+                    <p class="file-formats">MP3 · WAV · OGG · FLAC · M4A</p>
+                </div>
+                <input type="file" id="fileInput" accept="audio/*" style="display:none">
+            </div>
+
+            <!-- YouTube URL -->
+            <div class="input-area" id="areaYoutube">
+                <div class="yt-input-wrap">
+                    <input type="text" class="yt-input" id="ytInput" placeholder="Dán link YouTube vào đây...">
+                    <button class="yt-btn" id="ytLoadBtn">Phát</button>
+                </div>
+                <div class="yt-error" id="ytError">Link YouTube không hợp lệ</div>
             </div>
         </div>
     </div>
 
-    <div class="upload">
-        <input type="file" id="uploadbtn" accept="audio/*" onchange="handleFileSelect(event)">
-        <label for="uploadbtn">Choose File (mp3, wav, ...)</label>
+    <!-- Hidden elements -->
+    <audio id="audioPlayer" preload="auto"></audio>
+    <div id="yt-player-wrap"><div id="yt-player"></div></div>
+    <input type="file" id="imgInput" accept="image/*" style="display:none">
 
-    </div>
-
-    <audio controls id="audioPlayer" style="display: none;">
-        <!-- This audio player will be used to play the uploaded audio -->
-        Your browser does not support the audio element.
-    </audio>
-
+    <!-- YouTube IFrame API -->
     <script>
-        document.body.style.backgroundImage = "url('https://th.bing.com/th/id/R.3437cdd9e217ae8958d20ed44abf8e1f?rik=7May81YqXc%2fCWQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f6LVoaba.jpg&ehk=gElDJNqhrrxEzZmeESKYA0%2bMYOFzIr4ZyHQaN8BydA8%3d&risl=&pid=ImgRaw&r=0')";
+        // Load YouTube API asynchronously
+        const ytTag = document.createElement('script');
+        ytTag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(ytTag);
 
-        document.addEventListener("DOMContentLoaded", function () {
-            var image = document.getElementById("cover");
-            image.src = 'https://i.pinimg.com/originals/07/87/e7/0787e75ed249720cdb85f6918c609f61.jpg';
+        let ytPlayer = null;
+        let ytReady = false;
+        let ytDuration = 0;
+        let ytInterval = null;
 
-            var click_count = 0;
-            var title = document.getElementById("title_music");
-
-            if (title.innerText.length < 10) {
-                title.style.textAlign = 'center';
-            }
-        });
-
-
-
-        document.addEventListener("DOMContentLoaded", function () {
-            var coverImage = document.getElementById("cover");
-
-            // Sự kiện 'contextmenu' (ấn lâu) cho cover
-            coverImage.addEventListener("contextmenu", function (event) {
-                event.preventDefault(); // Ngăn chặn hành động mặc định của context menu
-                showFilePicker(); // Hiển thị hộp thoại chọn tệp hình ảnh
-            });
-
-            // Sự kiện 'dblclick' (double click) cho cover
-            coverImage.addEventListener("dblclick", function () {
-                showFilePicker(); // Hiển thị hộp thoại chọn tệp hình ảnh
-            });
-
-            // Hàm hiển thị hộp thoại chọn tệp hình ảnh
-            function showFilePicker() {
-                const input = document.createElement("input");
-                input.type = "file";
-                input.accept = "image/*";
-
-                // Xử lý sự kiện khi người dùng chọn một tệp
-                input.addEventListener("change", function (event) {
-                    const file = event.target.files[0]; // Lấy tệp hình ảnh từ sự kiện
-                    if (file) {
-                        const reader = new FileReader();
-                        reader.onload = function (e) {
-                            coverImage.src = e.target.result; // Cập nhật hình ảnh cover
-                        };
-                        reader.readAsDataURL(file); // Đọc tệp hình ảnh
-                    }
-                });
-
-                // Kích hoạt hộp thoại chọn tệp hình ảnh
-                input.click();
-            }
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            var audioPlayer = document.getElementById("audioPlayer");
-            var progressInput = document.getElementById("progress");
-
-            var playButton = document.getElementById("play");
-
-            playButton.addEventListener("click", function () {
-                if (audioPlayer.paused || audioPlayer.ended) {
-                    // Nếu âm thanh đang dừng hoặc đã kết thúc, phát bắt đầu từ đầu
-                    audioPlayer.play();
-                    playButton.innerHTML = '<i class="fa-solid fa-pause"></i>'; // Thay đổi biểu tượng thành nút tạm dừng
-                    playButton.classList.add('playing'); // Thêm class để kích hoạt hiệu ứng chuyển đổi
-                } else {
-                    // Nếu âm thanh đang phát, tạm dừng
-                    audioPlayer.pause();
-                    playButton.innerHTML = '<i class="fa-solid fa-play"></i>'; // Thay đổi biểu tượng thành nút phát
-                    playButton.classList.remove('playing'); // Xóa class để quay trở lại trạng thái bình thường
+        window.onYouTubeIframeAPIReady = function () {
+            ytPlayer = new YT.Player('yt-player', {
+                height: '1', width: '1',
+                playerVars: { autoplay: 0, controls: 0 },
+                events: {
+                    onReady: () => { ytReady = true; },
+                    onStateChange: onYtStateChange
                 }
             });
-            // Update progress input when audio time is updated
-            audioPlayer.addEventListener("timeupdate", function () {
-                // Update the value of the progress input based on current time
-                progressInput.value = audioPlayer.currentTime;
-            });
+        };
 
-            // Update audio player maximum duration when metadata is loaded
-            audioPlayer.addEventListener("loadedmetadata", function () {
-                // Set the maximum value of the progress input to the audio duration
-                progressInput.max = audioPlayer.duration;
-            });
+        function onYtStateChange(e) {
+            if (e.data === YT.PlayerState.PLAYING) {
+                ytDuration = ytPlayer.getDuration();
+                setPlaying(true);
+                startYtProgress();
+            } else if (e.data === YT.PlayerState.PAUSED) {
+                setPlaying(false);
+                stopYtProgress();
+            } else if (e.data === YT.PlayerState.ENDED) {
+                setPlaying(false);
+                stopYtProgress();
+                progressFill.style.width = '100%';
+            }
+        }
 
-            // Handle user interaction with progress input
-            progressInput.addEventListener("input", function () {
-                // Seek to the specified time when user changes the progress input
-                audioPlayer.currentTime = progressInput.value;
+        function startYtProgress() {
+            stopYtProgress();
+            ytInterval = setInterval(() => {
+                if (!ytPlayer || !ytPlayer.getCurrentTime) return;
+                const cur = ytPlayer.getCurrentTime();
+                const dur = ytPlayer.getDuration();
+                if (dur > 0) {
+                    progressFill.style.width = (cur / dur * 100) + '%';
+                    timeCurrent.textContent = fmtTime(cur);
+                    timeDuration.textContent = fmtTime(dur);
+                }
+            }, 250);
+        }
+
+        function stopYtProgress() {
+            if (ytInterval) { clearInterval(ytInterval); ytInterval = null; }
+        }
+    </script>
+
+    <script>
+        // ============ DOM ============
+        const vinyl = document.getElementById('vinyl');
+        const tonearm = document.getElementById('tonearm');
+        const trackTitle = document.getElementById('trackTitle');
+        const trackSubtitle = document.getElementById('trackSubtitle');
+        const progressFill = document.getElementById('progressFill');
+        const progressWrap = document.getElementById('progressWrap');
+        const timeCurrent = document.getElementById('timeCurrent');
+        const timeDuration = document.getElementById('timeDuration');
+        const btnPlay = document.getElementById('btnPlay');
+        const volumeSlider = document.getElementById('volumeSlider');
+        const volumeIcon = document.getElementById('volumeIcon');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const vinylImg = document.getElementById('vinylImg');
+        const changeArtBtn = document.getElementById('changeArtBtn');
+        const imgInput = document.getElementById('imgInput');
+        const fileInput = document.getElementById('fileInput');
+        const fileDrop = document.getElementById('fileDrop');
+        const ytInput = document.getElementById('ytInput');
+        const ytLoadBtn = document.getElementById('ytLoadBtn');
+        const ytError = document.getElementById('ytError');
+
+        // ============ STATE ============
+        let isPlaying = false;
+        let currentSource = 'none'; // 'file' | 'youtube' | 'none'
+
+        // ============ TABS ============
+        document.querySelectorAll('.source-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.source-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                document.querySelectorAll('.input-area').forEach(a => a.classList.remove('active'));
+                document.getElementById('area' + capitalize(tab.dataset.tab)).classList.add('active');
             });
         });
 
-        function handleFileSelect(event) {
-            const file = event.target.files[0]; // Get the selected file from the onchange event
+        function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
-            if (file) {
-                const titleElement = document.getElementById("title_music");
-                const audioPlayer = document.getElementById("audioPlayer");
-                const cover_image = document.querySelector('.cover-image');
-                const main = document.querySelector('.main')
+        // ============ FILE UPLOAD ============
+        fileDrop.addEventListener('click', () => fileInput.click());
 
-                // Display the name of the audio file
-                const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
-                titleElement.innerText = fileNameWithoutExtension;
+        fileDrop.addEventListener('dragover', e => {
+            e.preventDefault();
+            fileDrop.style.borderColor = 'var(--accent)';
+            fileDrop.style.background = 'rgba(168,85,247,0.05)';
+        });
 
-                // Create a URL representing the audio file for playback
-                const fileURL = URL.createObjectURL(file);
+        fileDrop.addEventListener('dragleave', () => {
+            fileDrop.style.borderColor = '';
+            fileDrop.style.background = '';
+        });
 
-                // Show/hide elements
-                const uploadContainer = document.querySelector('.upload');
-                uploadContainer.style.display = 'none';
+        fileDrop.addEventListener('drop', e => {
+            e.preventDefault();
+            fileDrop.style.borderColor = '';
+            fileDrop.style.background = '';
+            if (e.dataTransfer.files.length) loadAudioFile(e.dataTransfer.files[0]);
+        });
 
-                cover_image.style.top = '18%';
-                cover_image.style.left = '8%';
-                cover_image.style.transform = 'none';
-                cover_image.style.transition = "all 2s ease";
-                main.style.width = '90%';
-                main.style.transition = "all 1s ease-in";
-                main.style.visibility = 'visible';
+        fileInput.addEventListener('change', e => {
+            if (e.target.files.length) loadAudioFile(e.target.files[0]);
+        });
 
-                // Update audio player source
-                audioPlayer.src = fileURL;
-                audioPlayer.style.display = 'none';
+        function loadAudioFile(file) {
+            stopAll();
+            currentSource = 'file';
+            const name = file.name.replace(/\.[^.]+$/, '');
+            trackTitle.textContent = name;
+            trackSubtitle.textContent = 'Local File';
+            audioPlayer.src = URL.createObjectURL(file);
+            audioPlayer.volume = volumeSlider.value / 100;
+            audioPlayer.play();
+            setPlaying(true);
+        }
+
+        // ============ YOUTUBE ============
+        ytLoadBtn.addEventListener('click', loadYoutube);
+        ytInput.addEventListener('keydown', e => { if (e.key === 'Enter') loadYoutube(); });
+
+        function extractYouTubeId(url) {
+            const patterns = [
+                /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/v\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]{11})/,
+                /^([a-zA-Z0-9_-]{11})$/
+            ];
+            for (const p of patterns) {
+                const m = url.match(p);
+                if (m) return m[1];
+            }
+            return null;
+        }
+
+        function loadYoutube() {
+            const url = ytInput.value.trim();
+            const id = extractYouTubeId(url);
+
+            if (!id) {
+                ytError.style.display = 'block';
+                setTimeout(() => ytError.style.display = 'none', 3000);
+                return;
+            }
+
+            ytError.style.display = 'none';
+
+            if (!ytReady) {
+                ytError.textContent = 'YouTube API đang tải, thử lại...';
+                ytError.style.display = 'block';
+                setTimeout(() => ytError.style.display = 'none', 2000);
+                return;
+            }
+
+            stopAll();
+            currentSource = 'youtube';
+
+            // Set YouTube thumbnail as vinyl art
+            vinylImg.src = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+
+            ytPlayer.loadVideoById(id);
+            trackTitle.textContent = 'Đang tải...';
+            trackSubtitle.textContent = 'YouTube';
+
+            // Fetch title from noembed
+            fetch(`https://noembed.com/embed?url=https://www.youtube.com/watch?v=${id}`)
+                .then(r => r.json())
+                .then(data => {
+                    if (data.title) trackTitle.textContent = data.title;
+                })
+                .catch(() => {
+                    trackTitle.textContent = 'YouTube Video';
+                });
+        }
+
+        // ============ PLAY / PAUSE ============
+        btnPlay.addEventListener('click', togglePlay);
+
+        function togglePlay() {
+            if (currentSource === 'file') {
+                if (audioPlayer.paused) {
+                    audioPlayer.play();
+                    setPlaying(true);
+                } else {
+                    audioPlayer.pause();
+                    setPlaying(false);
+                }
+            } else if (currentSource === 'youtube' && ytReady && ytPlayer) {
+                const state = ytPlayer.getPlayerState();
+                if (state === YT.PlayerState.PLAYING) {
+                    ytPlayer.pauseVideo();
+                    setPlaying(false);
+                } else {
+                    ytPlayer.playVideo();
+                    setPlaying(true);
+                }
             }
         }
+
+        function setPlaying(playing) {
+            isPlaying = playing;
+            btnPlay.innerHTML = playing
+                ? '<i class="fa-solid fa-pause"></i>'
+                : '<i class="fa-solid fa-play" style="margin-left:2px"></i>';
+
+            if (playing) {
+                vinyl.className = 'vinyl spinning';
+                tonearm.classList.add('active');
+            } else {
+                vinyl.className = 'vinyl paused';
+                tonearm.classList.remove('active');
+            }
+        }
+
+        function stopAll() {
+            // Stop audio
+            audioPlayer.pause();
+            audioPlayer.currentTime = 0;
+            audioPlayer.src = '';
+            // Stop YouTube
+            stopYtProgress();
+            if (ytReady && ytPlayer && ytPlayer.stopVideo) {
+                try { ytPlayer.stopVideo(); } catch(e) {}
+            }
+            setPlaying(false);
+            progressFill.style.width = '0%';
+            timeCurrent.textContent = '0:00';
+            timeDuration.textContent = '0:00';
+            currentSource = 'none';
+        }
+
+        // ============ AUDIO PROGRESS ============
+        audioPlayer.addEventListener('timeupdate', () => {
+            if (audioPlayer.duration) {
+                const pct = audioPlayer.currentTime / audioPlayer.duration * 100;
+                progressFill.style.width = pct + '%';
+                timeCurrent.textContent = fmtTime(audioPlayer.currentTime);
+                timeDuration.textContent = fmtTime(audioPlayer.duration);
+            }
+        });
+
+        audioPlayer.addEventListener('ended', () => {
+            setPlaying(false);
+            progressFill.style.width = '100%';
+        });
+
+        // Click to seek
+        progressWrap.addEventListener('click', e => {
+            const rect = progressWrap.getBoundingClientRect();
+            const pct = (e.clientX - rect.left) / rect.width;
+
+            if (currentSource === 'file' && audioPlayer.duration) {
+                audioPlayer.currentTime = pct * audioPlayer.duration;
+            } else if (currentSource === 'youtube' && ytReady && ytPlayer) {
+                const dur = ytPlayer.getDuration();
+                if (dur) ytPlayer.seekTo(pct * dur, true);
+            }
+        });
+
+        // ============ VOLUME ============
+        volumeSlider.addEventListener('input', () => {
+            const vol = volumeSlider.value / 100;
+            audioPlayer.volume = vol;
+            if (ytReady && ytPlayer && ytPlayer.setVolume) {
+                ytPlayer.setVolume(volumeSlider.value);
+            }
+            updateVolumeIcon(vol);
+        });
+
+        volumeIcon.addEventListener('click', () => {
+            if (volumeSlider.value > 0) {
+                volumeSlider._prev = volumeSlider.value;
+                volumeSlider.value = 0;
+            } else {
+                volumeSlider.value = volumeSlider._prev || 80;
+            }
+            volumeSlider.dispatchEvent(new Event('input'));
+        });
+
+        function updateVolumeIcon(vol) {
+            volumeIcon.className = 'fa-solid volume-icon ' + (
+                vol === 0 ? 'fa-volume-xmark' :
+                vol < 0.5 ? 'fa-volume-low' : 'fa-volume-high'
+            );
+        }
+
+        // ============ CHANGE VINYL ART ============
+        changeArtBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            imgInput.click();
+        });
+
+        imgInput.addEventListener('change', e => {
+            if (e.target.files.length) {
+                const reader = new FileReader();
+                reader.onload = ev => { vinylImg.src = ev.target.result; };
+                reader.readAsDataURL(e.target.files[0]);
+            }
+        });
+
+        // ============ UTILS ============
+        function fmtTime(s) {
+            const m = Math.floor(s / 60);
+            const sec = Math.floor(s % 60);
+            return m + ':' + String(sec).padStart(2, '0');
+        }
+
+        // Init volume
+        updateVolumeIcon(0.8);
+        audioPlayer.volume = 0.8;
     </script>
 </body>
-
 </html>

@@ -41,7 +41,7 @@
 
     audio { display: none; }
 
-    /* ===== BACKGROUND LAYERS ===== */
+    
     .bg-layer {
       position: fixed;
       inset: 0;
@@ -57,7 +57,7 @@
         linear-gradient(180deg, var(--bg-dark) 0%, #280808 50%, var(--bg-dark) 100%);
     }
 
-    /* Traditional pattern overlay */
+    
     .bg-pattern {
       opacity: 0.03;
       background-image: 
@@ -65,7 +65,7 @@
         repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(245, 200, 66, 0.5) 20px, rgba(245, 200, 66, 0.5) 21px);
     }
 
-    /* ===== LANTERNS (Đèn lồng) ===== */
+    
     .lanterns {
       position: fixed;
       top: 0;
@@ -152,7 +152,7 @@
       50% { transform: rotate(3deg); }
     }
 
-    /* ===== MAIN CONTENT ===== */
+    
     .content-wrapper {
       position: relative;
       z-index: 10;
@@ -165,7 +165,7 @@
       gap: 1.5rem;
     }
 
-    /* ===== ZODIAC & YEAR SECTION ===== */
+    
     .zodiac-section {
       text-align: center;
       animation: fadeDown 1s ease-out;
@@ -234,7 +234,7 @@
       text-shadow: 0 2px 10px rgba(245, 200, 66, 0.3);
     }
 
-    /* ===== COUNTDOWN TIMER ===== */
+    
     .timer-section {
       animation: fadeUp 1s ease-out 0.3s forwards;
       opacity: 0;
@@ -290,7 +290,7 @@
       border-color: rgba(245, 200, 66, 0.25);
     }
 
-    /* Corner decoration on cards */
+    
     .timer-box::before {
       content: '';
       position: absolute;
@@ -343,7 +343,7 @@
       border-top: 1px solid rgba(245, 200, 66, 0.08);
     }
 
-    /* Separator */
+    
     .timer-sep {
       font-family: 'Playfair Display', serif;
       font-size: clamp(2rem, 5vw, 3rem);
@@ -358,7 +358,7 @@
       50% { opacity: 0.1; }
     }
 
-    /* ===== GREETING ===== */
+    
     .greeting {
       text-align: center;
       animation: fadeUp 1s ease-out 0.6s forwards;
@@ -380,7 +380,7 @@
       font-weight: 600;
     }
 
-    /* ===== ZODIAC MASCOT ===== */
+    
     .mascot-display {
       position: fixed;
       bottom: 2rem;
@@ -398,7 +398,7 @@
       50% { transform: translateY(-20px) rotate(5deg); }
     }
 
-    /* ===== BLOSSOM CANVAS ===== */
+    
     #blossomCanvas {
       position: fixed;
       top: 0;
@@ -407,7 +407,7 @@
       z-index: 5;
     }
 
-    /* ===== FIREWORKS CANVAS ===== */
+    
     #fireworksCanvas {
       position: fixed;
       top: 0;
@@ -416,7 +416,7 @@
       z-index: 4;
     }
 
-    /* ===== DECORATIVE BORDERS ===== */
+    
     .deco-border-top, .deco-border-bottom {
       position: fixed;
       left: 0;
@@ -436,7 +436,7 @@
       background: linear-gradient(90deg, transparent, var(--red-primary), var(--gold-primary), var(--red-primary), transparent);
     }
 
-    /* ===== MUSIC TOGGLE ===== */
+    
     .music-toggle {
       position: fixed;
       bottom: 1.5rem;
@@ -472,7 +472,7 @@
       50% { box-shadow: 0 0 0 8px rgba(245, 200, 66, 0); }
     }
 
-    /* ===== RESPONSIVE ===== */
+    
     @media (max-width: 600px) {
       .lantern-body { width: 30px; height: 42px; }
       .lantern-body::after { font-size: 13px; }
@@ -492,33 +492,31 @@
   </style>
 </head>
 <body>
-  <!-- Audio -->
   <audio id="bgMusic" src="bg.mp3" loop preload="auto"></audio>
-
-  <!-- Background layers -->
+  
   <div class="bg-layer bg-gradient"></div>
   <div class="bg-layer bg-pattern"></div>
 
-  <!-- Decorative borders -->
+  
   <div class="deco-border-top"></div>
   <div class="deco-border-bottom"></div>
 
-  <!-- Lanterns -->
+  
   <div class="lanterns" id="lanterns"></div>
 
-  <!-- Blossom Canvas -->
+  
   <canvas id="blossomCanvas"></canvas>
 
-  <!-- Fireworks Canvas -->
+  
   <canvas id="fireworksCanvas"></canvas>
 
-  <!-- Zodiac Mascot -->
+  
   <div class="mascot-display" id="mascot"></div>
 
-  <!-- Music Toggle -->
+  
   <button class="music-toggle" id="musicToggle" title="Bật/tắt nhạc">🔇</button>
 
-  <!-- Main Content -->
+  
   <div class="content-wrapper">
     <section class="zodiac-section">
       <div class="zodiac-badge">
@@ -560,9 +558,9 @@
   </div>
 
   <script>
-    // =============================================
-    // ZODIAC DATA
-    // =============================================
+    
+    
+    
     const zodiacCycle = [
       { name: 'Tý', animal: 'Chuột', emoji: '🐀', mascot: '🐀' },
       { name: 'Sửu', animal: 'Trâu', emoji: '🐃', mascot: '🐃' },
@@ -593,12 +591,12 @@
     };
 
     function getZodiac(lunarYear) {
-      // The zodiac cycle: 2024 is Thìn (Dragon, index 4)
+      
       const idx = ((lunarYear - 2024) % 12 + 12 + 4) % 12;
       return zodiacCycle[idx];
     }
 
-    // Determine the next Tet
+    
     const now = new Date();
     let targetYear = now.getFullYear();
     let tetDate = new Date(tetDates[targetYear]);
@@ -610,7 +608,7 @@
     const zodiac = getZodiac(targetYear);
     const countToDate = tetDate.getTime();
 
-    // Populate UI
+    
     document.getElementById('yearDisplay').textContent = targetYear;
     document.getElementById('zodiacEmoji').textContent = zodiac.emoji;
     document.getElementById('zodiacLabel').textContent = `Năm ${zodiac.name}`;
@@ -618,10 +616,6 @@
     document.getElementById('mascot').textContent = zodiac.mascot;
     document.getElementById('greetingText').innerHTML =
       `Chúc Mừng Năm Mới <em>${targetYear}</em>!<br>An Khang Thịnh Vượng — Vạn Sự Như Ý`;
-
-    // =============================================
-    // COUNTDOWN
-    // =============================================
     const daysEl = document.getElementById('days');
     const hoursEl = document.getElementById('hours');
     const minutesEl = document.getElementById('minutes');
@@ -656,9 +650,9 @@
     updateCountdown();
     setInterval(updateCountdown, 1000);
 
-    // =============================================
-    // LANTERNS
-    // =============================================
+    
+    
+    
     const lanternsContainer = document.getElementById('lanterns');
     const lanternChars = ['福', '禄', '寿', '喜', '春', '發'];
     const lanternCount = window.innerWidth < 600 ? 4 : 7;
@@ -679,16 +673,16 @@
         <div class="lantern-tassel"></div>
       `;
 
-      // Override the character
+      
       const body = lantern.querySelector('.lantern-body');
       body.style.setProperty('--char', `"${lanternChars[charIdx]}"`);
 
       lanternsContainer.appendChild(lantern);
     }
 
-    // =============================================
-    // BLOSSOM / PETAL FALLING EFFECT (Đào + Mai)
-    // =============================================
+    
+    
+    
     const blossomCanvas = document.getElementById('blossomCanvas');
     const bCtx = blossomCanvas.getContext('2d');
 
@@ -714,7 +708,7 @@
         this.wobbleSpeed = 0.01 + Math.random() * 0.02;
         this.opacity = 0.4 + Math.random() * 0.5;
 
-        // Mix of peach (đào) pink and apricot (mai) yellow
+        
         const isPeach = Math.random() > 0.4;
         if (isPeach) {
           const r = 240 + Math.random() * 15;
@@ -746,7 +740,7 @@
         ctx.rotate(this.rotation);
         ctx.fillStyle = this.color;
 
-        // Draw petal shape
+        
         ctx.beginPath();
         ctx.moveTo(0, 0);
         ctx.bezierCurveTo(
@@ -777,9 +771,9 @@
     }
     animateBlossoms();
 
-    // =============================================
-    // FIREWORKS — Balanced visual + performance
-    // =============================================
+    
+    
+    
     const fwCanvas = document.getElementById('fireworksCanvas');
     const fCtx = fwCanvas.getContext('2d');
 
@@ -799,7 +793,7 @@
       ['#ffffff', '#fff9c4', '#ffe066'],
     ];
 
-    // Simple spark — no trail array, no shadow
+    
     class Spark {
       constructor(x, y, vx, vy, color, size, life) {
         this.x = x;  this.y = y;
@@ -830,7 +824,7 @@
         this.vy = -(7 + Math.random() * 4);
         this.vx = (Math.random() - 0.5) * 1.5;
         this.exploded = false;
-        this.flash = 0; // explosion flash timer
+        this.flash = 0; 
         this.sparks = [];
         this.palette = fwPalettes[Math.floor(Math.random() * fwPalettes.length)];
         this.burstType = Math.floor(Math.random() * 4);
@@ -844,7 +838,7 @@
           this.y += this.vy;
           this.vy *= 0.987;
 
-          // Ascending trail sparks (few and light)
+          
           if (Math.random() > 0.4) {
             this.sparks.push(new Spark(
               this.x + (Math.random() - 0.5) * 3, this.y,
@@ -873,18 +867,18 @@
         const pal = this.palette;
 
         switch (this.burstType) {
-          case 0: // Circle
+          case 0: 
             this._circle(65, 2, 5.5, pal);
             break;
-          case 1: // Ring + inner
+          case 1: 
             this._ring(50, 4, 5, pal);
             this._circle(15, 1, 2.5, pal);
             break;
-          case 2: // Double burst
+          case 2: 
             this._circle(40, 3, 5.5, pal);
             this._circle(30, 1.5, 3, [pal[1], pal[2]]);
             break;
-          case 3: // Star
+          case 3: 
             this._star(5, 12, pal);
             this._circle(15, 1, 2, pal);
             break;
@@ -931,15 +925,15 @@
       }
 
       draw(ctx) {
-        // Rocket ascending head
+        
         if (!this.exploded) {
-          // Bright core
+          
           ctx.globalAlpha = 1;
           ctx.fillStyle = '#fff';
           ctx.beginPath();
           ctx.arc(this.x, this.y, 2.5, 0, Math.PI * 2);
           ctx.fill();
-          // Halo
+          
           ctx.globalAlpha = 0.3;
           ctx.fillStyle = this.palette[0];
           ctx.beginPath();
@@ -947,7 +941,7 @@
           ctx.fill();
         }
 
-        // Explosion flash — one big bright circle that fades fast
+        
         if (this.flash > 0) {
           const fa = this.flash / 8;
           ctx.globalAlpha = fa * 0.4;
@@ -962,7 +956,7 @@
           ctx.fill();
         }
 
-        // Draw sparks — batch by color
+        
         const groups = {};
         for (const s of this.sparks) {
           if (s.alpha <= 0.01) continue;
@@ -971,7 +965,7 @@
 
         for (const color in groups) {
           const list = groups[color];
-          // Outer glow layer (bigger, faint)
+          
           ctx.fillStyle = color;
           for (const s of list) {
             const a = s.alpha;
@@ -981,7 +975,7 @@
             ctx.arc(s.x, s.y, s.size * 3, 0, Math.PI * 2);
             ctx.fill();
           }
-          // Core layer (bright, small)
+          
           for (const s of list) {
             ctx.globalAlpha = s.alpha;
             ctx.beginPath();
@@ -999,19 +993,19 @@
     let fwFrame = 0;
 
     function animateFireworks() {
-      // Fade previous frame — creates natural motion trail
+      
       fCtx.save();
       fCtx.globalCompositeOperation = 'destination-out';
       fCtx.fillStyle = 'rgba(0,0,0,0.18)';
       fCtx.fillRect(0, 0, fwCanvas.width, fwCanvas.height);
       fCtx.restore();
 
-      // Additive blending — bright overlapping sparks
+      
       fCtx.save();
       fCtx.globalCompositeOperation = 'lighter';
 
       fwFrame++;
-      // Launch every ~1.5s, cap 5 simultaneous
+      
       if (fwFrame % 85 === 0 && fireworks.length < 5) {
         fireworks.push(new Rocket());
         if (Math.random() > 0.55 && fireworks.length < 5) {
@@ -1030,9 +1024,9 @@
     }
     animateFireworks();
 
-    // =============================================
-    // MUSIC TOGGLE
-    // =============================================
+    
+    
+    
     const bgMusic = document.getElementById('bgMusic');
     const musicToggle = document.getElementById('musicToggle');
     let isPlaying = false;
@@ -1050,7 +1044,7 @@
       isPlaying = !isPlaying;
     });
 
-    // Try autoplay
+    
     document.addEventListener('click', () => {
       if (!isPlaying) {
         bgMusic.play().then(() => {
@@ -1061,9 +1055,9 @@
       }
     }, { once: true });
 
-    // =============================================
-    // WINDOW RESIZE HANDLER
-    // =============================================
+    
+    
+    
     window.addEventListener('resize', () => {
       resizeBlossomCanvas();
       resizeFwCanvas();
