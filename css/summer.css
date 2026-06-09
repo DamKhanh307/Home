@@ -1,0 +1,237 @@
+/* ============================================
+   SUMMER THEME — Blue sky, ocean, sunshine
+   ============================================ */
+
+:root.summer {
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shine: rgba(255, 255, 255, 0.1);
+  --glass-blur: 20px;
+
+  --text-primary: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-accent: #ffd07a;
+
+  --accent-blue: #fbbf24;
+  --accent-purple: #fb923c;
+  --accent-pink: #f472b6;
+  --accent-cyan: #38bdf8;
+
+  --shadow-glass: 0 8px 32px rgba(0, 40, 80, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Sky background — bright daytime */
+.summer body {
+  background: linear-gradient(
+    180deg,
+    #0b4a8a 0%,
+    #1272c4 15%,
+    #2196e3 30%,
+    #48b5f0 50%,
+    #7dd3f8 65%,
+    #b8e8fc 78%,
+    #ffe8c8 90%,
+    #ffd89e 100%
+  );
+  background-attachment: fixed;
+}
+
+/* Orbs → soft clouds */
+.summer .orb {
+  filter: blur(60px);
+  opacity: 0.35;
+  border-radius: 40% 60% 50% 50%;
+}
+.summer .orb-1 {
+  background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(200,230,255,0.6));
+  width: 500px; height: 200px;
+  top: 5%; left: 10%;
+  border-radius: 40% 60% 55% 45%;
+  animation: cloud-drift-1 35s ease-in-out infinite;
+}
+.summer .orb-2 {
+  background: linear-gradient(135deg, rgba(255,255,255,0.7), rgba(220,240,255,0.4));
+  width: 400px; height: 150px;
+  top: 12%; right: 5%; left: auto;
+  border-radius: 50% 40% 45% 55%;
+  animation: cloud-drift-2 40s ease-in-out infinite;
+}
+.summer .orb-3 {
+  background: linear-gradient(135deg, rgba(255,255,255,0.5), rgba(200,230,255,0.3));
+  width: 350px; height: 120px;
+  top: 25%; left: 35%;
+  border-radius: 45% 55% 50% 50%;
+  animation: cloud-drift-3 45s ease-in-out infinite;
+}
+.summer .orb-4 {
+  background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(220,240,255,0.2));
+  width: 280px; height: 100px;
+  top: 8%; left: 55%;
+  border-radius: 55% 45% 50% 50%;
+  animation: cloud-drift-1 50s ease-in-out infinite reverse;
+  opacity: 0.25;
+}
+.summer .orb-5 {
+  background: linear-gradient(135deg, rgba(255,255,255,0.35), rgba(200,230,255,0.2));
+  width: 320px; height: 110px;
+  top: 18%; right: 25%; bottom: auto; left: auto;
+  border-radius: 50% 50% 45% 55%;
+  animation: cloud-drift-2 38s ease-in-out infinite reverse;
+  opacity: 0.2;
+}
+
+@keyframes cloud-drift-1 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(80px); }
+}
+@keyframes cloud-drift-2 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-60px); }
+}
+@keyframes cloud-drift-3 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+}
+
+/* Glass cards on bright bg */
+.summer .glass-card {
+  background: rgba(0, 30, 60, 0.25);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 40, 80, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.summer .glass-card:hover {
+  background: rgba(0, 30, 60, 0.3);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 12px 40px rgba(0, 40, 80, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.summer .avatar-ring {
+  background: conic-gradient(from 0deg,
+    #fbbf24, #fb923c, #38bdf8, #22d3ee, #fbbf24);
+}
+.summer .avatar-glow {
+  background: radial-gradient(circle,
+    rgba(251, 191, 36, 0.25), transparent 70%);
+}
+.summer .avatar-wrapper:hover .avatar {
+  box-shadow: 0 0 30px rgba(251, 191, 36, 0.35);
+}
+.summer .profile-name::after { color: #fbbf24; }
+
+.summer .status-badge {
+  background: rgba(251, 191, 36, 0.1);
+  border-color: rgba(251, 191, 36, 0.2);
+  color: #fde68a;
+}
+.summer .status-dot { background: #fbbf24; }
+.summer .section-title i { color: #fbbf24; }
+
+.summer .link-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+.summer .link-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+.summer .link-icon { color: #fbbf24; }
+.summer .link-btn:hover .link-icon {
+  background: rgba(251, 191, 36, 0.15);
+}
+
+.summer .social-btn.facebook {
+  background: rgba(24, 119, 242, 0.12);
+}
+.summer .social-btn.youtube {
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.summer .footer i { color: #fb923c; }
+.summer .glass-subtle { background: rgba(0, 30, 60, 0.15); }
+.summer ::selection { background: rgba(251, 191, 36, 0.3); }
+
+/* ===== SUN ===== */
+.summer-sun {
+  position: fixed;
+  top: -30px; right: 50px;
+  width: 130px; height: 130px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #fffde7, #ffd54f 35%, #ff8f00 100%);
+  box-shadow:
+    0 0 60px 20px rgba(255, 213, 79, 0.5),
+    0 0 150px 50px rgba(255, 167, 38, 0.2),
+    0 0 300px 100px rgba(255, 152, 0, 0.08);
+  z-index: 2;
+  pointer-events: none;
+  animation: sun-breathe 6s ease-in-out infinite;
+}
+
+@keyframes sun-breathe {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.05); filter: brightness(1.1); }
+}
+
+.sun-ray {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 2px;
+  background: linear-gradient(to bottom, rgba(255, 230, 100, 0.5), transparent);
+  transform-origin: 50% 0;
+  border-radius: 1px;
+}
+
+/* ===== OCEAN CANVAS ===== */
+#summer-ocean-canvas {
+  position: fixed;
+  bottom: 0; left: 0;
+  width: 100%; height: 160px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* ===== RAIN CANVAS ===== */
+.summer-rain-canvas {
+  position: fixed; inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+.summer-rain-canvas.raining { opacity: 1; }
+
+.storm-overlay {
+  position: fixed; inset: 0;
+  background: linear-gradient(180deg, rgba(20, 30, 50, 0.6) 0%, rgba(20, 30, 50, 0.2) 40%, transparent 70%);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+.storm-overlay.active { opacity: 1; }
+
+.lightning-flash {
+  position: fixed; inset: 0;
+  background: rgba(200, 220, 255, 0.9);
+  z-index: 7;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .summer-sun {
+    width: 90px; height: 90px;
+    top: -25px; right: 15px;
+    box-shadow:
+      0 0 40px 15px rgba(255, 213, 79, 0.4),
+      0 0 80px 30px rgba(255, 167, 38, 0.15);
+  }
+  #summer-ocean-canvas { height: 100px; }
+  .summer .orb-1 { width: 300px; height: 120px; }
+  .summer .orb-2 { width: 250px; height: 100px; }
+  .summer .orb-3 { width: 200px; height: 80px; }
+  .summer .orb-4, .summer .orb-5 { display: none; }
+}
