@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AOV POSTER</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg-color: #030305;
+    --card-bg: rgba(18, 18, 24, 0.7);
+    --border-color: rgba(255, 255, 255, 0.08);
+    --primary-glow: #6366f1;
+    --secondary-glow: #a855f7;
+    --accent: #06b6d4;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Animated Ambient Background Orbs */
+  .bg-orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(120px);
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    animation: orbFloat 12s ease-in-out infinite alternate;
+  }
+  .orb-1 { width: 450px; height: 450px; background: #4f46e5; top: -100px; left: -100px; }
+  .orb-2 { width: 400px; height: 400px; background: #06b6d4; bottom: -100px; right: -100px; animation-delay: -4s; }
+  .orb-3 { width: 300px; height: 300px; background: #ec4899; top: 40%; left: 60%; animation-delay: -8s; opacity: 0.25; }
+
+  @keyframes orbFloat {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(40px, 30px) scale(1.1); }
+  }
+
+  /* Cyber Grid Overlay */
+  .cyber-grid {
+    position: fixed;
+    inset: 0;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* Main Container Card */
+  .studio-container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    max-width: 480px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 28px;
+    padding: 30px 24px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Header Branding */
+  .brand-header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .brand-title {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #fff 30%, #a5b4fc 70%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+  }
+  .brand-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* Navigation Tabs */
+  .nav-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 6px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    margin-bottom: 24px;
+  }
+  .tab-item {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .tab-item:hover {
+    color: var(--text-main);
+  }
+  .tab-item.active {
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+  }
+
+  /* Inputs & Form Elements */
+  .input-group {
+    margin-bottom: 18px;
+  }
+  .cyber-textarea, .cyber-input {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    color: #fff;
+    padding: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .cyber-textarea {
+    resize: vertical;
+    min-height: 90px;
+    line-height: 1.4;
+  }
+  .cyber-input {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .cyber-textarea:focus, .cyber-input:focus {
+    border-color: var(--accent);
+    background: rgba(6, 182, 212, 0.05);
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
+  }
+
+  /* Image Upload Dropzone */
+  .dropzone {
+    width: 100%;
+    height: 220px;
+    border: 2px dashed rgba(255, 255, 255, 0.15);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  .dropzone:hover {
+    border-color: var(--accent);
+    background: rgba(6, 182, 212, 0.02);
+  }
+  .dropzone-icon {
+    font-size: 2.2rem;
+    color: var(--accent);
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  .dropzone:hover .dropzone-icon {
+    transform: translateY(-4px);
+  }
+  .dropzone-text {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+  #imagePreview {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 5;
+    display: none;
+  }
+
+  /* Action Buttons */
+  .cyber-btn {
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #38bdf8 0%, #6366f1 100%);
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .cyber-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px -5px rgba(56, 189, 248, 0.5);
+    filter: brightness(1.1);
+  }
+  .cyber-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  /* Status Cards */
+  .status-card {
+    margin-top: 18px;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 0.9rem;
+    text-align: left;
+    word-break: break-all;
+    animation: fadeIn 0.4s ease;
+  }
+  .status-success { background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); color: #34d399; }
+  .status-error { background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3); color: #f87171; }
+  .status-pending { background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); color: #60a5fa; }
+
+  /* Donate Card Design */
+  .donate-wrapper {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 25px 20px;
+    text-align: center;
+  }
+  .qr-frame {
+    width: 190px;
+    height: 190px;
+    border-radius: 14px;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  }
+  .qr-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Cropper Modal Overlay */
+  #cropModal {
+    position: fixed;
+    inset: 0;
+    background: rgba(3, 3, 5, 0.95);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+  }
+  .crop-box {
+    width: 100%;
+    max-width: 420px;
+    height: 60vh;
+    background: #000;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+  }
+  .crop-actions {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 420px;
+  }
+  .btn-cancel, .btn-confirm {
+    flex: 1;
+    padding: 14px;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+  }
+  .btn-cancel { background: rgba(255, 255, 255, 0.08); color: #fff; border: 1px solid var(--border-color); }
+  .btn-confirm { background: #38bdf8; color: #000; }
+
+  .hidden { display: none !important; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* SweetAlert2 Theme Overrides */
+  .swal2-popup {
+    background: #121218 !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 24px !important;
+    font-family: 'Outfit', sans-serif !important;
+  }
+  .swal2-title { color: #fff !important; }
+</style>
+</head>
+<body>
+
+  <!-- Ambient Glowing Orbs & Background Grid -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+  <div class="cyber-grid"></div>
+
+  <!-- Image Cropper Modal -->
+  <div id="cropModal" class="hidden">
+    <h3 style="margin-bottom: 15px; font-weight: 700; letter-spacing: -0.5px;">Cắt Ảnh Tối Ưu (1080x1701)</h3>
+    <div class="crop-box"><img id="imageToCrop" style="max-width: 100%;"></div>
+    <div class="crop-actions">
+      <button class="btn-cancel" onclick="closeCropModal()">Hủy bỏ</button>
+      <button class="btn-confirm" onclick="applyCrop()">Xác nhận cắt</button>
+    </div>
+  </div>
+
+  <!-- Main Container Card -->
+  <div class="studio-container">
+    <div class="brand-header">
+      <h1 class="brand-title"></h1>
+      <p class="brand-subtitle">AOV POSTER</p>
+    </div>
+
+    <!-- Navigation Tab Buttons -->
+    <div class="nav-tabs">
+      <button class="tab-item active" onclick="switchTab('tool')" id="tabBtnTool">Tạo Ảnh</button>
+      <button class="tab-item" onclick="switchTab('check')" id="tabBtnCheck">Tra Cứu</button>
+      <button class="tab-item" onclick="switchTab('donate')" id="tabBtnDonate">Donate</button>
+    </div>
+
+    <!-- TAB 1: TOOL TẠO ẢNH -->
+    <div id="section-tool">
+      <div class="input-group">
+        <textarea id="kgvnLink" class="cyber-textarea" placeholder="Dán toàn bộ link Access Token tại đây..."></textarea>
+      </div>
+      
+      <div class="dropzone" onclick="document.getElementById('imageFile').click()">
+        <input type="file" id="imageFile" accept="image/png, image/jpeg" class="hidden" onchange="handleImageSelect(event)">
+        <div id="dropzoneContent">
+          <i class="fa-solid fa-cloud-arrow-up dropzone-icon"></i>
+          <span class="dropzone-text">Nhấn để chọn poster tải lên</span>
+        </div>
+        <img id="imagePreview" alt="Preview">
+      </div>
+
+      <button class="cyber-btn" id="btnSend" onclick="submitJob()">
+        <i class="fa-solid fa-bolt"></i> GỬI YÊU CẦU LÊN SERVER
+      </button>
+
+      <div id="toolStatusBox" class="status-card status-success hidden"></div>
+    </div>
+
+    <!-- TAB 2: TRA CỨU TIẾN TRÌNH -->
+    <div id="section-check" class="hidden">
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 16px; text-align: center;">Nhập mã 16 số hệ thống cung cấp để kiểm tra tiến trình</p>
+      <div class="input-group">
+        <input type="text" id="jobIdInput" class="cyber-input" placeholder="XXXX-XXXX-XXXX">
+      </div>
+      
+      <button class="cyber-btn" id="btnCheck" onclick="checkJobStatus()">
+        <i class="fa-solid fa-magnifying-glass"></i> KIỂM TRA TIẾN TRÌNH
+      </button>
+
+      <div id="checkResultBox" class="hidden">
+        <div id="checkStatusUI" class="status-card"></div>
+      </div>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.js"></script>
+  
+  <script>
+    // URL API Workers của bạn
+    const API_BASE_URL = "https://proxy-api-garena.meow-web.workers.dev";
+
+    function switchTab(tabId) {
+      ['tool', 'check', 'donate'].forEach(id => {
+        document.getElementById(`tabBtn${id.charAt(0).toUpperCase() + id.slice(1)}`).classList.remove('active');
+        document.getElementById(`section-${id}`).classList.add('hidden');
+      });
+      document.getElementById(`tabBtn${tabId.charAt(0).toUpperCase() + tabId.slice(1)}`).classList.add('active');
+      document.getElementById(`section-${tabId}`).classList.remove('hidden');
+    }
+
+    let cropperInstance = null;
+    let finalCroppedBlob = null;
+
+    function handleImageSelect(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+          document.getElementById('cropModal').classList.remove('hidden');
+          const imgEl = document.getElementById('imageToCrop');
+          imgEl.src = e.target.result;
+          if (cropperInstance) cropperInstance.destroy();
+          cropperInstance = new Cropper(imgEl, {
+            aspectRatio: 1080 / 1701,
+            viewMode: 1,
+            autoCropArea: 0.9,
+            responsive: true
+          });
+        };
+        reader.readAsDataURL(file);
+      }
+      event.target.value = '';
+    }
+
+    function closeCropModal() {
+      document.getElementById('cropModal').classList.add('hidden');
+      if (cropperInstance) cropperInstance.destroy();
+    }
+
+    function applyCrop() {
+      if (!cropperInstance) return;
+      const canvas = cropperInstance.getCroppedCanvas({ width: 1080, height: 1701 });
+      
+      document.getElementById('dropzoneContent').classList.add('hidden');
+      const previewEl = document.getElementById('imagePreview');
+      previewEl.src = canvas.toDataURL('image/jpeg', 0.9);
+      previewEl.style.display = 'block';
+
+      canvas.toBlob(blob => {
+        finalCroppedBlob = blob;
+      }, 'image/jpeg', 0.9);
+
+      closeCropModal();
+    }
+
+    async function submitJob() {
+      const linkText = document.getElementById('kgvnLink').value.trim();
+      if (!linkText || !finalCroppedBlob) {
+        Swal.fire({ icon: 'warning', title: 'Thiếu thông tin!', text: 'Vui lòng dán link Access Token và chọn ảnh trước khi thực hiện.' });
+        return;
+      }
+
+      const btn = document.getElementById('btnSend');
+      btn.disabled = true;
+      btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> ĐANG TẢI LÊN MÁY CHỦ...`;
+
+      const formData = new FormData();
+      formData.append('link', linkText);
+      formData.append('image', finalCroppedBlob, 'poster.jpg');
+
+      try {
+        const res = await fetch(`${API_BASE_URL}/api/upload`, { method: 'POST', body: formData });
+        const data = await res.json();
+
+        if (data.success) {
+          Swal.fire({
+            icon: 'success',
+            title: 'Thành công!',
+            text: 'Mã tra cứu của bạn: ' + data.job_id,
+            confirmButtonText: 'Xem tiến độ'
+          }).then(() => {
+            document.getElementById('jobIdInput').value = data.job_id;
+            switchTab('check');
+            checkJobStatus();
+          });
+
+          const box = document.getElementById('toolStatusBox');
+          box.className = 'status-card status-success';
+          box.innerHTML = `✅ <b>ĐÃ ĐẨY LÊN HỆ THỐNG THÀNH CÔNG!</b><br>Mã tra cứu: <b style="color:#fff;">${data.job_id}</b>`;
+          box.classList.remove('hidden');
+
+          btn.innerHTML = `<i class="fa-solid fa-bolt"></i> GỬI YÊU CẦU LÊN SERVER`;
+        } else {
+          Swal.fire({ icon: 'error', title: 'Thất bại', text: data.error || 'Server từ chối yêu cầu.' });
+          btn.innerHTML = `<i class="fa-solid fa-bolt"></i> GỬI YÊU CẦU LÊN SERVER`;
+        }
+      } catch (err) {
+        Swal.fire({ icon: 'error', title: 'Lỗi kết nối', text: 'Không thể kết nối tới Cloudflare Workers API.' });
+        btn.innerHTML = `<i class="fa-solid fa-bolt"></i> GỬI YÊU CẦU LÊN SERVER`;
+      }
+      btn.disabled = false;
+    }
+
+    async function checkJobStatus() {
+      const jobId = document.getElementById('jobIdInput').value.trim();
+      if (!jobId) {
+        Swal.fire({ icon: 'warning', title: 'Trống mã!', text: 'Vui lòng nhập mã tra cứu 16 số.' });
+        return;
+      }
+
+      const btn = document.getElementById('btnCheck');
+      btn.disabled = true;
+      btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> ĐANG TRUY VẤN...`;
+
+      try {
+        const res = await fetch(`${API_BASE_URL}/api/check/${jobId}`);
+        const data = await res.json();
+
+        const resultBox = document.getElementById('checkResultBox');
+        const statusUI = document.getElementById('checkStatusUI');
+        resultBox.classList.remove('hidden');
+
+        if (data.success) {
+          const job = data.data;
+          if (job.status === 'success') {
+            statusUI.className = 'status-card status-success';
+            statusUI.innerHTML = `🎉 <b>HOÀN THÀNH XUẤT SẮC!</b><br><br>🆔 Poster ID: <b style="color:#fff; font-size:1.05rem;">${job.poster_id}</b><br><br><i>Trạng thái: ${job.message}</i>`;
+          } else if (job.status === 'error') {
+            statusUI.className = 'status-card status-error';
+            statusUI.innerHTML = `❌ <b>XỬ LÝ THẤT BẠI</b><br><br>Chi tiết: ${job.message}`;
+          } else {
+            statusUI.className = 'status-card status-pending';
+            statusUI.innerHTML = `⏳ <b>ĐANG XỬ LÝ TRÊN SERVER...</b><br><br>Tiến độ: ${job.message}<br><br><small><i>Bấm kiểm tra lại sau ít phút nữa nhé!</i></small>`;
+          }
+        } else {
+          statusUI.className = 'status-card status-error';
+          statusUI.innerHTML = `❌ <b>LỖI HỆ THỐNG</b><br><br>${data.error}`;
+        }
+      } catch (err) {
+        Swal.fire({ icon: 'error', title: 'Mất kết nối', text: 'Không thể truy vấn thông tin lúc này.' });
+      }
+
+      btn.disabled = false;
+      btn.innerHTML = `<i class="fa-solid fa-magnifying-glass"></i> KIỂM TRA TIẾN TRÌNH`;
+    }
+  </script>
+</body>
+</html>
